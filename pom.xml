@@ -82,14 +82,11 @@
   </issueManagement>
 
   <properties>
-    <!-- WARNING THIS IS A PREVIEW - DO NOT CHANGE - THIS LIST WILL BE OVERWRITTEN SOON -->
-
     <!--
       CONVENTIONS:
       - A version property must be specified in the format "version.{groupId}", optionally with a suffix to make it unique.
       - Version properties must be sorted alphabetically (other form of sorting were found to be unclear and ambiguous).
     -->
-    <version.avalon-framework>4.1.4</version.avalon-framework>
     <version.ch.qos.logback>1.0.9</version.ch.qos.logback>
     <version.commons-cli>1.2</version.commons-cli>
     <version.commons-codec>1.4</version.commons-codec>
@@ -119,21 +116,14 @@
     <version.dom4j>1.6.1</version.dom4j>
     <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.annotation>1.0</version.javax.annotation>
-    <version.javax.ejb>3.0</version.javax.ejb>
-    <version.javax.el>1.2</version.javax.el>
     <version.javax.enterprise.cdi>1.0-SP4</version.javax.enterprise.cdi>
-    <version.javax.faces>1.2_15</version.javax.faces>
     <version.javax.inject>1</version.javax.inject>
-    <version.javax.javaee-api>6.0</version.javax.javaee-api>
     <version.javax.jms>1.1</version.javax.jms>
     <version.javax.mail>1.4.5</version.javax.mail>
     <version.javax.security.jacc>1.4</version.javax.security.jacc>
-    <version.javax.servlet>2.5</version.javax.servlet>
-    <version.javax.servlet.jsp>2.0</version.javax.servlet.jsp>
     <version.javax.transaction>1.1</version.javax.transaction>
     <version.javax.ws.rs>1.1.1</version.javax.ws.rs>
     <version.javax.xml.stream.stax>1.0-2</version.javax.xml.stream.stax>
-    <version.jbpt>0.1.0</version.jbpt>
     <version.jivesoftware.smack>3.1.0</version.jivesoftware.smack>
     <version.joda-time>1.6.2</version.joda-time>
     <version.jsr94>1.1</version.jsr94>
@@ -163,9 +153,6 @@
     <version.org.apache.poi>3.9</version.org.apache.poi>
     <version.org.apache.tomcat>6.0.32</version.org.apache.tomcat>
     <version.org.apache.velocity>1.7</version.org.apache.velocity>
-    <version.org.apache.xmlgraphics.batik>1.6-1</version.org.apache.xmlgraphics.batik>
-    <version.org.apache.xmlgraphics.commons>1.4</version.org.apache.xmlgraphics.commons>
-    <version.org.apache.xmlgraphics.fop>0.95</version.org.apache.xmlgraphics.fop>
     <version.org.beanshell>1.3.0</version.org.beanshell>
     <version.org.cobogw.gwt>1.0</version.org.cobogw.gwt>
     <version.org.codehaus.btm>3.0.0-20130426.133011-3</version.org.codehaus.btm>
@@ -178,7 +165,6 @@
     <version.org.easymock>3.0</version.org.easymock>
     <version.org.eclipse.bpmn2>0.7.3</version.org.eclipse.bpmn2>
     <version.org.eclipse.jdt.core.compiler>3.7.2</version.org.eclipse.jdt.core.compiler>
-    <version.org.eclipse.jetty>7.2.1.v20101111</version.org.eclipse.jetty>
     <version.org.eclipse.jgit>2.1.0.201209190230-r</version.org.eclipse.jgit>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
@@ -190,7 +176,8 @@
     <version.org.javassist>3.15.0-GA</version.org.javassist>
     <version.org.jbpm.jbpm5.jbpmmigration>0.11</version.org.jbpm.jbpm5.jbpmmigration>
     <version.org.jboss.arquillian>1.0.3.Final</version.org.jboss.arquillian>
-    <version.org.jboss.arquillian.container>1.0.0.CR5</version.org.jboss.arquillian.container>
+    <version.org.jboss.arquillian.container.glassfish>1.0.0.CR3</version.org.jboss.arquillian.container.glassfish>
+    <version.org.jboss.arquillian.container.weld>1.0.0.CR5</version.org.jboss.arquillian.container.weld>
     <version.org.jboss.as>7.2.0.Final</version.org.jboss.as>
     <version.org.jboss.errai>2.3.2.Final</version.org.jboss.errai>
     <version.org.jboss.ironjacamar>1.0.17.Final</version.org.jboss.ironjacamar>
@@ -200,14 +187,17 @@
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
     <version.org.jboss.shrinkwrap.resolver>2.0.0-beta-3</version.org.jboss.shrinkwrap.resolver>
-    <version.org.jboss.solder>3.2.0.Final</version.org.jboss.solder>
+    <version.org.jboss.spec.javax.ejb.3.1>1.0.2.Final</version.org.jboss.spec.javax.ejb.3.1>
+    <version.org.jboss.spec.javax.el.2.2>1.0.2.Final</version.org.jboss.spec.javax.el.2.2>
+    <version.org.jboss.spec.javax.servlet.3.0>1.0.2.Final</version.org.jboss.spec.javax.servlet.3.0>
+    <version.org.jboss.spec.javax.servlet.jsp.2.2>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp.2.2>
+    <version.org.jboss.solder>3.2.1.Final</version.org.jboss.solder>
     <version.org.jboss.weld>1.1.13.Final</version.org.jboss.weld>
     <version.org.jboss.weld.spi>1.1.Final</version.org.jboss.weld.spi>
     <version.org.jdom>1.1.3</version.org.jdom>
     <version.org.jfree.jfreechart>1.0.14</version.org.jfree.jfreechart>
     <version.org.json>20090211</version.org.json>
     <version.org.mockito>1.9.0</version.org.mockito>
-    <version.org.mortbay.jetty>6.1.25</version.org.mortbay.jetty>
     <version.org.mvel>2.1.6.Final</version.org.mvel>
     <version.org.osgi>4.2.0</version.org.osgi>
     <version.org.ops4j.pax.exam>2.6.0</version.org.ops4j.pax.exam>
@@ -219,7 +209,6 @@
     <version.org.springframework>3.0.7.RELEASE</version.org.springframework>
     <version.org.springframework.osgi>1.2.1</version.org.springframework.osgi>
     <version.org.subethamail>1.2</version.org.subethamail>
-    <version.org.supercsv>1.52</version.org.supercsv>
     <version.org.xmappr>0.9.3</version.org.xmappr>
     <version.org.yaml.snakeyaml>1.8</version.org.yaml.snakeyaml>
     <version.postgresql>8.4-702.jdbc4</version.postgresql>
@@ -235,8 +224,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- WARNING THIS IS A PREVIEW - DO NOT CHANGE - THIS LIST WILL BE OVERWRITTEN SOON -->
-
       <!--
         CONVENTIONS:
         - Dependencies must be SORTED ALPHABETICALLY on groupId (other forms of sorting were found to be unclear and ambiguous).
@@ -244,102 +231,6 @@
         - Always extract the version as a property.
         - A element's inner order is <groupId>, <artifactId>, [<type>,] [<classifier>,] <version> (following Aether proper)
       -->
-
-      <dependency>
-        <groupId>avalon-framework</groupId>
-        <artifactId>avalon-framework</artifactId>
-        <version>${version.avalon-framework}</version>
-      </dependency>
-
-      <!-- TODO use org.apache.xmlgraphics:batik* instead -->
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-parser</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-transcoder</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>fop</groupId>
-            <artifactId>fop</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-extension</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>xml-apis</groupId>
-            <artifactId>xmlParserAPIs</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-dom</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-xml</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-bridge</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-css</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-svg-dom</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-svggen</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-util</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-ext</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>xml-apis</groupId>
-            <artifactId>xmlParserAPIs</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-script</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-gvt</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
-      <dependency>
-        <groupId>batik</groupId>
-        <artifactId>batik-awt-util</artifactId>
-        <version>${version.org.apache.xmlgraphics.batik}</version>
-      </dependency>
 
       <!-- Keep in sync with groupId org.slf4j -->
       <dependency>
@@ -529,11 +420,6 @@
         <version>${version.dom4j}</version>
       </dependency>
 
-      <dependency><!-- TODO remove me -->
-        <groupId>javax</groupId>
-        <artifactId>javaee-api</artifactId>
-        <version>${version.javax.javaee-api}</version>
-      </dependency>
       <dependency>
         <groupId>javax.activation</groupId>
         <artifactId>activation</artifactId>
@@ -544,25 +430,12 @@
         <artifactId>jsr250-api</artifactId>
         <version>${version.javax.annotation}</version>
       </dependency>
-      <dependency>
-        <groupId>javax.ejb</groupId>
-        <artifactId>ejb-api</artifactId>
-        <version>${version.javax.ejb}</version>
-      </dependency>
-      <dependency>
-        <groupId>javax.el</groupId>
-        <artifactId>el-api</artifactId>
-        <version>${version.javax.el}</version>
-      </dependency>
+      <!-- javax.ejb is specified by org.jboss.spec.javax.ejb-->
+      <!-- javax.el is specified by org.jboss.spec.javax.el-->
       <dependency>
         <groupId>javax.enterprise</groupId>
         <artifactId>cdi-api</artifactId>
         <version>${version.javax.enterprise.cdi}</version>
-      </dependency>
-      <dependency>
-        <groupId>javax.faces</groupId>
-        <artifactId>jsf-api</artifactId>
-        <version>${version.javax.faces}</version>
       </dependency>
       <dependency>
         <groupId>javax.inject</groupId>
@@ -579,16 +452,8 @@
         <artifactId>mail</artifactId>
         <version>${version.javax.mail}</version>
       </dependency>
-      <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
-        <version>${version.javax.servlet}</version>
-      </dependency>
-      <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>jsp-api</artifactId>
-        <version>${version.javax.servlet.jsp}</version>
-      </dependency>
+      <!-- javax.servlet is specified by org.jboss.spec.javax.servlet-->
+      <!-- javax.servlet.jsp is specified by org.jboss.spec.javax.servlet.jsp-->
       <dependency>
         <groupId>javax.security.jacc</groupId>
         <artifactId>javax.security.jacc-api</artifactId>
@@ -613,12 +478,6 @@
         <groupId>javax.xml.stream</groupId>
         <artifactId>stax-api</artifactId>
         <version>${version.javax.xml.stream.stax}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>jbpt</groupId>
-        <artifactId>jbpt</artifactId>
-        <version>${version.jbpt}</version>
       </dependency>
 
       <dependency>
@@ -819,7 +678,6 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-frontend-jaxrs</artifactId>
-        <!-- Note JBOSS AS 6.0 Final uses version 2.3.1 -->
         <version>${version.org.apache.cxf}</version>
         <exclusions>
           <exclusion>
@@ -999,6 +857,11 @@
 
       <dependency>
         <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>${version.org.apache.poi}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
         <version>${version.org.apache.poi}</version>
       </dependency>
@@ -1013,75 +876,6 @@
         <groupId>org.apache.velocity</groupId>
         <artifactId>velocity</artifactId>
         <version>${version.org.apache.velocity}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.apache.xmlgraphics</groupId>
-        <artifactId>fop</artifactId>
-        <version>${version.org.apache.xmlgraphics.fop}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-svg-dom</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-anim</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-css</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-dom</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-parser</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-bridge</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-script</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-xml</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-awt-util</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-gvt</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-transcoder</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-svggen</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-extension</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-ext</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.xmlgraphics</groupId>
-        <artifactId>xmlgraphics-commons</artifactId>
-        <version>${version.org.apache.xmlgraphics.commons}</version>
       </dependency>
 
       <dependency>
@@ -1176,12 +970,6 @@
         <version>${version.org.eclipse.jdt.core.compiler}</version>
       </dependency>
 
-      <dependency><!-- This must be placed above com.google.gwt:gwt-dev to override the Jetty that is present there -->
-        <groupId>org.eclipse.jetty</groupId>
-        <artifactId>jetty-servlet</artifactId>
-        <version>${version.org.eclipse.jetty}</version>
-      </dependency>
-
       <dependency>
         <groupId>org.eclipse.jgit</groupId>
         <artifactId>org.eclipse.jgit</artifactId>
@@ -1257,22 +1045,22 @@
       <dependency>
         <groupId>org.jboss.arquillian.container</groupId>
         <artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
-        <version>${version.org.jboss.arquillian.container}</version>
+        <version>${version.org.jboss.arquillian.container.weld}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.container</groupId>
         <artifactId>arquillian-weld-se-embedded-1.1</artifactId>
-        <version>${version.org.jboss.arquillian.container}</version>
+        <version>${version.org.jboss.arquillian.container.weld}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.container</groupId>
         <artifactId>arquillian-glassfish-embedded-3.1</artifactId>
-        <version>${version.org.jboss.arquillian.container}</version>
+        <version>${version.org.jboss.arquillian.container.glassfish}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.container</groupId>
         <artifactId>arquillian-glassfish-managed-3.1</artifactId>
-        <version>${version.org.jboss.arquillian.container}</version>
+        <version>${version.org.jboss.arquillian.container.glassfish}</version>
       </dependency>
       <dependency>
         <!-- WARNING: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom must be defined BEFORE org.jboss.arquillian:arquillian-bom -->
@@ -1439,39 +1227,11 @@
         <groupId>org.jboss.seam.persistence</groupId>
         <artifactId>seam-persistence</artifactId>
         <version>${version.org.jboss.seam}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-api</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-impl</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-logging</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.seam.transaction</groupId>
         <artifactId>seam-transaction</artifactId>
         <version>${version.org.jboss.seam}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-api</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-impl</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-logging</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.seam.spring</groupId>
@@ -1491,25 +1251,31 @@
         <artifactId>solder-impl</artifactId>
         <version>${version.org.jboss.solder}</version>
       </dependency>
-
       <dependency>
-        <groupId>org.jboss.spec</groupId>
-        <artifactId>jboss-javaee-6.0</artifactId>
-        <version>1.0.0.Final</version>
-        <type>pom</type>
-        <scope>provided</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>org.jboss.spec.javax.servlet</groupId>
-        <artifactId>jboss-servlet-api_3.0_spec</artifactId>
-        <version>1.0.2.Final</version>
+        <groupId>org.jboss.solder</groupId>
+        <artifactId>solder-logging</artifactId>
+        <version>${version.org.jboss.solder}</version>
       </dependency>
 
       <dependency>
         <groupId>org.jboss.spec.javax.ejb</groupId>
         <artifactId>jboss-ejb-api_3.1_spec</artifactId>
-        <version>1.0.2.Final</version>
+        <version>${version.org.jboss.spec.javax.ejb.3.1}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.el</groupId>
+        <artifactId>jboss-el-api_2.2_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.el.2.2}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.servlet</groupId>
+        <artifactId>jboss-servlet-api_3.0_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.servlet.3.0}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
+        <artifactId>jboss-jsp-api_2.2_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.servlet.jsp.2.2}</version>
       </dependency>
 
       <dependency>
@@ -1561,32 +1327,6 @@
         <groupId>org.mockito</groupId>
         <artifactId>mockito-all</artifactId>
         <version>${version.org.mockito}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>jetty</artifactId>
-        <version>${version.org.mortbay.jetty}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>jetty-plus</artifactId>
-        <version>${version.org.mortbay.jetty}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>jetty-naming</artifactId>
-        <version>${version.org.mortbay.jetty}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>jetty-embedded</artifactId>
-        <version>${version.org.mortbay.jetty}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>jetty-runner</artifactId>
-        <version>8.1.7.v20120910</version>
       </dependency>
 
       <dependency>
@@ -1736,12 +1476,6 @@
         <groupId>org.subethamail</groupId>
         <artifactId>subethasmtp-wiser</artifactId>
         <version>${version.org.subethamail}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.supercsv</groupId>
-        <artifactId>SuperCSV</artifactId>
-        <version>${version.org.supercsv}</version>
       </dependency>
 
       <dependency>
