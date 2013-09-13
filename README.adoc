@@ -1,0 +1,25 @@
+= JBoss integration platform BOM
+
+Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ...
+
+== Building
+
+----
+$ mvn clean install
+----
+
+== Releasing
+
+First run the maven-release plugin:
+
+----
+$ mvn release:prepare
+$ mvn release:release
+----
+
+Then go to https://repository.jboss.org/nexus/[Nexus], log in and release the staging repository.
+
+=== Version numbering
+
+This BOM has it's own version numbering and release lifecycle.
+Any similarity with Drools, jBPM or SwitchYard versions is a coincidence.
