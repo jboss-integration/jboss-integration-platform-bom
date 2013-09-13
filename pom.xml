@@ -9,7 +9,7 @@
     <version>10</version>
   </parent>
 
-  <groupId>org.jboss.intregrationplatform</groupId>
+  <groupId>org.jboss.integration-platform</groupId>
   <artifactId>jboss-integration-platform-bom</artifactId>
   <packaging>pom</packaging>
   <!-- Important a released version should always follow any of these patterns: -->
@@ -21,7 +21,7 @@
 
   <name>JBoss integration platform BOM</name>
   <description>
-    Bill Of Materials for Switchyard, Drools, OptaPlanner, jBPM, ...
+    Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ...
   </description>
   <url>http://www.jboss.org</url>
   <inceptionYear>2013</inceptionYear>
