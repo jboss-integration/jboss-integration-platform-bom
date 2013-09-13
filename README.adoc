@@ -12,11 +12,11 @@ $ mvn clean install
 
 To mimic a release without pushing any changes:
 
----
+----
 $ mvn clean install
 $ mvn release:prepare -DdryRun
 $ mvn release:clean
----
+----
 
 To actually release:
 
