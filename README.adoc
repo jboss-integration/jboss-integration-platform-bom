@@ -10,14 +10,23 @@ $ mvn clean install
 
 == Releasing
 
-First run the maven-release plugin:
+To mimic a release without pushing any changes:
+
+---
+$ mvn clean install
+$ mvn release:prepare -DdryRun
+$ mvn release:clean
+---
+
+To actually release:
 
 ----
 $ mvn release:prepare
 $ mvn release:release
 ----
 
-Then go to https://repository.jboss.org/nexus/[Nexus], log in and release the staging repository.
+Then go to https://repository.jboss.org/nexus/[Nexus] and log in.
+Find your staging repository to close and release it.
 
 === Version numbering
 
