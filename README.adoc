@@ -22,7 +22,7 @@ To actually release:
 
 ----
 $ mvn release:prepare
-$ mvn release:release
+$ mvn release:perform
 ----
 
 Then go to https://repository.jboss.org/nexus/[Nexus] and log in.
