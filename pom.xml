@@ -70,7 +70,6 @@
     <connection>scm:git:git@github.com:jboss-integration/jboss-integration-platform-bom.git</connection>
     <developerConnection>scm:git:git@github.com:jboss-integration/jboss-integration-platform-bom.git</developerConnection>
     <url>https://github.com/jboss-integration/jboss-integration-platform-bom</url>
-    <tag>HEAD</tag>
   </scm>
   <ciManagement>
     <system>hudson</system>
