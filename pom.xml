@@ -207,7 +207,7 @@
     <version.org.jgroups>3.2.7.Final</version.org.jgroups>
     <version.org.json>20090211</version.org.json>
     <version.org.mockito>1.9.0</version.org.mockito>
-    <version.org.mvel>2.1.6.Final</version.org.mvel>
+    <version.org.mvel>2.1.7.Final</version.org.mvel>
     <version.org.osgi>4.2.0</version.org.osgi>
     <version.org.ops4j.pax.exam>2.6.0</version.org.ops4j.pax.exam>
     <version.org.quartz-scheduler>1.8.5</version.org.quartz-scheduler>
