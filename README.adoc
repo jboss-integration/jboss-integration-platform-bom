@@ -1,6 +1,6 @@
 = JBoss integration platform BOM
 
-Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ...
+Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, ...
 
 == Building
 
