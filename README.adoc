@@ -1,12 +1,55 @@
 = JBoss integration platform BOM
+:toc:
 
-Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, ...
+Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, Overlord, ...
 
 == Building
 
 ----
 $ mvn clean install
 ----
+
+== Governance
+
+Discussion mailing list: +jboss-integration-platform-developers+
+
+Any project lead of the Integration Platform (IP) project can change or release the BOM as he/she sees fit,
+provided that the following rules have been taking into account:
+
+=== Adding/changing a dependency: conflicts resolution rules
+
+When you want to add or change a dependency X:
+
+. *EAP always wins*: The BOM targets a specific EAP version.
+If that EAP version already depends on X, then the BOM must use the same version as EAP.
+
+. *Highest wins*: If the BOM already has another version for dependency X (which means one of the other IP projects already uses it),
+then *by default the highest version wins*.
+
+    ** Motivation: The higher version is likely be backwards compatible
+    and usually has less bugs and known security holes.
+
+    ** Exception through escalation: If the _losing_ project (with the lower version) disagrees,
+    they need to formally escalate and overwrite the version in their pom(s).
+    Meanwhile the highest version is used in the BOM.
+
+NOTE: it never hurts to send a mail to the +jboss-integration-platform-developers+ mailing list
+to announce you've upgraded a delicate dependency version.
+
+=== Exclusions policy
+
+Dependency exclusions should be avoided, because they cannot be overwritten by child poms.
+
+*A dependency exclusion is only allowed to fix an undisputed bug in the dependency's pom.*
+All IP developers needs to unanimous (undisputed) to keep the exclusion.
+So as soon as 1 IP developer calls for the removal of an exclusion, he/she can immediately remove it.
+
+=== Version numbering
+
+This BOM has it's own version numbering and release lifecycle.
+Any similarity with Drools, jBPM or SwitchYard versions is a coincidence.
+
+If you release the BOM, bump the version number.
 
 == Releasing
 
@@ -27,8 +70,3 @@ $ mvn release:perform
 
 Then go to https://repository.jboss.org/nexus/[Nexus] and log in.
 Find your staging repository to close and release it.
-
-=== Version numbering
-
-This BOM has it's own version numbering and release lifecycle.
-Any similarity with Drools, jBPM or SwitchYard versions is a coincidence.
