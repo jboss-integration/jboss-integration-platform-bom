@@ -9,6 +9,34 @@ Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, Overlord
 $ mvn clean install
 ----
 
+== Usage
+
+The BOM may be imported into your dependency management e.g.
+
+----
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.integration-platform</groupId>
+            <artifactId>jboss-integration-platform-bom</artifactId>
+            <version>6.0.0-SNAPSHOT</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+----
+
+NOTE: It is recommended that your project inherits org.jboss:jboss-parent:10 e.g.
+
+----
+<parent>
+    <groupId>org.jboss</groupId>
+    <artifactId>jboss-parent</artifactId>
+    <version>10</version>
+</parent>
+----
+
 == Governance
 
 Discussion mailing list: +jboss-integration-platform-developers+
