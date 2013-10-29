@@ -30,12 +30,12 @@ When you want to add or change a dependency X:
 which means they have the intention to accept the change.
 
     ** A project lead will normally not actually test the changes on his project (as that's not practical):
-    So he might submit a pull request to revert the changes later on.
+    So he reserves the right to submit a pull request to revert the changes later on.
 
-    ** Most projects do not depend on the bom's SNAPSHOT directly, to avoid sudden surprises.
+    ** Most projects do not depend on the bom's +SNAPSHOT+ directly, to avoid sudden surprises.
     Instead they depend on a released version or on a timestamped snapshot (from
     https://repository.jboss.org/nexus/content/groups/public/org/jboss/integration-platform/jboss-integration-platform-bom/6.0.0-SNAPSHOT/[this list]).
-    And they update their bom dependency's version frequently, after testing the impact locally.
+    They then update their bom dependency's version frequently, after testing the impact locally.
 
     ** ACK's are done by commenting on the PR, not on the mailing list.
 
@@ -43,10 +43,10 @@ which means they have the intention to accept the change.
 
     ** Any project lead can reject the PR if he gives a good reason.
 
-        ** On the +master+ branch, no PR can be rejected due to time concerns (deadlines, no time to review, PTO, ...)
-        because any project/product that is about to release should be using a release branch.
+        *** On the +master+ branch, no PR can be rejected due to time concerns (deadlines, no time to review, PTO, ...)
+        because any project/product that is about to release should be using the release branch.
 
-. After all project leads have acknowledge the PR in principle, the changes are merged.
+. After all project leads have acknowledge the PR in principle, merge the changes.
 
 IMPORTANT: *EAP always wins*: The BOM targets a specific EAP version.
 If that EAP version already depends on X, then the BOM must use the same version as EAP.
@@ -76,8 +76,9 @@ Any change applied on a release branch, should be applied on all newer release b
 
 This BOM has it's own version numbering and release lifecycle.
 Any similarity with Drools, jBPM or SwitchYard versions is a coincidence.
+See the version mapping section below, to
 
-If you release the BOM, bump the version number.
+If you release the BOM, bump the hotfix version number.
 
 == Release procedure
 
@@ -98,3 +99,21 @@ $ mvn release:perform
 
 Then go to https://repository.jboss.org/nexus/[Nexus] and log in.
 Find your staging repository, close it and release it.
+
+=== Version mapping
+
+This section records which project/product versions use which bom version.
+
+* bom 6.1
+
+** Not applicable yet
+
+* bom 6.0
+
+** Projects
+
+*** KIE (Drools, jBPM, OptaPlanner) 6.0
+
+** Products
+
+*** BRMS 6.0
