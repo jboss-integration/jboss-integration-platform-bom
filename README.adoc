@@ -3,6 +3,10 @@
 
 Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, Overlord, ...
 
+== Goal
+
+Align the dependencies of the Integration Platform projects early on in the development lifecycle.
+
 == Building
 
 ----
@@ -16,25 +20,42 @@ Discussion mailing list: +jboss-integration-platform-developers+
 Any project lead of the Integration Platform (IP) project can change or release the BOM as he/she sees fit,
 provided that the following rules have been taking into account:
 
-=== Adding/changing a dependency: conflicts resolution rules
+=== Adding/changing a dependency
 
 When you want to add or change a dependency X:
 
-. *EAP always wins*: The BOM targets a specific EAP version.
+. Send in a pull request (PR) with the changes you propose.
+
+. All project leads will review the changes and *_acknowledge the PR in principle_*,
+which means they have the intention to accept the change.
+
+    ** A project lead will normally not actually test the changes on his project (as that's not practical):
+    So he might submit a pull request to revert the changes later on.
+
+    ** Most projects do not depend on the bom's SNAPSHOT directly, to avoid sudden surprises.
+    Instead they depend on a released version or on a timestamped snapshot (from
+    https://repository.jboss.org/nexus/content/groups/public/org/jboss/integration-platform/jboss-integration-platform-bom/6.0.0-SNAPSHOT/[this list]).
+    And they update their bom dependency's version frequently, after testing the impact locally.
+
+    ** ACK's are done by commenting on the PR, not on the mailing list.
+
+    ** If a project lead (or his deputy) doesn't acknowledge in reasonable time, chase him for an answer.
+
+    ** Any project lead can reject the PR if he gives a good reason.
+
+        ** On the +master+ branch, no PR can be rejected due to time concerns (deadlines, no time to review, PTO, ...)
+        because any project/product that is about to release should be using a release branch.
+
+. After all project leads have acknowledge the PR in principle, the changes are merged.
+
+IMPORTANT: *EAP always wins*: The BOM targets a specific EAP version.
 If that EAP version already depends on X, then the BOM must use the same version as EAP.
 
-. *Highest wins*: If the BOM already has another version for dependency X (which means one of the other IP projects already uses it),
-then *by default the highest version wins*.
+IMPORTANT: In the public bom, a dependency version must _never_ end with +-redhat-0+, +-redhat-1+, etc.
+The public bom cannot depend on productization builds,
+as anyone should be able to build all its dependencies from source.
 
-    ** Motivation: The higher version is likely be backwards compatible
-    and usually has less bugs and known security holes.
-
-    ** Exception through escalation: If the _losing_ project (with the lower version) disagrees,
-    they need to formally escalate and overwrite the version in their pom(s).
-    Meanwhile the highest version is used in the BOM.
-
-NOTE: it never hurts to send a mail to the +jboss-integration-platform-developers+ mailing list
-to announce you've upgraded a delicate dependency version.
+NOTE: During conflicts, (all things being equal) prefer the latest and greatest version of a dependency in the BOM.
 
 === Exclusions policy
 
@@ -44,6 +65,13 @@ Dependency exclusions should be avoided, because they cannot be overwritten by c
 All IP developers needs to unanimous (undisputed) to keep the exclusion.
 So as soon as 1 IP developer calls for the removal of an exclusion, he/she can immediately remove it.
 
+=== Branching policy
+
+The +master+ branch is never released. Per product set there is 1 release branch,
+so multiple IP products (as well a multiple IP projects) use the same release branch.
+
+Any change applied on a release branch, should be applied on all newer release branches and +master+ too.
+
 === Version numbering
 
 This BOM has it's own version numbering and release lifecycle.
@@ -51,7 +79,7 @@ Any similarity with Drools, jBPM or SwitchYard versions is a coincidence.
 
 If you release the BOM, bump the version number.
 
-== Releasing
+== Release procedure
 
 To mimic a release without pushing any changes:
 
@@ -69,4 +97,4 @@ $ mvn release:perform
 ----
 
 Then go to https://repository.jboss.org/nexus/[Nexus] and log in.
-Find your staging repository to close and release it.
+Find your staging repository, close it and release it.
