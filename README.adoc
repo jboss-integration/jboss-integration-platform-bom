@@ -18,7 +18,7 @@ $ mvn clean install
 Discussion mailing list: +jboss-integration-platform-developers+
 
 Any project lead of the Integration Platform (IP) project can change or release the BOM as he/she sees fit,
-provided that the following rules have been taking into account:
+provided that the following rules have been taken into account:
 
 === Adding/changing a dependency
 
