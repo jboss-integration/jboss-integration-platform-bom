@@ -67,16 +67,17 @@ So as soon as 1 IP developer calls for the removal of an exclusion, he/she can i
 
 === Branching policy
 
-The +master+ branch is never released. Per product set there is 1 release branch,
-so multiple IP products (as well a multiple IP projects) use the same release branch.
+The +master+ branch is never released. Release are done from a release branch.
+The integration platform has multiple projects, but they use the same bom.
+So there are no parallel release branches. There is only 1 latest release branch.
 
-Any change applied on a release branch, should be applied on all newer release branches and +master+ too.
+The release branch names simply increment the minor version number.
+The correlation between the bom version and project/product versions is below in the section "version mapping".
 
 === Version numbering
 
 This BOM has it's own version numbering and release lifecycle.
 Any similarity with Drools, jBPM or SwitchYard versions is a coincidence.
-See the version mapping section below, to
 
 If you release the BOM, bump the hotfix version number.
 
