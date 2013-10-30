@@ -1264,6 +1264,11 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.errai</groupId>
+        <artifactId>errai-navigation</artifactId>
+        <version>${version.org.jboss.errai}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.errai</groupId>
         <artifactId>errai-data-binding</artifactId>
         <version>${version.org.jboss.errai}</version>
       </dependency>
