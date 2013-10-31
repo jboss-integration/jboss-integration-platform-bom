@@ -1395,6 +1395,11 @@
         <version>${version.org.jboss.seam}</version>
       </dependency>
       <dependency>
+        <groupId>org.jboss.seam.transaction</groupId>
+        <artifactId>seam-transaction-api</artifactId>
+        <version>${version.org.jboss.seam}</version>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.seam.spring</groupId>
         <artifactId>seam-spring-core</artifactId>
         <version>${version.org.jboss.seam}</version>
