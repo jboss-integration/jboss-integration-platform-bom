@@ -103,6 +103,7 @@
     <version.commons-io>2.1</version.commons-io>
     <version.commons-vfs>1.0</version.commons-vfs>
     <version.com.allen-sauer.gwt.dnd>3.1.2</version.com.allen-sauer.gwt.dnd>
+    <version.com.beust.jcommander>1.5</version.com.beust.jcommander>
     <version.com.github.gwtbootstrap>2.2.1.0</version.com.github.gwtbootstrap>
     <version.com.google.code.gin>1.0</version.com.google.code.gin>
     <version.com.google.code.gson>1.7.2</version.com.google.code.gson>
@@ -121,6 +122,7 @@
     <version.javax.annotation>1.0</version.javax.annotation>
     <version.javax.enterprise.cdi>1.0-SP4</version.javax.enterprise.cdi>
     <version.javax.inject>1</version.javax.inject>
+    <version.javax.jcr>2.0</version.javax.jcr>
     <version.javax.jms>1.1</version.javax.jms>
     <version.javax.mail>1.4.5</version.javax.mail>
     <version.javax.security.jacc>1.4</version.javax.security.jacc>
@@ -146,19 +148,23 @@
     <version.org.apache.ant>1.8.2</version.org.apache.ant>
     <version.org.apache.aries.blueprint>1.0.0</version.org.apache.aries.blueprint>
     <version.org.apache.camel>2.10.3</version.org.apache.camel>
-    <version.org.apache.commons.compress>1.0</version.org.apache.commons.compress>
+    <version.org.apache.chemistry>0.9.0-beta-1</version.org.apache.chemistry>
+    <version.org.apache.commons.compress>1.4.1</version.org.apache.commons.compress>
     <version.org.apache.commons.exec>1.0.1</version.org.apache.commons.exec>
     <version.org.apache.commons.math>2.2</version.org.apache.commons.math>
     <version.org.apache.cxf>2.6.8</version.org.apache.cxf>
     <version.org.apache.ftpserver>1.0.6</version.org.apache.ftpserver>
     <version.org.apache.helix>0.6.1-incubating</version.org.apache.helix>
+    <version.org.apache.httpcomponents.httpclient>4.2.1</version.org.apache.httpcomponents.httpclient>
     <version.org.apache.karaf>2.3.0</version.org.apache.karaf>
-    <version.org.apache.lucene>4.0.0</version.org.apache.lucene>
+    <version.org.apache.lucene>3.6.2</version.org.apache.lucene>
+    <version.org.apache.lucene.regex>3.0.3</version.org.apache.lucene.regex>
     <version.org.apache.maven>3.0.5</version.org.apache.maven>
     <version.org.apache.maven.plugin-testing>2.1</version.org.apache.maven.plugin-testing>
     <version.org.apache.maven.wagon>1.0</version.org.apache.maven.wagon>
     <version.org.apache.mina>2.0.4</version.org.apache.mina>
     <version.org.apache.poi>3.9</version.org.apache.poi>
+    <version.org.apache.tika>1.3</version.org.apache.tika>
     <version.org.apache.tomcat>6.0.32</version.org.apache.tomcat>
     <version.org.apache.ws.commons.axiom>1.2.8</version.org.apache.ws.commons.axiom>
     <version.org.apache.velocity>1.7</version.org.apache.velocity>
@@ -179,12 +185,16 @@
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
     <version.org.hibernate>4.2.0.SP1</version.org.hibernate>
+    <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.1.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence>1.0.1.Final</version.org.hibernate.javax.persistence>
     <version.org.hornetq>2.3.5.Final</version.org.hornetq>
     <version.org.infinispan>5.2.7.Final</version.org.infinispan>
+    <!--This needs to be in sync with JUnit-->
+    <version.org.hamcrest>1.3</version.org.hamcrest>
     <version.org.hsqldb>2.3.0</version.org.hsqldb>
     <version.org.javassist>3.15.0-GA</version.org.javassist>
+    <version.org.jaudiotagger>2.0.3</version.org.jaudiotagger>
     <version.org.jbpm.jbpm5.jbpmmigration>0.11</version.org.jbpm.jbpm5.jbpmmigration>
     <version.org.jboss.arquillian>1.0.3.Final</version.org.jboss.arquillian>
     <version.org.jboss.arquillian.container.glassfish>1.0.0.CR3</version.org.jboss.arquillian.container.glassfish>
@@ -204,6 +214,7 @@
     <version.org.jboss.spec.javax.ejb.3.1>1.0.2.Final</version.org.jboss.spec.javax.ejb.3.1>
     <version.org.jboss.spec.javax.el.2.2>1.0.2.Final</version.org.jboss.spec.javax.el.2.2>
     <version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>
+    <version.org.jboss.spec.javax.security.jacc>1.0.0.Final</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet.3.0>1.0.2.Final</version.org.jboss.spec.javax.servlet.3.0>
     <version.org.jboss.spec.javax.servlet.jsp.2.2>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp.2.2>
     <version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>
@@ -217,7 +228,9 @@
     <version.org.jfree.jfreechart>1.0.14</version.org.jfree.jfreechart>
     <version.org.jgroups>3.2.10.Final</version.org.jgroups>
     <version.org.json>20090211</version.org.json>
+    <version.log4j>1.2.17</version.log4j>
     <version.org.mockito>1.9.0</version.org.mockito>
+    <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
     <version.org.mvel>2.1.7.Final</version.org.mvel>
     <version.org.osgi>4.2.0</version.org.osgi>
     <version.org.ops4j.pax.exam>2.6.0</version.org.ops4j.pax.exam>
@@ -359,7 +372,11 @@
         <artifactId>gwt-dnd</artifactId>
         <version>${version.com.allen-sauer.gwt.dnd}</version>
       </dependency>
-
+      <dependency>
+        <groupId>com.beust</groupId>
+        <artifactId>jcommander</artifactId>
+        <version>${version.com.beust.jcommander}</version>
+      </dependency>
       <dependency>
         <groupId>com.github.gwtbootstrap</groupId>
         <artifactId>gwt-bootstrap</artifactId>
@@ -483,6 +500,11 @@
         <version>${version.javax.inject}</version>
       </dependency>
       <dependency>
+        <groupId>javax.jcr</groupId>
+        <artifactId>jcr</artifactId>
+        <version>${version.javax.jcr}</version>
+      </dependency>
+       <dependency>
         <groupId>javax.jms</groupId>
         <artifactId>jms</artifactId>
         <version>${version.javax.jms}</version>
@@ -761,6 +783,38 @@
         <type>xml</type>
         <version>${version.org.apache.camel}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-commons-api</artifactId>
+        <version>${version.org.apache.chemistry}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-commons-impl</artifactId>
+        <version>${version.org.apache.chemistry}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-server-support</artifactId>
+        <version>${version.org.apache.chemistry}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-server-jcr</artifactId>
+        <version>${version.org.apache.chemistry}</version>
+        <classifier>classes</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-server-bindings</artifactId>
+        <version>${version.org.apache.chemistry}</version>
+        <classifier>classes</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-client-impl</artifactId>
+        <version>${version.org.apache.chemistry}</version>
+      </dependency>
 
       <!-- Keep in sync with groupId commons-* -->
       <dependency>
@@ -876,6 +930,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>${version.org.apache.httpcomponents.httpclient}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.apache.karaf</groupId>
         <artifactId>apache-karaf</artifactId>
         <type>xml</type>
@@ -925,6 +985,11 @@
         <groupId>org.apache.lucene</groupId>
         <artifactId>lucene-queryparser</artifactId>
         <version>${version.org.apache.lucene}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-regex</artifactId>
+        <version>${version.org.apache.lucene.regex}</version>
       </dependency>
 
       <dependency>
@@ -978,6 +1043,12 @@
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
         <version>${version.org.apache.poi}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.tika</groupId>
+        <artifactId>tika-parsers</artifactId>
+        <version>${version.org.apache.tika}</version>
       </dependency>
 
       <dependency>
@@ -1219,85 +1290,45 @@
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-core</artifactId>
         <version>${version.org.infinispan}</version>
-        <exclusions>
-            <exclusion>
-                <groupId>org.jgroups</groupId>
-                <artifactId>jgroups</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.jboss.javaee</groupId>
-                <artifactId>jboss-transaction-api</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.jboss.marshalling</groupId>
-                <artifactId>jboss-marshalling</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.jboss.marshalling</groupId>
-                <artifactId>jboss-marshalling-river</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.jboss.logging</groupId>
-                <artifactId>jboss-logging</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.jboss</groupId>
-                <artifactId>jandex</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.codehaus.woodstox</groupId>
-                <artifactId>woodstox-core-asl</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.codehaus.woodstox</groupId>
-                <artifactId>woodstox-core-asl</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.codehaus.woodstox</groupId>
-                <artifactId>stax2-api</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>org.jboss</groupId>
-                <artifactId>staxmapper</artifactId>
-            </exclusion>
-        </exclusions>
       </dependency>
+      <dependency>
+        <groupId>org.infinispan</groupId>
+        <artifactId>infinispan-core</artifactId>
+        <version>${version.org.infinispan}</version>
+        <type>test-jar</type>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.infinispan</groupId>
+         <artifactId>infinispan-cachestore-bdbje</artifactId>
+         <version>${version.org.infinispan}</version>
+       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-jdbc</artifactId>
         <version>${version.org.infinispan}</version>
-        <exclusions>
-            <exclusion>
-                <groupId>org.infinispan</groupId>
-                <artifactId>infinispan-core</artifactId>
-            </exclusion>
-        </exclusions>
       </dependency>
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-cachestore-jdbm</artifactId>
+            <version>${version.org.infinispan}</version>
+        </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-cachestore-remote</artifactId>
         <version>${version.org.infinispan}</version>
-        <exclusions>
-            <exclusion>
-                <groupId>org.infinispan</groupId>
-                <artifactId>infinispan-client-hotrod</artifactId>
-            </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-client-hotrod</artifactId>
         <version>${version.org.infinispan}</version>
-        <exclusions>
-            <exclusion>
-                <groupId>org.infinispan</groupId>
-                <artifactId>infinispan-core</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>commons-pool</groupId>
-                <artifactId>commons-pool</artifactId>
-            </exclusion>
-        </exclusions>
+      </dependency>
+
+      <!--Hamcrest should be versioned with JUnit, as they are related-->
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest-library</artifactId>
+        <version>${version.org.hamcrest}</version>
       </dependency>
 
       <dependency>
@@ -1314,6 +1345,23 @@
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-validator</artifactId>
         <version>${version.org.hibernate.validator}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-search-engine</artifactId>
+        <version>${version.org.hibernate.search}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-search-infinispan</artifactId>
+        <version>${version.org.hibernate.search}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-search-modules</artifactId>
+        <version>${version.org.hibernate.search}</version>
+        <classifier>jbossas-72-dist</classifier>
+        <type>zip</type>
       </dependency>
       <dependency><!-- JPA 2 implementation agnostic jar -->
         <groupId>org.hibernate.javax.persistence</groupId>
@@ -1332,7 +1380,11 @@
         <artifactId>javassist</artifactId>
         <version>${version.org.javassist}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org</groupId>
+        <artifactId>jaudiotagger</artifactId>
+        <version>${version.org.jaudiotagger}</version>
+      </dependency>
       <dependency>
         <groupId>org.jboss.arquillian.container</groupId>
         <artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
@@ -1741,6 +1793,11 @@
         <artifactId>resteasy-jackson-provider</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jettison-provider</artifactId>
+        <version>${version.org.jboss.resteasy}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.jboss.seam.security</groupId>
@@ -1810,6 +1867,11 @@
         <groupId>org.jboss.spec.javax.jms</groupId>
         <artifactId>jboss-jms-api_1.1_spec</artifactId>
         <version>${version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.security.jacc</groupId>
+        <artifactId>jboss-jacc-api_1.4_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.security.jacc}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.servlet</groupId>
@@ -1884,9 +1946,21 @@
       </dependency>
 
       <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>${version.log4j}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-all</artifactId>
         <version>${version.org.mockito}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongo-java-driver</artifactId>
+        <version>${version.org.mongodb.mongo-java-driver}</version>
       </dependency>
 
       <dependency>
@@ -1949,7 +2023,6 @@
         <artifactId>slf4j-log4j12</artifactId>
         <version>${version.org.slf4j}</version>
       </dependency>
-
       <dependency>
         <groupId>org.sonatype.aether</groupId>
         <artifactId>aether-api</artifactId>
