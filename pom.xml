@@ -136,7 +136,6 @@
     <version.jsr94>1.1</version.jsr94>
     <version.jsr94.tck>1.0.3</version.jsr94.tck>
     <version.junit>4.11</version.junit>
-    <version.log4j>1.2.16</version.log4j>
     <version.mysql.connector-java>5.1.22</version.mysql.connector-java>
     <version.net.java.dev.glazedlists>1.8.0</version.net.java.dev.glazedlists>
     <version.net.sf.opencsv>2.3</version.net.sf.opencsv>
