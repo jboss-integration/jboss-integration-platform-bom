@@ -112,12 +112,14 @@
     <version.com.google.javascript.closure-compiler>r1741</version.com.google.javascript.closure-compiler>
     <version.com.google.protobuf>2.5.0</version.com.google.protobuf>
     <version.com.h2database>1.3.168</version.com.h2database>
+    <version.com.jcraft>0.1.48</version.com.jcraft>
     <version.com.lowagie.itext>2.1.2</version.com.lowagie.itext>
     <version.com.mchange.c3p0>0.9.2-pre5</version.com.mchange.c3p0>
     <version.com.oracle.ojdbc14>10.2.0.4.0</version.com.oracle.ojdbc14>
     <version.com.sun.xml.bind.jaxb>2.2.5</version.com.sun.xml.bind.jaxb>
     <version.com.thoughtworks.xstream>1.4.3</version.com.thoughtworks.xstream>
     <version.dom4j>1.6.1</version.dom4j>
+    <version.io.netty>3.6.2.Final</version.io.netty>
     <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.annotation>1.0</version.javax.annotation>
     <version.javax.enterprise.cdi>1.0-SP4</version.javax.enterprise.cdi>
@@ -137,6 +139,7 @@
     <version.jsr94.tck>1.0.3</version.jsr94.tck>
     <version.junit>4.11</version.junit>
     <version.log4j>1.2.16</version.log4j>
+    <version.mc4j>1.3</version.mc4j>
     <version.mysql.connector-java>5.1.22</version.mysql.connector-java>
     <version.net.java.dev.glazedlists>1.8.0</version.net.java.dev.glazedlists>
     <version.net.sf.opencsv>2.3</version.net.sf.opencsv>
@@ -145,6 +148,7 @@
     <version.org.antlr>3.5</version.org.antlr>
     <version.org.antlr.ST4>4.0.7</version.org.antlr.ST4>
     <version.org.apache.abdera>1.1.2</version.org.apache.abdera>
+    <version.org.apache.activemq>5.8.0</version.org.apache.activemq>
     <version.org.apache.ant>1.8.2</version.org.apache.ant>
     <version.org.apache.aries.blueprint>1.0.0</version.org.apache.aries.blueprint>
     <version.org.apache.camel>2.10.3</version.org.apache.camel>
@@ -152,6 +156,7 @@
     <version.org.apache.commons.compress>1.4.1</version.org.apache.commons.compress>
     <version.org.apache.commons.exec>1.0.1</version.org.apache.commons.exec>
     <version.org.apache.commons.math>2.2</version.org.apache.commons.math>
+    <version.org.apache.commons.ssl>0.3.9</version.org.apache.commons.ssl>
     <version.org.apache.cxf>2.6.8</version.org.apache.cxf>
     <version.org.apache.ftpserver>1.0.6</version.org.apache.ftpserver>
     <version.org.apache.helix>0.6.1-incubating</version.org.apache.helix>
@@ -164,14 +169,18 @@
     <version.org.apache.maven.wagon>1.0</version.org.apache.maven.wagon>
     <version.org.apache.mina>2.0.4</version.org.apache.mina>
     <version.org.apache.poi>3.9</version.org.apache.poi>
+    <version.org.apache.qpid>0.18</version.org.apache.qpid>
     <version.org.apache.tika>1.3</version.org.apache.tika>
     <version.org.apache.tomcat>6.0.32</version.org.apache.tomcat>
     <version.org.apache.ws.commons.axiom>1.2.8</version.org.apache.ws.commons.axiom>
     <version.org.apache.velocity>1.7</version.org.apache.velocity>
+    <version.org.apache.xmlbeans>2.2.0</version.org.apache.xmlbeans>
     <version.org.apache.xmlgraphics.batik>1.7</version.org.apache.xmlgraphics.batik>
     <version.org.beanshell>1.3.0</version.org.beanshell>
+    <version.org.clojure>1.3.0-alpha5</version.org.clojure>
     <version.org.cobogw.gwt>1.0</version.org.cobogw.gwt>
     <version.org.codehaus.btm>2.1.4</version.org.codehaus.btm>
+    <version.org.codehaus.groovy>2.0.5</version.org.codehaus.groovy>
     <version.org.codehaus.jackson>1.9.9</version.org.codehaus.jackson>
     <version.org.codehaus.janino>2.5.16</version.org.codehaus.janino>
     <version.org.codehaus.jettison>1.3.1</version.org.codehaus.jettison>
@@ -205,11 +214,13 @@
     <version.org.jboss.jboss-common-core>2.2.17.GA</version.org.jboss.jboss-common-core>
     <version.org.jboss.jbossts.jbossxts>4.17.7.Final</version.org.jboss.jbossts.jbossxts>
     <version.org.jboss.logging>3.1.2.GA</version.org.jboss.logging>
+    <version.org.jboss.logging.processor>1.1.0.Final</version.org.jboss.logging.processor>
     <version.org.jboss.marshalling.jboss-marshalling>1.3.16.GA</version.org.jboss.marshalling.jboss-marshalling>
     <version.org.jboss.netty>3.2.6.Final</version.org.jboss.netty>
     <version.org.jboss.resteasy>2.3.6.Final</version.org.jboss.resteasy>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
+    <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-3</version.org.jboss.shrinkwrap.descriptors>
     <version.org.jboss.shrinkwrap.resolver>2.0.0-beta-3</version.org.jboss.shrinkwrap.resolver>
     <version.org.jboss.spec.javax.ejb.3.1>1.0.2.Final</version.org.jboss.spec.javax.ejb.3.1>
     <version.org.jboss.spec.javax.el.2.2>1.0.2.Final</version.org.jboss.spec.javax.el.2.2>
@@ -227,14 +238,19 @@
     <version.org.jdom>1.1.3</version.org.jdom>
     <version.org.jfree.jfreechart>1.0.14</version.org.jfree.jfreechart>
     <version.org.jgroups>3.2.10.Final</version.org.jgroups>
+    <version.org.jruby>1.7.2</version.org.jruby>
     <version.org.json>20090211</version.org.json>
     <version.log4j>1.2.17</version.log4j>
+    <version.ognl>3.0.6</version.ognl>
+    <version.org.milyn>1.5.1</version.org.milyn>
     <version.org.mockito>1.9.0</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
     <version.org.mvel>2.1.7.Final</version.org.mvel>
     <version.org.osgi>4.2.0</version.org.osgi>
     <version.org.ops4j.pax.exam>2.6.0</version.org.ops4j.pax.exam>
+    <version.org.python>2.5.3</version.org.python>
     <version.org.quartz-scheduler>1.8.5</version.org.quartz-scheduler>
+    <version.org.rhq>4.8.0</version.org.rhq>
     <version.org.slf4j>1.7.2</version.org.slf4j>
     <version.org.sonatype.aether>1.13.1</version.org.sonatype.aether>
     <version.org.sonatype.maven>1.2.1</version.org.sonatype.maven>
@@ -435,6 +451,12 @@
         <artifactId>h2</artifactId>
         <version>${version.com.h2database}</version>
       </dependency>
+      
+      <dependency>
+        <groupId>com.jcraft</groupId>
+        <artifactId>jsch</artifactId>
+        <version>${version.com.jcraft}</version>
+      </dependency>
 
       <dependency>
         <groupId>com.lowagie</groupId>
@@ -475,6 +497,12 @@
         <groupId>dom4j</groupId>
         <artifactId>dom4j</artifactId>
         <version>${version.dom4j}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty</artifactId>
+        <version>${version.io.netty}</version>
       </dependency>
 
       <dependency>
@@ -637,6 +665,12 @@
             </exclusion>
         </exclusions>
       </dependency>
+      
+      <dependency>
+        <groupId>mc4j</groupId>
+        <artifactId>org-mc4j-ems</artifactId>
+        <version>${version.mc4j}</version>
+      </dependency>
 
       <dependency>
         <groupId>mysql</groupId>
@@ -666,6 +700,12 @@
         <groupId>net.sourceforge.saxon</groupId>
         <artifactId>saxonhe</artifactId>
         <version>${version.net.sourceforge.saxon}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>ognl</groupId>
+        <artifactId>ognl</artifactId>
+        <version>${version.ognl}</version>
       </dependency>
 
       <dependency>
@@ -712,6 +752,33 @@
         <artifactId>abdera-i18n</artifactId>
         <version>${version.org.apache.abdera}</version>
       </dependency>
+      
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-broker</artifactId>
+        <version>${version.org.apache.activemq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-client</artifactId>
+        <version>${version.org.apache.activemq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-openwire-legacy</artifactId>
+        <version>${version.org.apache.activemq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-ra</artifactId>
+        <version>${version.org.apache.activemq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-rar</artifactId>
+        <version>${version.org.apache.activemq}</version>
+        <type>rar</type>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.ant</groupId>
@@ -729,41 +796,111 @@
         <artifactId>blueprint-parser</artifactId>
         <version>${version.org.apache.aries.blueprint}</version>
       </dependency>
-
+      
       <dependency>
-        <groupId>org.apache.camel</groupId>
-        <artifactId>camel-core</artifactId>
-        <version>${version.org.apache.camel}</version>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-amqp</artifactId>
+          <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.camel</groupId>
-        <artifactId>camel-core</artifactId>
-        <type>test-jar</type>
-        <version>${version.org.apache.camel}</version>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-atom</artifactId>
+          <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.camel</groupId>
-        <artifactId>camel-blueprint</artifactId>
-        <version>${version.org.apache.camel}</version>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-blueprint</artifactId>
+          <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.camel</groupId>
-        <artifactId>camel-spring</artifactId>
-        <version>${version.org.apache.camel}</version>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-cdi</artifactId>
+          <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.camel</groupId>
-        <artifactId>camel-cxf</artifactId>
-        <version>${version.org.apache.camel}</version>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-core</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-core</artifactId>
+          <type>test-jar</type>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-cxf</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-ftp</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-jaxb</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-jms</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-jpa</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-mail</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-mvel</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-netty</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-ognl</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-quartz</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-script</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-spring</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-soap</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-sql</artifactId>
+          <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xstream</artifactId>
-        <version>${version.org.apache.camel}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel</groupId>
-        <artifactId>camel-jaxb</artifactId>
         <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
@@ -831,6 +968,11 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-math</artifactId>
         <version>${version.org.apache.commons.math}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>not-yet-commons-ssl</artifactId>
+        <version>${version.org.apache.commons.ssl}</version>
       </dependency>
 
       <dependency>
@@ -1044,6 +1186,27 @@
         <artifactId>poi-ooxml</artifactId>
         <version>${version.org.apache.poi}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml-schemas</artifactId>
+        <version>${version.org.apache.poi}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.apache.qpid</groupId>
+        <artifactId>qpid-client</artifactId>
+        <version>${version.org.apache.qpid}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.qpid</groupId>
+        <artifactId>qpid-common</artifactId>
+        <version>${version.org.apache.qpid}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.qpid</groupId>
+        <artifactId>qpid-broker</artifactId>
+        <version>${version.org.apache.qpid}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.tika</groupId>
@@ -1077,6 +1240,12 @@
         <groupId>org.apache.velocity</groupId>
         <artifactId>velocity</artifactId>
         <version>${version.org.apache.velocity}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.apache.xmlbeans</groupId>
+        <artifactId>xmlbeans</artifactId>
+        <version>${version.org.apache.xmlbeans}</version>
       </dependency>
 
       <dependency>
@@ -1160,6 +1329,12 @@
         <artifactId>bsh</artifactId>
         <version>${version.org.beanshell}</version>
       </dependency>
+      
+      <dependency>
+        <groupId>org.clojure</groupId>
+        <artifactId>clojure</artifactId>
+        <version>${version.org.clojure}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.cobogw.gwt</groupId>
@@ -1171,6 +1346,12 @@
         <groupId>org.codehaus.btm</groupId>
         <artifactId>btm</artifactId>
         <version>${version.org.codehaus.btm}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-all</artifactId>
+        <version>${version.org.codehaus.groovy}</version>
       </dependency>
 
       <dependency>
@@ -1283,6 +1464,11 @@
       <dependency>
         <groupId>org.hornetq</groupId>
         <artifactId>hornetq-jms-client</artifactId>
+        <version>${version.org.hornetq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hornetq</groupId>
+        <artifactId>hornetq-ra</artifactId>
         <version>${version.org.hornetq}</version>
       </dependency>
 
@@ -1525,6 +1711,31 @@
 
       <dependency>
         <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-core-api</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-embedded</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-deployers-fungal</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-deployers-common</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-common-impl-papaki</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.ironjacamar</groupId>
         <artifactId>ironjacamar-jdbc</artifactId>
         <version>${version.org.jboss.ironjacamar}</version>
       </dependency>
@@ -1738,6 +1949,11 @@
         <artifactId>jboss-logging</artifactId>
         <version>${version.org.jboss.logging}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging-processor</artifactId>
+        <version>${version.org.jboss.logging.processor}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.jboss.marshalling</groupId>
@@ -1834,6 +2050,12 @@
         <artifactId>seam-spring-core</artifactId>
         <version>${version.org.jboss.seam}</version>
       </dependency>
+      
+      <dependency>
+          <groupId>org.jboss.shrinkwrap.descriptors</groupId>
+          <artifactId>shrinkwrap-descriptors-api-base</artifactId>
+          <version>${version.org.jboss.shrinkwrap.descriptors}</version>
+      </dependency>
 
       <!-- WARNING: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom must be defined BEFORE org.jboss.arquillian:arquillian-bom -->
 
@@ -1906,6 +2128,11 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.weld.servlet</groupId>
+        <artifactId>weld-servlet</artifactId>
+        <version>${version.org.jboss.weld}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.weld.servlet</groupId>
         <artifactId>weld-servlet-core</artifactId>
         <version>${version.org.jboss.weld}</version>
       </dependency>
@@ -1938,6 +2165,12 @@
         <artifactId>jgroups</artifactId>
         <version>${version.org.jgroups}</version>
       </dependency>
+      
+      <dependency>
+        <groupId>org.jruby</groupId>
+        <artifactId>jruby</artifactId>
+        <version>${version.org.jruby}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.json</groupId>
@@ -1949,6 +2182,17 @@
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
         <version>${version.log4j}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.milyn</groupId>
+        <artifactId>milyn-smooks-all</artifactId>
+        <version>${version.org.milyn}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.milyn</groupId>
+        <artifactId>milyn-smooks-javabean</artifactId>
+        <version>${version.org.milyn}</version>
       </dependency>
 
       <dependency>
@@ -1967,6 +2211,12 @@
         <groupId>org.mvel</groupId>
         <artifactId>mvel2</artifactId>
         <version>${version.org.mvel}</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>org.python</groupId>
+          <artifactId>jython</artifactId>
+          <version>${version.org.python}</version>
       </dependency>
 
       <dependency>
@@ -1990,6 +2240,37 @@
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.compendium</artifactId>
         <version>${version.org.osgi}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.rhq</groupId>
+        <artifactId>rhq-enterprise-comm</artifactId>
+        <version>${version.org.rhq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.rhq</groupId>
+        <artifactId>rhq-jboss-as-7-plugin</artifactId>
+        <version>${version.org.rhq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.rhq</groupId>
+        <artifactId>rhq-core-domain</artifactId>
+        <version>${version.org.rhq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.rhq</groupId>
+        <artifactId>rhq-core-plugin-api</artifactId>
+        <version>${version.org.rhq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.rhq</groupId>
+        <artifactId>rhq-core-native-system</artifactId>
+        <version>${version.org.rhq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.rhq</groupId>
+        <artifactId>rhq-core-plugin-container</artifactId>
+        <version>${version.org.rhq}</version>
       </dependency>
 
       <!-- Keep in sync with groupId ch.qos.logback -->
@@ -2059,6 +2340,13 @@
         <version>${version.org.sonatype.sisu}</version>
       </dependency>
 
+      
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-asm</artifactId>
+          <version>${version.org.springframework}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
@@ -2082,6 +2370,11 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jdbc</artifactId>
+        <version>${version.org.springframework}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jms</artifactId>
         <version>${version.org.springframework}</version>
       </dependency>
       <dependency>
@@ -2182,6 +2475,11 @@
       <dependency>
         <groupId>xalan</groupId>
         <artifactId>xalan</artifactId>
+        <version>${version.xalan}</version>
+      </dependency>
+      <dependency>
+        <groupId>xalan</groupId>
+        <artifactId>serializer</artifactId>
         <version>${version.xalan}</version>
       </dependency>
 
