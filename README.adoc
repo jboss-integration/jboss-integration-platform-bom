@@ -1,7 +1,7 @@
-= JBoss integration platform BOM
+= JBoss Integration Platform Parent and BOM
 :toc:
 
-Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, Overlord, ...
+Parent and Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, ModeShape, Overlord, ...
 
 == Goal
 
@@ -31,15 +31,26 @@ The BOM may be imported into your dependency management e.g.
 </dependencyManagement>
 ----
 
-NOTE: It is recommended that your project inherits org.jboss:jboss-parent:10 e.g.
+Any dependencies should be placed in the dependency management in jboss-integration-platform-bom. Explicit versions should not be used; instead use a property which should be placed in jboss-integration-platform-parent.
+
+Your project should inherit:
 
 ----
 <parent>
-    <groupId>org.jboss</groupId>
-    <artifactId>jboss-parent</artifactId>
-    <version>10</version>
+    <groupId>org.jboss.integration-platform</groupId>
+    <artifactId>jboss-integration-platform-parent</artifactId>
+    <version>6.0.0-SNAPSHOT</version>
 </parent>
 ----
+
+By inheriting the jboss-integration-platform-parent:
+
+* The properties used by the BOM are visible to the project.
+
+* It inherits from org.jboss:jboss-parent:10.
+
+* Any further plugin alignments (e.g. GWT) may be done here.
+
 
 == Governance
 
