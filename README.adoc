@@ -15,7 +15,12 @@ $ mvn clean install
 
 == Usage
 
-The BOM may be imported into your dependency management e.g.
+There are two ways that a project can use this BOM. Each approach has different benefits and difficulties,
+so be sure to evaluate both options and pick the one that works best for your project.
+
+=== Importing
+
+The first option is to _import_ the BOM into your project's +dependencyManagement+ section:
 
 ----
 <dependencyManagement>
@@ -31,7 +36,30 @@ The BOM may be imported into your dependency management e.g.
 </dependencyManagement>
 ----
 
-NOTE: It is recommended that your project inherits org.jboss:jboss-parent:10 e.g.
+This basically makes all of the dependencies defined in the BOM _available_ so that POMs in your project
+can _use_ dependencies by simply referring just to the +groupId+ and +artifactId+. Th eother attributes
+like +version+, +type+, or +scope+ do not have to be repeated in your POMs, since Maven knows about them
+from what's in the BOM.
+
+Importing has several benefits:
+
+* Your project POM can have (or inherit from) any parent.
+* You can override in your POM any artifact that appears in the BOM by placing the dependency *before*
+the imported BOM. Place any project dependencies not found in the BOM *after* the imported BOM.
+* Properties defined in the BOM are never seen by the project POM that imports the BOM, and thus will
+never interfere with the properties in your project's POM(s). (This is sometimes a good thing.)
+
+However, there are also several disadvantages:
+
+* Properties defined in the BOM are never seen by the project POM that imports the BOM, so it is not
+possible to reuse any of those properties. The BOM uses properties to specify the versions of each artifact,
+but your POM can see these and will therefore have to define _and maintain_ its own properties. Any
+mismatch between these properties can lead to runtime problems that are very difficult to identify.
+* The placement of the BOM import with respect to other dependencies in the +dependencyManagement+ section
+will affect whether the version in the BOM or in your POM will take precedance. This may lead to your project 
+using an unexpected version of a dependency, which can lead to runtime problems that are very difficult to identify.
+
+NOTE: It is recommended that your project inherits +org.jboss:jboss-parent:10+:
 
 ----
 <parent>
@@ -40,6 +68,41 @@ NOTE: It is recommended that your project inherits org.jboss:jboss-parent:10 e.g
     <version>10</version>
 </parent>
 ----
+
+=== Inheritance
+
+The second option is for your project POM to _inherit_ from the BOM:
+
+----
+<parent>
+    <groupId>org.jboss.integration-platform</groupId>
+    <artifactId>jboss-integration-platform-bom</artifactId>
+    <version>6.0.0-SNAPSHOT</version>
+</parent>
+----
+
+This is especially easy to do if you project already inherits from (or can be changed to inherit from)
++org.jboss:jboss-parent:10+. In such cases, simply replace the project's existing parent with the BOM.
+
+Doing this has several advantages:
+
+* The BOM inherits from +org.jboss:jboss-parent:10+, so everything already defined in +org.jboss:jboss-parent:10+
+will continue to be seen by your project's POM.
+* All properties defined in +org.jboss:jboss-parent:10+ and in the BOM are visible in your project POMs,
+including all properties used to specify artifact versions.
+* There are two ways to force using a different version of an artifact than what is specified in the BOM,
+  ** Define in your project's POM the same property that is used in the BOM to specify that artifact's version,
+  but specify the desired version for the property in your project's POM.
+  ** Specify the dependency and its version in your project POM's +dependencyManagement+ section. This is needed
+  if your project wants to exclude transitive dependencies of this artifact.
+* All dependencies specified with a version in the +dependencyManagement+ section will _always override_ those 
+defined in the parent BOM.
+
+But this approach also has a limitation:
+
+* If your project had a parent other than the +org.jboss:jboss-parent:10+, this approach will not work
+unless the old parent can be modified to inherit from the BOM.
+
 
 == Governance
 
