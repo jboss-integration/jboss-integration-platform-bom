@@ -1851,27 +1851,27 @@
       <dependency>
         <groupId>org.jboss.weld</groupId>
         <artifactId>weld-core</artifactId>
-        <version>${version.org.jboss.weld}</version>
+        <version>${version.org.jboss.weld.weld}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.weld.se</groupId>
         <artifactId>weld-se-core</artifactId>
-        <version>${version.org.jboss.weld}</version>
+        <version>${version.org.jboss.weld.weld}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.weld.servlet</groupId>
         <artifactId>weld-servlet</artifactId>
-        <version>${version.org.jboss.weld}</version>
+        <version>${version.org.jboss.weld.weld}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.weld.servlet</groupId>
         <artifactId>weld-servlet-core</artifactId>
-        <version>${version.org.jboss.weld}</version>
+        <version>${version.org.jboss.weld.weld}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.weld</groupId>
         <artifactId>weld-spi</artifactId>
-        <version>${version.org.jboss.weld.spi}</version>
+        <version>${version.org.jboss.weld.weld-api}</version>
       </dependency>
 
       <dependency><!-- Not part of the KIE release lifecycle, so it counts as an external dependency -->
