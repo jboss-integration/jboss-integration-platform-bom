@@ -93,6 +93,7 @@
       - A version property must be specified in the format "version.{groupId}", optionally with a suffix to make it unique.
       - Version properties must be sorted alphabetically (other form of sorting were found to be unclear and ambiguous).
     -->
+    <version.asm>3.1</version.asm>
     <version.ch.qos.logback>1.0.9</version.ch.qos.logback>
     <version.commons-cli>1.2</version.commons-cli>
     <version.commons-codec>1.4</version.commons-codec>
