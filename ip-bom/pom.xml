@@ -27,6 +27,12 @@
         - A element's inner order is <groupId>, <artifactId>, [<type>,] [<classifier>,] <version> (following Aether proper)
       -->
 
+      <dependency>
+        <groupId>asm</groupId>
+        <artifactId>asm</artifactId>
+        <version>${version.asm}</version>
+      </dependency>
+
       <!-- Keep in sync with groupId org.slf4j -->
       <dependency>
         <groupId>ch.qos.logback</groupId>
