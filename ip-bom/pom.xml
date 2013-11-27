@@ -27,6 +27,7 @@
         - A element's inner order is <groupId>, <artifactId>, [<type>,] [<classifier>,] <version> (following Aether proper)
       -->
 
+      <!-- Starting from asm 4.0 the groupId will need change to org.ow2.asm -->
       <dependency>
         <groupId>asm</groupId>
         <artifactId>asm</artifactId>
