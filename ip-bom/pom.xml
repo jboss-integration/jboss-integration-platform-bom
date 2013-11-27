@@ -687,7 +687,6 @@
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-server-bindings</artifactId>
         <version>${version.org.apache.chemistry}</version>
-        <classifier>classes</classifier>
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
