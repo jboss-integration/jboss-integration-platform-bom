@@ -1922,12 +1922,6 @@
       </dependency>
 
       <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>${version.log4j}</version>
-      </dependency>
-
-      <dependency>
         <groupId>org.milyn</groupId>
         <artifactId>milyn-smooks-all</artifactId>
         <version>${version.org.milyn}</version>
