@@ -824,6 +824,11 @@
         <artifactId>httpclient</artifactId>
         <version>${version.org.apache.httpcomponents.httpclient}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId>
+        <version>${version.org.apache.httpcomponents.httpcore}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.karaf</groupId>
@@ -906,6 +911,11 @@
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-provider-api</artifactId>
         <version>${version.org.apache.maven.wagon}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-http</artifactId>
+        <version>${version.org.apache.maven.wagon.http}</version>
       </dependency>
 
       <dependency>
