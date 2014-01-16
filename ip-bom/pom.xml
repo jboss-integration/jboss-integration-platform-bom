@@ -1254,6 +1254,11 @@
         <artifactId>hamcrest-library</artifactId>
         <version>${version.org.hamcrest}</version>
       </dependency>
+      <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest-core</artifactId>
+          <version>${version.org.hamcrest}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.hibernate</groupId>
