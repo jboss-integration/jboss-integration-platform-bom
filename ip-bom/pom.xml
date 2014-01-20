@@ -724,6 +724,11 @@
       </dependency>
 
       <dependency>
+          <groupId>org.apache.cxf</groupId>
+          <artifactId>cxf-rt-bindings-soap</artifactId>
+          <version>${version.org.apache.cxf}</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-frontend-jaxws</artifactId>
         <version>${version.org.apache.cxf}</version>
