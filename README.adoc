@@ -15,7 +15,7 @@ $ mvn clean install
 
 == Usage
 
-The BOM may be imported into your dependency management, for example a https://repository.jboss.org/nexus/index.html#nexus-search;gav~org.jboss.integration-platform~jboss-integration-platform*~~~[release version] or a https://jenkins.mw.lab.eng.bos.redhat.com/hudson/job/jboss-integration-platform-bom/[SNAPSHOT deployed by Jenkins].
+The BOM may be imported into your dependency management, for example a https://repository.jboss.org/nexus/index.html#nexus-search;gav\~org.jboss.integration-platform[release version] or a https://jenkins.mw.lab.eng.bos.redhat.com/hudson/job/jboss-integration-platform-bom/[SNAPSHOT deployed by Jenkins].
 
 ----
 <dependencyManagement>
