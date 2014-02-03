@@ -714,8 +714,8 @@
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
-        <artifactId>commons-math</artifactId>
-        <version>${version.org.apache.commons.math}</version>
+        <artifactId>commons-math3</artifactId>
+        <version>${version.org.apache.commons.math3}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
