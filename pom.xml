@@ -157,7 +157,7 @@
     <version.org.apache.activemq>5.8.0</version.org.apache.activemq>
     <version.org.apache.ant>1.8.2</version.org.apache.ant>
     <version.org.apache.aries.blueprint>1.0.0</version.org.apache.aries.blueprint>
-    <version.org.apache.camel>2.10.3</version.org.apache.camel>
+    <version.org.apache.camel>2.12.2</version.org.apache.camel>
     <version.org.apache.chemistry>0.10.0</version.org.apache.chemistry>
     <version.org.apache.commons.compress>1.4.1</version.org.apache.commons.compress>
     <version.org.apache.commons.exec>1.0.1</version.org.apache.commons.exec>
