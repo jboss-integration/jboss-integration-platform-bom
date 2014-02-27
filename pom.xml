@@ -204,6 +204,7 @@
     <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.1.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence>1.0.1.Final</version.org.hibernate.javax.persistence>
+    <version.org.hibernate.commons.annotations>4.0.2.Final</version.org.hibernate.commons.annotations>
     <version.org.hornetq>2.3.5.Final</version.org.hornetq>
     <version.org.infinispan>5.2.7.Final</version.org.infinispan>
     <!--This needs to be in sync with JUnit-->
