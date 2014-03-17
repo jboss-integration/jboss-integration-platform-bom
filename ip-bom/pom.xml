@@ -82,6 +82,11 @@
         </exclusions>
       </dependency>
       <dependency>
+        <groupId>commons-digester</groupId>
+        <artifactId>commons-digester</artifactId>
+        <version>${version.commons-digester}</version>
+      </dependency>
+      <dependency>
         <groupId>commons-dbcp</groupId>
         <artifactId>commons-dbcp</artifactId>
         <version>${version.commons-dbcp}</version>
@@ -1732,13 +1737,19 @@
       <dependency>
         <groupId>org.jboss.marshalling</groupId>
         <artifactId>jboss-marshalling</artifactId>
-        <version>${version.org.jboss.marshalling.jboss-marshalling}</version>
+        <version>${version.org.jboss.marshalling}</version>
       </dependency>
 
       <dependency>
         <groupId>org.jboss.marshalling</groupId>
         <artifactId>jboss-marshalling-river</artifactId>
-        <version>${version.org.jboss.marshalling.jboss-marshalling}</version>
+        <version>${version.org.jboss.marshalling}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jboss.marshalling</groupId>
+        <artifactId>jboss-marshalling-osgi</artifactId>
+        <version>${version.org.jboss.marshalling}</version>
       </dependency>
 
       <dependency>

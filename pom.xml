@@ -100,6 +100,7 @@
     <version.commons-collections>3.2.1</version.commons-collections>
     <version.commons-configuration>1.6</version.commons-configuration>
     <version.commons-dbcp>1.4</version.commons-dbcp>
+    <version.commons-digester>1.8</version.commons-digester>
     <version.commons-fileupload>1.2.2</version.commons-fileupload>
     <version.commons-httpclient>3.1</version.commons-httpclient>
     <version.commons-jxpath>1.3</version.commons-jxpath>
@@ -222,7 +223,7 @@
     <version.org.jboss.jbossts.jbossxts>4.17.7.Final</version.org.jboss.jbossts.jbossxts>
     <version.org.jboss.logging>3.1.2.GA</version.org.jboss.logging>
     <version.org.jboss.logging.processor>1.1.0.Final</version.org.jboss.logging.processor>
-    <version.org.jboss.marshalling.jboss-marshalling>1.3.16.GA</version.org.jboss.marshalling.jboss-marshalling>
+    <version.org.jboss.marshalling>1.3.16.GA</version.org.jboss.marshalling>
     <version.org.jboss.netty>3.2.6.Final</version.org.jboss.netty>
     <version.org.jboss.resteasy>2.3.6.Final</version.org.jboss.resteasy>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
