@@ -229,7 +229,7 @@
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
     <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-3</version.org.jboss.shrinkwrap.descriptors>
-    <version.org.jboss.shrinkwrap.resolver>2.0.0-beta-3</version.org.jboss.shrinkwrap.resolver>
+    <version.org.jboss.shrinkwrap.resolver>2.0.0</version.org.jboss.shrinkwrap.resolver>
     <version.org.jboss.spec.javax.ejb.3.1>1.0.2.Final</version.org.jboss.spec.javax.ejb.3.1>
     <version.org.jboss.spec.javax.el.2.2>1.0.2.Final</version.org.jboss.spec.javax.el.2.2>
     <version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>
