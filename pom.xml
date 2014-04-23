@@ -282,18 +282,41 @@
     <version.xml-apis>1.3.04</version.xml-apis>
     <version.xml-resolver>1.2</version.xml-resolver>
     <version.xmlunit>1.3</version.xmlunit>
+
+    <!-- maven-compiler-plugin -->
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
+
+    <!--
+        Options to override the compiler arguments directly on the compiler arument line to separate between what
+        the IDE understands as the source level and what the Maven compiler actually use.
+    -->
+    <maven.compiler.argument.target>${maven.compiler.target}</maven.compiler.argument.target>
+    <maven.compiler.argument.source>${maven.compiler.source}</maven.compiler.argument.source>
   </properties>
 
   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>gwt-maven-plugin</artifactId>
-          <version>${version.com.google.gwt}</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
+      <pluginManagement>
+          <plugins>
+              <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-compiler-plugin</artifactId>
+                  <configuration>
+                      <showDeprecation>true</showDeprecation>
+                      <showWarnings>true</showWarnings>
+                      <compilerArguments>
+                          <source>${maven.compiler.argument.source}</source>
+                          <target>${maven.compiler.argument.target}</target>
+                      </compilerArguments>
+                  </configuration>
+              </plugin>
+              <plugin>
+                  <groupId>org.codehaus.mojo</groupId>
+                  <artifactId>gwt-maven-plugin</artifactId>
+                  <version>${version.com.google.gwt}</version>
+              </plugin>
+          </plugins>
+      </pluginManagement>
   </build>
 
 </project>
