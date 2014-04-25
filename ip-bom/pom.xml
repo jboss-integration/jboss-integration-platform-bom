@@ -1117,6 +1117,11 @@
         <artifactId>btm</artifactId>
         <version>${version.org.codehaus.btm}</version>
       </dependency>
+      <dependency>
+        <groupId>org.codehaus.btm</groupId>
+        <artifactId>btm-tomcat55-lifecycle</artifactId>
+        <version>${version.org.codehaus.btm}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
