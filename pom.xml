@@ -88,6 +88,8 @@
   </modules>
 
   <properties>
+    <victims.updates>offline</victims.updates>
+
     <!--
       CONVENTIONS:
       - A version property must be specified in the format "version.{groupId}", optionally with a suffix to make it unique.
@@ -350,7 +352,7 @@
                 <rule implementation="com.redhat.victims.VictimsRule">
                   <metadata>warning</metadata>
                   <fingerprint>fatal</fingerprint>
-                  <updates>daily</updates>
+                  <updates>${victims.updates}</updates>
                 </rule>
               </rules>
             </configuration>
