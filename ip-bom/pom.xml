@@ -961,6 +961,11 @@
         <artifactId>poi-ooxml-schemas</artifactId>
         <version>${version.org.apache.poi}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-scratchpad</artifactId>
+        <version>${version.org.apache.poi}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.qpid</groupId>
