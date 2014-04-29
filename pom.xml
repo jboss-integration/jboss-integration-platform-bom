@@ -238,6 +238,7 @@
     <version.org.jboss.spec.javax.security.jacc>1.0.0.Final</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet.3.0>1.0.2.Final</version.org.jboss.spec.javax.servlet.3.0>
     <version.org.jboss.spec.javax.servlet.jsp.2.2>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp.2.2>
+    <version.org.jboss.spec.javax.servlet.jstl>1.1.0.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>
     <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec>
     <version.org.jboss.solder>3.2.1.Final</version.org.jboss.solder>
