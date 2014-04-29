@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>10</version>
+    <version>11</version>
     <relativePath />
   </parent>
 
@@ -89,6 +89,10 @@
 
   <properties>
     <victims.updates>offline</victims.updates>
+
+    <!-- Override Java source/target to be 1.6 -->
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
 
     <!--
       CONVENTIONS:
