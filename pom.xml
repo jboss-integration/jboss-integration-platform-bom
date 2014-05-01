@@ -99,7 +99,7 @@
       - A version property must be specified in the format "version.{groupId}", optionally with a suffix to make it unique.
       - Version properties must be sorted alphabetically (other form of sorting were found to be unclear and ambiguous).
     -->
-    <version.asm>3.1</version.asm>
+    <version.asm>3.3.1</version.asm>
     <version.ch.qos.logback>1.0.9</version.ch.qos.logback>
     <version.commons-cli>1.2</version.commons-cli>
     <version.commons-codec>1.4</version.commons-codec>
@@ -136,7 +136,7 @@
     <version.com.sun.xml.bind.jaxb>2.2.5</version.com.sun.xml.bind.jaxb>
     <version.com.thoughtworks.xstream>1.4.7</version.com.thoughtworks.xstream>
     <version.dom4j>1.6.1</version.dom4j>
-    <version.io.netty>3.6.2.Final</version.io.netty>
+    <version.io.netty>3.6.7.Final</version.io.netty>
     <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.annotation>1.0</version.javax.annotation>
     <version.javax.enterprise.cdi>1.0-SP4</version.javax.enterprise.cdi>
@@ -173,7 +173,7 @@
     <version.org.apache.commons.exec>1.0.1</version.org.apache.commons.exec>
     <version.org.apache.commons.math3>3.2</version.org.apache.commons.math3>
     <version.org.apache.commons.ssl>0.3.9</version.org.apache.commons.ssl>
-    <version.org.apache.cxf>2.6.8</version.org.apache.cxf>
+    <version.org.apache.cxf>2.7.11</version.org.apache.cxf>
     <version.org.apache.ftpserver>1.0.6</version.org.apache.ftpserver>
     <version.org.apache.helix>0.6.2-incubating</version.org.apache.helix>
     <version.org.apache.httpcomponents>4.2.1</version.org.apache.httpcomponents>
@@ -210,60 +210,60 @@
     <version.org.eclipse.jgit>2.1.0.201209190230-r</version.org.eclipse.jgit>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
-    <version.org.hibernate>4.2.0.SP1</version.org.hibernate>
+    <version.org.hibernate>4.2.12.Final</version.org.hibernate>
     <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.1.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence>1.0.1.Final</version.org.hibernate.javax.persistence>
     <version.org.hibernate.commons.annotations>4.0.2.Final</version.org.hibernate.commons.annotations>
-    <version.org.hornetq>2.3.5.Final</version.org.hornetq>
-    <version.org.infinispan>5.2.7.Final</version.org.infinispan>
+    <version.org.hornetq>2.3.18.Final</version.org.hornetq>
+    <version.org.infinispan>5.2.9.Final</version.org.infinispan>
     <!--This needs to be in sync with JUnit-->
     <version.org.hamcrest>1.3</version.org.hamcrest>
     <version.org.hsqldb>2.3.0</version.org.hsqldb>
-    <version.org.javassist>3.15.0-GA</version.org.javassist>
+    <version.org.javassist>3.18.1-GA</version.org.javassist>
     <version.org.jaudiotagger>2.0.3</version.org.jaudiotagger>
     <version.org.jboss.arquillian>1.0.3.Final</version.org.jboss.arquillian>
     <version.org.jboss.arquillian.container.glassfish>1.0.0.CR3</version.org.jboss.arquillian.container.glassfish>
     <version.org.jboss.arquillian.container.weld>1.0.0.CR5</version.org.jboss.arquillian.container.weld>
     <version.org.jboss.as>7.2.0.Final</version.org.jboss.as>
     <version.org.jboss.errai>2.4.3.Final</version.org.jboss.errai>
-    <version.org.jboss.ironjacamar>1.0.19.Final</version.org.jboss.ironjacamar>
+    <version.org.jboss.ironjacamar>1.0.26.Final</version.org.jboss.ironjacamar>
     <version.org.jboss.jboss-common-core>2.2.17.GA</version.org.jboss.jboss-common-core>
-    <version.org.jboss.jbossts.jbossxts>4.17.7.Final</version.org.jboss.jbossts.jbossxts>
-    <version.org.jboss.logging>3.1.2.GA</version.org.jboss.logging>
+    <version.org.jboss.jbossts.jbossxts>4.17.19.Final</version.org.jboss.jbossts.jbossxts>
+    <version.org.jboss.logging>3.1.4.GA</version.org.jboss.logging>
     <version.org.jboss.logging.processor>1.1.0.Final</version.org.jboss.logging.processor>
-    <version.org.jboss.marshalling>1.3.16.GA</version.org.jboss.marshalling>
+    <version.org.jboss.marshalling>1.4.5.Final</version.org.jboss.marshalling>
     <version.org.jboss.netty>3.2.6.Final</version.org.jboss.netty>
-    <version.org.jboss.resteasy>2.3.6.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>2.3.8.Final</version.org.jboss.resteasy>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
     <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-3</version.org.jboss.shrinkwrap.descriptors>
     <version.org.jboss.shrinkwrap.resolver>2.0.0</version.org.jboss.shrinkwrap.resolver>
     <version.org.jboss.spec.javax.ejb.3.1>1.0.2.Final</version.org.jboss.spec.javax.ejb.3.1>
-    <version.org.jboss.spec.javax.el.2.2>1.0.2.Final</version.org.jboss.spec.javax.el.2.2>
+    <version.org.jboss.spec.javax.el.2.2>1.0.4.Final</version.org.jboss.spec.javax.el.2.2>
     <version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>
     <version.org.jboss.spec.javax.resource.connector-api.1.6>1.0.1.Final</version.org.jboss.spec.javax.resource.connector-api.1.6>
-    <version.org.jboss.spec.javax.security.jacc>1.0.0.Final</version.org.jboss.spec.javax.security.jacc>
+    <version.org.jboss.spec.javax.security.jacc>1.0.3.Final</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet.3.0>1.0.2.Final</version.org.jboss.spec.javax.servlet.3.0>
     <version.org.jboss.spec.javax.servlet.jsp.2.2>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp.2.2>
-    <version.org.jboss.spec.javax.servlet.jstl>1.1.0.Final</version.org.jboss.spec.javax.servlet.jstl>
+    <version.org.jboss.spec.javax.servlet.jstl>1.0.5.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>
     <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec>
     <version.org.jboss.solder>3.2.1.Final</version.org.jboss.solder>
     <version.org.jboss.staxmapper>1.1.0.Final</version.org.jboss.staxmapper>
-    <version.org.jboss.weld.weld>1.1.13.Final</version.org.jboss.weld.weld>
+    <version.org.jboss.weld.weld>1.1.21.Final</version.org.jboss.weld.weld>
     <version.org.jboss.weld.weld-api>1.1.Final</version.org.jboss.weld.weld-api>
     <version.org.jbpm.jbpm5.jbpmmigration>0.12</version.org.jbpm.jbpm5.jbpmmigration>
     <!-- EAP uses jdom 1.1.2 but that breaks jenkins builds with the error "Could not find artifact maven-plugins:maven-cobertura-plugin:plugin:1.3" -->
     <version.org.jdom>1.1.3</version.org.jdom>
     <version.org.jfree.jfreechart>1.0.14</version.org.jfree.jfreechart>
-    <version.org.jgroups>3.2.10.Final</version.org.jgroups>
+    <version.org.jgroups>3.2.13.Final</version.org.jgroups>
     <version.org.jruby>1.7.2</version.org.jruby>
     <version.org.json>20090211</version.org.json>
     <version.log4j>1.2.17</version.log4j>
     <version.ognl>3.0.6</version.ognl>
     <version.org.milyn>1.5.1</version.org.milyn>
-    <version.org.mockito>1.9.0</version.org.mockito>
+    <version.org.mockito>1.9.5</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
     <version.org.mvel>2.1.9.Final</version.org.mvel>
     <version.org.osgi>4.2.0</version.org.osgi>
