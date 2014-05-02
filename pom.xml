@@ -234,7 +234,7 @@
     <version.org.jboss.logging.processor>1.1.0.Final</version.org.jboss.logging.processor>
     <version.org.jboss.marshalling>1.4.5.Final</version.org.jboss.marshalling>
     <version.org.jboss.netty>3.2.6.Final</version.org.jboss.netty>
-    <version.org.jboss.resteasy>2.3.8.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>2.3.7.Final</version.org.jboss.resteasy>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
     <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-3</version.org.jboss.shrinkwrap.descriptors>
