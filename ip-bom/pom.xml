@@ -1833,6 +1833,18 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jboss.forge.roaster</groupId>
+        <artifactId>roaster-api</artifactId>
+        <version>${version.org.jboss.forge.roaster}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jboss.forge.roaster</groupId>
+        <artifactId>roaster-jdt</artifactId>
+        <version>${version.org.jboss.forge.roaster}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.jboss.seam.security</groupId>
         <artifactId>seam-security</artifactId>
         <version>${version.org.jboss.seam.security}</version>
