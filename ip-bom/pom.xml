@@ -1954,6 +1954,11 @@
         <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
         <version>${version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.xml.ws</groupId>
+        <artifactId>jboss-jaxws-api_2.2_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.xml.ws}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.jboss.weld</groupId>
@@ -2033,6 +2038,11 @@
         <artifactId>mockito-all</artifactId>
         <version>${version.org.mockito}</version>
       </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>${version.org.mockito}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.mongodb</groupId>
@@ -2044,6 +2054,17 @@
         <groupId>org.mvel</groupId>
         <artifactId>mvel2</artifactId>
         <version>${version.org.mvel}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.powermock</groupId>
+        <artifactId>powermock-api-mockito</artifactId>
+        <version>${version.org.powermock}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.powermock</groupId>
+        <artifactId>powermock-module-junit4</artifactId>
+        <version>${version.org.powermock}</version>
       </dependency>
 
       <dependency>
