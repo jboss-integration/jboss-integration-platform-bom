@@ -247,6 +247,12 @@
       </dependency>
 
       <dependency>
+        <groupId>com.miglayout</groupId>
+        <artifactId>miglayout</artifactId>
+        <version>${version.com.miglayout}</version>
+      </dependency>
+
+      <dependency>
         <groupId>com.oracle</groupId>
         <artifactId>ojdbc14</artifactId>
         <version>${version.com.oracle.ojdbc14}</version>
@@ -571,6 +577,11 @@
       <dependency>
         <groupId>org.apache.aries.blueprint</groupId>
         <artifactId>org.apache.aries.blueprint.api</artifactId>
+        <version>${version.org.apache.aries.blueprint}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.aries.blueprint</groupId>
+        <artifactId>org.apache.aries.blueprint.noosgi</artifactId>
         <version>${version.org.apache.aries.blueprint}</version>
       </dependency>
       <dependency>
@@ -1217,13 +1228,26 @@
         <artifactId>org.eclipse.bpmn2</artifactId>
         <version>${version.org.eclipse.bpmn2}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.eclipse.emf</groupId>
+        <artifactId>org.eclipse.emf.common</artifactId>
+        <version>${version.org.eclipse.emf}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.emf</groupId>
+        <artifactId>org.eclipse.emf.ecore</artifactId>
+        <version>${version.org.eclipse.emf}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.emf</groupId>
+        <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+        <version>${version.org.eclipse.emf.ecore.xmi}</version>
+      </dependency>
       <dependency>
         <groupId>org.eclipse.jdt.core.compiler</groupId>
         <artifactId>ecj</artifactId>
         <version>${version.org.eclipse.jdt.core.compiler}</version>
       </dependency>
-
       <dependency>
         <groupId>org.eclipse.jgit</groupId>
         <artifactId>org.eclipse.jgit</artifactId>
