@@ -125,6 +125,8 @@
     <version.com.google.code.gson>1.7.2</version.com.google.code.gson>
     <version.com.google.guava>13.0.1</version.com.google.guava>
     <version.com.google.gwt>2.5.1</version.com.google.gwt>
+    <version.org.google.gwt-charts>0.9.9</version.org.google.gwt-charts>
+    <version.org.google.gwt.visualization>1.0.2</version.org.google.gwt.visualization>
     <version.com.google.javascript.closure-compiler>r1741</version.com.google.javascript.closure-compiler>
     <version.com.google.protobuf>2.5.0</version.com.google.protobuf>
     <version.com.h2database>1.3.168</version.com.h2database>
