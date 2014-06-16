@@ -195,6 +195,11 @@
       </dependency>
 
       <dependency>
+        <groupId>com.googlecode.gwt-charts</groupId>
+        <artifactId>gwt-charts</artifactId>
+        <version>${version.org.google.gwt-charts}</version>
+      </dependency>
+      <dependency>
         <groupId>com.google.gwt</groupId>
         <artifactId>gwt-servlet</artifactId>
         <version>${version.com.google.gwt}</version>
@@ -203,6 +208,11 @@
         <groupId>com.google.gwt</groupId>
         <artifactId>gwt-user</artifactId>
         <version>${version.com.google.gwt}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.gwt.google-apis</groupId>
+        <artifactId>gwt-visualization</artifactId>
+        <version>${version.org.google.gwt.visualization}</version>
       </dependency>
 
       <dependency>
@@ -857,6 +867,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.deltaspike.core</groupId>
+        <artifactId>deltaspike-core-api</artifactId>
+        <version>${version.org.apache.deltaspike.core}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.apache.ftpserver</groupId>
         <artifactId>ftpserver-core</artifactId>
         <version>${version.org.apache.ftpserver}</version>
@@ -1198,6 +1214,11 @@
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
         <version>${version.org.codehaus.plexus}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-component-annotations</artifactId>
+        <version>${version.org.codehaus.plexus.eap.integration}</version>
       </dependency>
 
       <dependency>
@@ -1986,6 +2007,11 @@
 
       <dependency>
         <groupId>org.jboss.weld</groupId>
+        <artifactId>weld-api</artifactId>
+        <version>${version.org.jboss.weld.weld-api}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.weld</groupId>
         <artifactId>weld-core</artifactId>
         <version>${version.org.jboss.weld.weld}</version>
       </dependency>
@@ -2215,6 +2241,11 @@
       <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version  -->
         <groupId>org.sonatype.sisu</groupId>
         <artifactId>sisu-inject-plexus</artifactId>
+        <version>${version.org.sonatype.sisu}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sonatype.sisu</groupId>
+        <artifactId>sisu-inject-bean</artifactId>
         <version>${version.org.sonatype.sisu}</version>
       </dependency>
 
