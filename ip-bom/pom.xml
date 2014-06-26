@@ -1204,6 +1204,11 @@
         <version>${version.org.codehaus.jackson}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-component-annotations</artifactId>
+        <version>${version.org.codehaus.plexus.eap.integration}</version>
+      </dependency>
       <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version  -->
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
@@ -1996,6 +2001,11 @@
 
       <dependency>
         <groupId>org.jboss.weld</groupId>
+        <artifactId>weld-api</artifactId>
+        <version>${version.org.jboss.weld.weld-api}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.weld</groupId>
         <artifactId>weld-core</artifactId>
         <version>${version.org.jboss.weld.weld}</version>
       </dependency>
@@ -2221,6 +2231,12 @@
         <groupId>org.sonatype.maven</groupId>
         <artifactId>wagon-ahc</artifactId>
         <version>${version.org.sonatype.maven}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.sonatype.sisu</groupId>
+        <artifactId>sisu-inject-bean</artifactId>
+        <version>${version.org.sonatype.sisu}</version>
       </dependency>
       <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version  -->
         <groupId>org.sonatype.sisu</groupId>
