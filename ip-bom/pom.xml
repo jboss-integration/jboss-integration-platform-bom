@@ -1461,7 +1461,7 @@
       <dependency>
         <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-arquillian-container-managed</artifactId>
-        <version>${version.org.jboss.as}</version>
+        <version>${version.org.jboss.as.arquillian}</version>
       </dependency>
 
       <dependency>
