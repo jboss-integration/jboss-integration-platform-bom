@@ -984,6 +984,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.neethi</groupId>
+        <artifactId>neethi</artifactId>
+        <version>${version.org.apache.neethi}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.apache.mina</groupId>
         <artifactId>mina-core</artifactId>
         <version>${version.org.apache.mina}</version>
@@ -1052,6 +1058,11 @@
         <groupId>org.apache.ws.commons.axiom</groupId>
         <artifactId>axiom-dom</artifactId>
         <version>${version.org.apache.ws.commons.axiom}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.ws.xmlschema</groupId>
+        <artifactId>xmlschema-core</artifactId>
+        <version>${version.org.apache.xmlschema-core}</version>
       </dependency>
 
       <dependency>
@@ -2317,6 +2328,11 @@
         <groupId>org.subethamail</groupId>
         <artifactId>subethasmtp-wiser</artifactId>
         <version>${version.org.subethamail}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.subethamail</groupId>
+        <artifactId>subethasmtp</artifactId>
+        <version>${version.org.subethamail.subethasmtp}</version>
       </dependency>
 
       <dependency>
