@@ -90,7 +90,8 @@ which means they have the intention to accept the change.
 IMPORTANT: *EAP always wins*: The BOM targets a specific EAP version.
 If that EAP version already depends on X, then the BOM must use the same version as EAP.
 
-NOTE: The most actual version of EAP is available at: http://download.devel.redhat.com/devel/candidates/JBEAP (latest version)  
+NOTE: The most recent and released version of EAP is available at: http://download.devel.redhat.com/released/JBEAP-6/.
+During development it could be of interest to test against release candidates. These can be downloaded here: http://download.devel.redhat.com/devel/candidates/JBEAP (latest version)  
 
 IMPORTANT: In the public bom, a dependency version must _never_ end with +-redhat-0+, +-redhat-1+, etc.
 The public bom cannot depend on productization builds,
