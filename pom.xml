@@ -217,12 +217,12 @@
     <version.org.eclipse.jgit>2.1.0.201209190230-r</version.org.eclipse.jgit>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
-    <version.org.hibernate>4.2.12.Final</version.org.hibernate>
+    <version.org.hibernate>4.2.15.Final</version.org.hibernate>
     <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.1.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence>1.0.1.Final</version.org.hibernate.javax.persistence>
     <version.org.hibernate.commons.annotations>4.0.2.Final</version.org.hibernate.commons.annotations>
-    <version.org.hornetq>2.3.18.Final</version.org.hornetq>
+    <version.org.hornetq>2.3.20.Final</version.org.hornetq>
     <version.org.infinispan>5.2.10.Final</version.org.infinispan>
     <!--This needs to be in sync with JUnit-->
     <version.org.hamcrest>1.3</version.org.hamcrest>
@@ -242,7 +242,7 @@
     <version.org.jboss.logging.processor>1.1.0.Final</version.org.jboss.logging.processor>
     <version.org.jboss.marshalling>1.4.5.Final</version.org.jboss.marshalling>
     <version.org.jboss.netty>3.2.6.Final</version.org.jboss.netty>
-    <version.org.jboss.resteasy>2.3.7.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>2.3.8.Final</version.org.jboss.resteasy>
     <version.org.jboss.forge.roaster>2.4.0.Final</version.org.jboss.forge.roaster>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
@@ -261,9 +261,9 @@
     <version.org.jboss.spec.javax.xml.ws>2.0.1.Final</version.org.jboss.spec.javax.xml.ws>
     <version.org.jboss.solder>3.2.1.Final</version.org.jboss.solder>
     <version.org.jboss.staxmapper>1.1.0.Final</version.org.jboss.staxmapper>
-    <version.org.jboss.weld.weld>1.1.21.Final</version.org.jboss.weld.weld>
+    <version.org.jboss.weld.weld>1.1.24.Final</version.org.jboss.weld.weld>
     <version.org.jboss.weld.weld-api>1.1.Final</version.org.jboss.weld.weld-api>
-    <version.org.jbpm.jbpm5.jbpmmigration>0.12</version.org.jbpm.jbpm5.jbpmmigration>
+    <version.org.jbpm.jbpm5.jbpmmigration>0.13</version.org.jbpm.jbpm5.jbpmmigration>
     <!-- EAP uses jdom 1.1.2 but that breaks jenkins builds with the error "Could not find artifact maven-plugins:maven-cobertura-plugin:plugin:1.3" -->
     <version.org.jdom>1.1.3</version.org.jdom>
     <version.org.jfree.jfreechart>1.0.19</version.org.jfree.jfreechart>
