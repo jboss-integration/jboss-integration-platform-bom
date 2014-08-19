@@ -318,12 +318,12 @@
       <dependency>
         <groupId>javax.enterprise</groupId>
         <artifactId>cdi-api</artifactId>
-        <version>${version.javax.enterprise.cdi}</version>
+        <version>${version.javax.enterprise}</version>
       </dependency>
       <dependency>
         <groupId>javax.inject</groupId>
         <artifactId>javax.inject</artifactId>
-        <version>${version.javax.inject}</version>
+        <version>${version.javax.inject.javax.inject}</version>
       </dependency>
       <dependency>
         <groupId>javax.jcr</groupId>
@@ -331,9 +331,9 @@
         <version>${version.javax.jcr}</version>
       </dependency>
        <dependency>
-        <groupId>javax.jms</groupId>
-        <artifactId>jms</artifactId>
-        <version>${version.javax.jms}</version>
+        <groupId>org.jboss.spec.javax.jms</groupId>
+        <artifactId>jboss-jms-api_1.1_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec}</version>
       </dependency>
       <dependency>
         <groupId>javax.mail</groupId>
@@ -493,6 +493,12 @@
         <groupId>rhino</groupId>
         <artifactId>js</artifactId>
         <version>${version.rhino.js}</version>
+      </dependency>
+      <!--Both antlr:antlr and org.antlr:antlr-runtime is needed. They are completely different.-->
+      <dependency>
+        <groupId>antlr</groupId>
+        <artifactId>antlr</artifactId>
+        <version>${version.antlr}</version>
       </dependency>
 
       <dependency>
@@ -870,12 +876,12 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>${version.org.apache.httpcomponents}</version>
+        <version>${version.org.apache.httpcomponents.httpcore}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
-        <version>${version.org.apache.httpcomponents}</version>
+        <version>${version.org.apache.httpcomponents.httpcore}</version>
       </dependency>
 
       <dependency>
@@ -1045,7 +1051,7 @@
       <dependency>
         <groupId>org.apache.ws.xmlschema</groupId>
         <artifactId>xmlschema-core</artifactId>
-        <version>${version.org.apache.xmlschema-core}</version>
+        <version>${version.org.apache.ws.xmlschema}</version>
       </dependency>
 
       <dependency>
@@ -1218,7 +1224,7 @@
       <dependency>
         <groupId>org.codehaus.woodstox</groupId>
         <artifactId>woodstox-core-asl</artifactId>
-        <version>${version.org.codehaus.woodstox}</version>
+        <version>${version.org.codehaus.woodstox.woodstox-core-asl}</version>
       </dependency>
 
       <dependency>
@@ -1397,7 +1403,7 @@
       <dependency><!-- JPA 2 implementation agnostic jar -->
         <groupId>org.hibernate.javax.persistence</groupId>
         <artifactId>hibernate-jpa-2.0-api</artifactId>
-        <version>${version.org.hibernate.javax.persistence}</version>
+        <version>${version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api}</version>
       </dependency>
 
       <dependency>
@@ -1600,7 +1606,7 @@
       <dependency>
         <groupId>org.jboss.jbossts.xts</groupId>
         <artifactId>jbossxts</artifactId>
-        <version>${version.org.jboss.jbossts.jbossxts}</version>
+        <version>${version.org.jboss.jbossts}</version>
         <exclusions>
           <exclusion>
             <artifactId>byteman</artifactId>
@@ -1797,7 +1803,7 @@
       <dependency>
         <groupId>org.jboss.logging</groupId>
         <artifactId>jboss-logging-processor</artifactId>
-        <version>${version.org.jboss.logging.processor}</version>
+        <version>${version.org.jboss.logging.jboss-logging-processor}</version>
       </dependency>
 
       <dependency>
@@ -1961,7 +1967,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.resource</groupId>
         <artifactId>jboss-connector-api_1.6_spec</artifactId>
-        <version>${version.org.jboss.spec.javax.resource.connector-api_1.6_spec}</version>
+        <version>${version.org.jboss.spec.javax.resource.jboss-connector-api_1.6_spec}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.security.jacc</groupId>
