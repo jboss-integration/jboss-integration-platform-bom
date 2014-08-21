@@ -494,11 +494,17 @@
         <artifactId>js</artifactId>
         <version>${version.rhino.js}</version>
       </dependency>
+      <!--Both antlr:antlr and org.antlr:antlr-runtime is needed. They are completely different.-->
+      <dependency>
+        <groupId>antlr</groupId>
+        <artifactId>antlr</artifactId>
+        <version>${version.antlr}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.antlr</groupId>
         <artifactId>antlr-runtime</artifactId>
-        <version>${version.antlr}</version>
+        <version>${version.org.antlr}</version>
         <exclusions>
           <exclusion>
             <groupId>org.antlr</groupId>
@@ -509,12 +515,12 @@
       <dependency>
         <groupId>org.antlr</groupId>
         <artifactId>antlr</artifactId>
-        <version>${version.antlr}</version>
+        <version>${version.org.antlr}</version>
       </dependency>
       <dependency>
         <groupId>org.antlr</groupId>
         <artifactId>gunit</artifactId>
-        <version>${version.antlr}</version>
+        <version>${version.org.antlr}</version>
         <exclusions>
           <exclusion>
             <groupId>org.antlr</groupId>
