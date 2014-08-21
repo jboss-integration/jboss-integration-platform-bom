@@ -97,6 +97,8 @@ IMPORTANT: In the public bom, a dependency version must _never_ end with +-redha
 The public bom cannot depend on productization builds,
 as anyone should be able to build all its dependencies from source.
 
+NOTE: When adding a dependency and version property, the preferred format for the version property is `version.groupId`
+
 NOTE: During conflicts, (all things being equal) prefer the latest and greatest version of a dependency in the BOM.
 
 === Exclusions policy
