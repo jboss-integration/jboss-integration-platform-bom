@@ -323,17 +323,12 @@
       <dependency>
         <groupId>javax.inject</groupId>
         <artifactId>javax.inject</artifactId>
-        <version>${version.javax.inject.javax.inject}</version>
+        <version>${version.javax.inject}</version>
       </dependency>
       <dependency>
         <groupId>javax.jcr</groupId>
         <artifactId>jcr</artifactId>
         <version>${version.javax.jcr}</version>
-      </dependency>
-       <dependency>
-        <groupId>org.jboss.spec.javax.jms</groupId>
-        <artifactId>jboss-jms-api_1.1_spec</artifactId>
-        <version>${version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec}</version>
       </dependency>
       <dependency>
         <groupId>javax.mail</groupId>
@@ -876,12 +871,12 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>${version.org.apache.httpcomponents.httpcore}</version>
+        <version>${version.org.apache.httpcomponents}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
-        <version>${version.org.apache.httpcomponents.httpcore}</version>
+        <version>${version.org.apache.httpcomponents}</version>
       </dependency>
 
       <dependency>
@@ -1224,7 +1219,7 @@
       <dependency>
         <groupId>org.codehaus.woodstox</groupId>
         <artifactId>woodstox-core-asl</artifactId>
-        <version>${version.org.codehaus.woodstox.woodstox-core-asl}</version>
+        <version>${version.org.codehaus.woodstox}</version>
       </dependency>
 
       <dependency>
@@ -1606,7 +1601,7 @@
       <dependency>
         <groupId>org.jboss.jbossts.xts</groupId>
         <artifactId>jbossxts</artifactId>
-        <version>${version.org.jboss.jbossts}</version>
+        <version>${version.org.jboss.jbossts.xts}</version>
         <exclusions>
           <exclusion>
             <artifactId>byteman</artifactId>
@@ -1701,7 +1696,7 @@
       <dependency>
         <groupId>org.jboss.jbossts.xts</groupId>
         <artifactId>jbossxts</artifactId>
-        <version>${version.org.jboss.jbossts.jbossxts}</version>
+        <version>${version.org.jboss.jbossts.xts}</version>
         <classifier>api</classifier>
         <exclusions>
           <exclusion>
