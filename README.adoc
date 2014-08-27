@@ -89,9 +89,17 @@ which means they have the intention to accept the change.
 
 IMPORTANT: *EAP always wins*: The BOM targets a specific EAP version.
 If that EAP version already depends on X, then the BOM must use the same version as EAP.
+Please make sure the version properties the same as the one used in EAP.
 
 NOTE: The most recent and released version of EAP is available at: http://download.devel.redhat.com/released/JBEAP-6/.
 During development it could be of interest to test against release candidates. These can be downloaded here: http://download.devel.redhat.com/devel/candidates/JBEAP (latest version)  
+For example:
+For EAP 6.3.0.GA definition pom files, 
+EAP versions and version properites can be found:
+jboss-as-parent(included supported redhat aritfacts):http://download.eng.bos.redhat.com/brewroot/repos/jb-ip-6.1-build/latest/maven/org/jboss/as/jboss-as-parent/7.4.0.Final-redhat-19/jboss-as-parent-7.4.0.Final-redhat-19.pom 
+EAP build version master(included supported+build dependencies artifacts):http://download.eng.bos.redhat.com/brewroot/repos/jb-ip-6.1-build/latest/maven/org/jboss/component/management/jboss-component-version-master/6.2.0.Final-redhat-129/jboss-component-version-master-6.2.0.Final-redhat-129.pom 
+
+
 
 IMPORTANT: In the public bom, a dependency version must _never_ end with +-redhat-0+, +-redhat-1+, etc.
 The public bom cannot depend on productization builds,
