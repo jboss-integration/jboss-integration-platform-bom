@@ -231,7 +231,7 @@
     <version.org.jboss.arquillian.container.glassfish>1.0.0.CR3</version.org.jboss.arquillian.container.glassfish>
     <version.org.jboss.arquillian.container.weld>1.0.0.CR5</version.org.jboss.arquillian.container.weld>
     <version.org.jboss.as.arquillian>7.2.0.Final</version.org.jboss.as.arquillian>
-    <version.org.jboss.as>7.4.0.Final</version.org.jboss.as>
+    <version.org.jboss.as>7.2.0.Final</version.org.jboss.as>
     <version.org.jboss.errai>2.4.4.Final</version.org.jboss.errai>
     <version.org.jboss.ironjacamar>1.0.26.Final</version.org.jboss.ironjacamar>
     <version.org.jboss.jboss-common-core>2.2.17.GA</version.org.jboss.jboss-common-core>
