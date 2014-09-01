@@ -89,9 +89,15 @@ which means they have the intention to accept the change.
 
 IMPORTANT: *EAP always wins*: The BOM targets a specific EAP version.
 If that EAP version already depends on X, then the BOM must use the same version as EAP.
+The version properties defined in the BOM should follow pattern version.$groupId. If version.$groupId can't represent the unique version, please use version.$groupId.$artifactId.
+For jboss spec artifacts, please use version.$groupId.$artifactId because there are specification versions in $artifactId.
+For example:
+<version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.0_spec>1.0.2.Final</version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.0_spec>
 
 NOTE: The most recent and released version of EAP is available at: http://download.devel.redhat.com/released/JBEAP-6/.
 During development it could be of interest to test against release candidates. These can be downloaded here: http://download.devel.redhat.com/devel/candidates/JBEAP (latest version)  
+
+
 
 IMPORTANT: In the public bom, a dependency version must _never_ end with +-redhat-0+, +-redhat-1+, etc.
 The public bom cannot depend on productization builds,
