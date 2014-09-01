@@ -277,7 +277,7 @@
     <version.org.milyn>1.5.1</version.org.milyn>
     <version.org.mockito>1.9.5</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
-    <version.org.mvel>2.1.9.Final</version.org.mvel>
+    <version.org.mvel>2.2.1.Final</version.org.mvel>
     <version.org.osgi>4.2.0</version.org.osgi>
     <version.org.ops4j.pax.exam>3.4.0</version.org.ops4j.pax.exam>
     <version.org.powermock>1.5.4</version.org.powermock>
