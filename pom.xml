@@ -280,6 +280,7 @@
     <version.org.python>2.5.3</version.org.python>
     <version.org.quartz-scheduler>1.8.5</version.org.quartz-scheduler>
     <version.org.rhq>4.8.0</version.org.rhq>
+    <version.org.scannotation>1.0.3</version.org.scannotation>
     <version.org.slf4j>1.7.2</version.org.slf4j>
     <version.org.sonatype.aether>1.13.1</version.org.sonatype.aether>
     <version.org.sonatype.maven>1.2.1</version.org.sonatype.maven>
