@@ -1793,7 +1793,7 @@
       <dependency>
         <groupId>org.jboss.logging</groupId>
         <artifactId>jboss-logging</artifactId>
-        <version>${version.org.jboss.logging}</version>
+        <version>${version.org.jboss.jboss-logging}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.logging</groupId>
