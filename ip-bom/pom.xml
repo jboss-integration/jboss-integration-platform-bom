@@ -158,6 +158,18 @@
         <artifactId>metadata-extractor</artifactId>
         <version>${version.com.drewnoakes.metadata-extractor}</version>
       </dependency>
+
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>${version.com.fasterxml.jackson}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${version.com.fasterxml.jackson}</version>
+      </dependency>
+
       <dependency>
         <groupId>com.github.gwtbootstrap</groupId>
         <artifactId>gwt-bootstrap</artifactId>
@@ -189,6 +201,12 @@
       </dependency>
 
       <dependency>
+        <groupId>com.googlecode.gwt-crypto</groupId>
+        <artifactId>gwt-crypto</artifactId>
+        <version>${version.com.googlecode.gwt-crypto}</version>
+      </dependency>
+
+      <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
         <version>${version.com.google.guava}</version>
@@ -208,6 +226,11 @@
         <groupId>com.google.gwt</groupId>
         <artifactId>gwt-user</artifactId>
         <version>${version.com.google.gwt}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.gwt.gwtmockito</groupId>
+        <artifactId>gwtmockito</artifactId>
+        <version>${version.com.google.gwt.gwtmockito}</version>
       </dependency>
       <dependency>
         <groupId>com.google.gwt.google-apis</groupId>
@@ -534,6 +557,11 @@
         <artifactId>abdera-i18n</artifactId>
         <version>${version.org.apache.abdera}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.abdera</groupId>
+        <artifactId>abdera-server</artifactId>
+        <version>${version.org.apache.abdera}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.activemq</groupId>
@@ -710,33 +738,38 @@
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-commons-api</artifactId>
-        <version>${version.org.apache.chemistry}</version>
+        <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-commons-impl</artifactId>
-        <version>${version.org.apache.chemistry}</version>
+        <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-server-support</artifactId>
-        <version>${version.org.apache.chemistry}</version>
+        <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-server-jcr</artifactId>
-        <version>${version.org.apache.chemistry}</version>
+        <version>${version.org.apache.chemistry.opencmis}</version>
         <classifier>classes</classifier>
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-server-bindings</artifactId>
-        <version>${version.org.apache.chemistry}</version>
+        <version>${version.org.apache.chemistry.opencmis}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-client-bindings</artifactId>
+        <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-client-impl</artifactId>
-        <version>${version.org.apache.chemistry}</version>
+        <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
 
       <!-- Keep in sync with groupId commons-* -->
@@ -1017,6 +1050,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.sshd</groupId>
+        <artifactId>sshd-core</artifactId>
+        <version>${version.org.apache.sshd}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.apache.tika</groupId>
         <artifactId>tika-parsers</artifactId>
         <version>${version.org.apache.tika}</version>
@@ -1053,6 +1092,12 @@
         <groupId>org.apache.velocity</groupId>
         <artifactId>velocity</artifactId>
         <version>${version.org.apache.velocity}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity-tools</artifactId>
+        <version>${version.org.apache.velocity.velocity-tools}</version>
       </dependency>
 
       <dependency>
@@ -1318,7 +1363,6 @@
         <artifactId>infinispan-core</artifactId>
         <version>${version.org.infinispan}</version>
         <type>test-jar</type>
-        <scope>test</scope>
       </dependency>
       <dependency>
          <groupId>org.infinispan</groupId>
