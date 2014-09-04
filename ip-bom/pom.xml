@@ -28,6 +28,12 @@
         - A element's inner order is <groupId>, <artifactId>, [<type>,] [<classifier>,] <version> (following Aether proper)
       -->
 
+      <dependency>
+        <groupId>aopalliance</groupId>
+        <artifactId>aopalliance</artifactId>
+        <version>${version.aopalliance}</version>
+      </dependency>
+
       <!-- Starting from asm 4.0 the groupId will need change to org.ow2.asm -->
       <dependency>
         <groupId>asm</groupId>
@@ -597,6 +603,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.ant</groupId>
+        <artifactId>ant-launcher</artifactId>
+        <version>${version.org.apache.ant}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.apache.aries.blueprint</groupId>
         <artifactId>org.apache.aries.blueprint.api</artifactId>
         <version>${version.org.apache.aries.blueprint}</version>
@@ -782,6 +794,16 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-exec</artifactId>
         <version>${version.org.apache.commons.exec}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${version.org.apache.commons.lang3}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-math</artifactId>
+        <version>${version.org.apache.commons.math}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -2380,6 +2402,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.tukaani</groupId>
+        <artifactId>xz</artifactId>
+        <version>${version.org.tukaani}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.xmappr</groupId>
         <artifactId>xmappr</artifactId>
         <version>${version.org.xmappr}</version>
@@ -2468,9 +2496,21 @@
       </dependency>
 
       <dependency>
+        <groupId>xmlpull</groupId>
+        <artifactId>xmlpull</artifactId>
+        <version>${version.xmlpull}</version>
+      </dependency>
+
+      <dependency>
         <groupId>xmlunit</groupId>
         <artifactId>xmlunit</artifactId>
         <version>${version.xmlunit}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>xpp3</groupId>
+        <artifactId>xpp3_min</artifactId>
+        <version>${version.xpp3}</version>
       </dependency>
 
     </dependencies>
