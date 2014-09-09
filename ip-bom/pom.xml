@@ -999,6 +999,11 @@
         <artifactId>wagon-http</artifactId>
         <version>${version.org.apache.maven.wagon.http}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-http-shared4</artifactId>
+        <version>${version.org.apache.maven.wagon.http}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.neethi</groupId>
@@ -2109,6 +2114,12 @@
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
         <version>${version.org.json}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>${version.org.jsoup}</version>
       </dependency>
 
       <dependency>
