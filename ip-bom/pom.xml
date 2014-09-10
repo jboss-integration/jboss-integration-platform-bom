@@ -904,12 +904,12 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>${version.org.apache.httpcomponents}</version>
+        <version>${version.org.apache.httpcomponents.httpclient}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
-        <version>${version.org.apache.httpcomponents}</version>
+        <version>${version.org.apache.httpcomponents.httpcore}</version>
       </dependency>
 
       <dependency>
