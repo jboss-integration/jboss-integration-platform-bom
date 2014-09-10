@@ -554,7 +554,17 @@
 
       <dependency>
         <groupId>org.apache.abdera</groupId>
+        <artifactId>abdera-core</artifactId>
+        <version>${version.org.apache.abdera}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.abdera</groupId>
         <artifactId>abdera-i18n</artifactId>
+        <version>${version.org.apache.abdera}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.abdera</groupId>
+        <artifactId>abdera-parser</artifactId>
         <version>${version.org.apache.abdera}</version>
       </dependency>
       <dependency>
@@ -571,6 +581,11 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>activemq-client</artifactId>
+        <version>${version.org.apache.activemq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-mqtt</artifactId>
         <version>${version.org.apache.activemq}</version>
       </dependency>
       <dependency>
@@ -624,6 +639,11 @@
       </dependency>
       <dependency>
           <groupId>org.apache.camel</groupId>
+          <artifactId>camel-bindy</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
           <artifactId>camel-blueprint</artifactId>
           <version>${version.org.apache.camel}</version>
       </dependency>
@@ -639,6 +659,11 @@
       </dependency>
       <dependency>
           <groupId>org.apache.camel</groupId>
+          <artifactId>camel-core-osgi</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
           <artifactId>camel-core</artifactId>
           <type>test-jar</type>
           <version>${version.org.apache.camel}</version>
@@ -650,7 +675,17 @@
       </dependency>
       <dependency>
           <groupId>org.apache.camel</groupId>
+          <artifactId>camel-cxf-transport</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
           <artifactId>camel-ftp</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-hl7</artifactId>
           <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
@@ -675,6 +710,16 @@
       </dependency>
       <dependency>
           <groupId>org.apache.camel</groupId>
+          <artifactId>camel-mina2</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-mqtt</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
           <artifactId>camel-mvel</artifactId>
           <version>${version.org.apache.camel}</version>
       </dependency>
@@ -691,6 +736,16 @@
       <dependency>
           <groupId>org.apache.camel</groupId>
           <artifactId>camel-quartz</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-rss</artifactId>
+        <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-saxon</artifactId>
           <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
@@ -888,6 +943,16 @@
         <artifactId>deltaspike-core-api</artifactId>
         <version>${version.org.apache.deltaspike.core}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.deltaspike.core</groupId>
+        <artifactId>deltaspike-core-impl</artifactId>
+        <version>${version.org.apache.deltaspike.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.deltaspike.cdictrl</groupId>
+        <artifactId>deltaspike-cdictrl-api</artifactId>
+        <version>${version.org.apache.deltaspike.core}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.ftpserver</groupId>
@@ -920,6 +985,17 @@
         <version>${version.org.apache.karaf}</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.karaf</groupId>
+        <artifactId>apache-karaf</artifactId>
+        <type>tar.gz</type>
+        <version>${version.org.apache.karaf}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.karaf</groupId>
+        <artifactId>org.apache.karaf.util</artifactId>
+        <version>${version.org.apache.karaf}</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.karaf.assemblies.features</groupId>
         <artifactId>standard</artifactId>
         <type>xml</type>
@@ -927,14 +1003,18 @@
         <version>${version.org.apache.karaf}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.karaf</groupId>
-        <artifactId>apache-karaf</artifactId>
-        <type>tar.gz</type>
+        <groupId>org.apache.karaf.features</groupId>
+        <artifactId>org.apache.karaf.features.core</artifactId>
         <version>${version.org.apache.karaf}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.karaf.features</groupId>
-        <artifactId>org.apache.karaf.features.core</artifactId>
+        <groupId>org.apache.karaf.jaas</groupId>
+        <artifactId>org.apache.karaf.jaas.modules</artifactId>
+        <version>${version.org.apache.karaf}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.karaf.shell</groupId>
+        <artifactId>org.apache.karaf.shell.console</artifactId>
         <version>${version.org.apache.karaf}</version>
       </dependency>
       <dependency>
@@ -1887,16 +1967,6 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
-        <artifactId>resteasy-jaxrs</artifactId>
-        <version>${version.org.jboss.resteasy}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.resteasy</groupId>
-        <artifactId>resteasy-jaxb-provider</artifactId>
-        <version>${version.org.jboss.resteasy}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-atom-provider</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
@@ -1907,7 +1977,12 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
-        <artifactId>resteasy-multipart-provider</artifactId>
+        <artifactId>resteasy-jaxrs</artifactId>
+        <version>${version.org.jboss.resteasy}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jaxb-provider</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
       <dependency>
@@ -1918,6 +1993,21 @@
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-jettison-provider</artifactId>
+        <version>${version.org.jboss.resteasy}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jdk-http</artifactId>
+        <version>${version.org.jboss.resteasy}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-multipart-provider</artifactId>
+        <version>${version.org.jboss.resteasy}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-netty</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
 
@@ -2179,6 +2269,16 @@
         <version>${version.org.quartz-scheduler}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.ops4j.pax.exam</groupId>
+        <artifactId>pax-exam</artifactId>
+        <version>${version.org.ops4j.pax.exam}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ops4j.pax.exam</groupId>
+        <artifactId>pax-exam-container-karaf</artifactId>
+        <version>${version.org.ops4j.pax.exam}</version>
+      </dependency>
       <dependency>
         <groupId>org.ops4j.pax.exam</groupId>
         <artifactId>pax-exam-junit4</artifactId>
