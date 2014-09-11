@@ -242,6 +242,7 @@
     <version.org.jboss.errai>2.4.4.Final</version.org.jboss.errai>
     <version.org.jboss.ironjacamar>1.0.26.Final</version.org.jboss.ironjacamar>
     <version.org.jboss.jboss-common-core>2.2.17.GA</version.org.jboss.jboss-common-core>
+    <version.org.jboss.jbossts.jta>4.17.19.Final</version.org.jboss.jbossts.jta>
     <version.org.jboss.jbossts.xts>4.17.19.Final</version.org.jboss.jbossts.xts>
     <version.org.jboss.logging.jboss-logging>3.1.4.GA</version.org.jboss.logging.jboss-logging>
     <version.org.jboss.logging.jboss-logging-processor>1.1.0.Final</version.org.jboss.logging.jboss-logging-processor>

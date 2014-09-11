@@ -1728,6 +1728,11 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jboss.jbossts.jta</groupId>
+        <artifactId>narayana-jta</artifactId>
+        <version>${version.org.jboss.jbossts.jta}</version>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.jbossts.xts</groupId>
         <artifactId>jbossxts</artifactId>
         <version>${version.org.jboss.jbossts.xts}</version>
