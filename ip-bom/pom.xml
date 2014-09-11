@@ -2349,6 +2349,12 @@
         <version>${version.org.rhq}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.scannotation</groupId>
+        <artifactId>scannotation</artifactId>
+        <version>${version.org.scannotation}</version>
+      </dependency>
+
       <!-- Keep in sync with groupId ch.qos.logback -->
       <dependency>
         <groupId>org.slf4j</groupId>
