@@ -502,9 +502,9 @@
       </dependency>
 
       <dependency>
-        <groupId>net.sourceforge.saxon</groupId>
-        <artifactId>saxonhe</artifactId>
-        <version>${version.net.sourceforge.saxon}</version>
+        <groupId>net.sf.saxon</groupId>
+        <artifactId>Saxon-HE</artifactId>
+        <version>${version.net.sf.saxon}</version>
       </dependency>
 
       <dependency>
