@@ -41,6 +41,12 @@
         <version>${version.asm}</version>
       </dependency>
 
+      <dependency>
+        <groupId>ca.uhn.hapi</groupId>
+        <artifactId>hapi-osgi-base</artifactId>
+        <version>${version.ca.uhn.hapi}</version>
+      </dependency>
+
       <!-- Keep in sync with groupId org.slf4j -->
       <dependency>
         <groupId>ch.qos.logback</groupId>
@@ -489,6 +495,11 @@
         <version>${version.net.java.dev.glazedlists}</version>
       </dependency>
 
+      <dependency>
+        <groupId>net.sf.dozer</groupId>
+        <artifactId>dozer</artifactId>
+        <version>${version.net.sf.dozer}</version>
+      </dependency>
       <dependency>
         <groupId>net.sf.opencsv</groupId>
         <artifactId>opencsv</artifactId>
@@ -2257,6 +2268,18 @@
         <groupId>org.jsoup</groupId>
         <artifactId>jsoup</artifactId>
         <version>${version.org.jsoup}</version>
+      </dependency>
+
+      <dependency>
+         <groupId>org.jvnet.mock-javamail</groupId>
+         <artifactId>mock-javamail</artifactId>
+         <version>${version.org.jvnet.mock-javamail}</version>
+      </dependency>
+
+      <dependency>
+         <groupId>org.littleshoot</groupId>
+         <artifactId>littleproxy</artifactId>
+         <version>${version.org.littleshoot.littleproxy}</version>
       </dependency>
 
       <dependency>
