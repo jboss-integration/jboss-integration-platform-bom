@@ -2007,12 +2007,6 @@
       </dependency>
 
       <dependency>
-        <groupId>org.jboss.netty</groupId>
-        <artifactId>netty</artifactId>
-        <version>${version.org.jboss.netty}</version>
-      </dependency>
-
-      <dependency>
         <groupId>org.jboss</groupId>
         <artifactId>staxmapper</artifactId>
         <version>${version.org.jboss.staxmapper}</version>
