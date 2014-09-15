@@ -1651,6 +1651,16 @@
         <artifactId>jboss-as-server</artifactId>
         <version>${version.org.jboss.as}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.as</groupId>
+        <artifactId>jboss-as-controller</artifactId>
+        <version>${version.org.jboss.as}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.as</groupId>
+        <artifactId>jboss-as-weld</artifactId>
+        <version>${version.org.jboss.as}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.jboss.errai</groupId>
