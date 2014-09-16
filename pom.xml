@@ -397,6 +397,7 @@
                 <illegalTransitiveDependencyCheck implementation="de.is24.maven.enforcer.rules.IllegalTransitiveDependencyCheck">
                   <reportOnly>${illegaltransitivereportonly}</reportOnly>
                   <regexIgnoredClasses>
+                      <regexIgnoredClass>com\.sun\.net\.httpserver\..+</regexIgnoredClass>
                       <regexIgnoredClass>javax\..+</regexIgnoredClass>
                       <regexIgnoredClass>org\.w3c\.dom\..+</regexIgnoredClass>
                       <regexIgnoredClass>org\.xml\.sax\..+</regexIgnoredClass>
