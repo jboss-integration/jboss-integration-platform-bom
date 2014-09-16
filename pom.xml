@@ -215,13 +215,13 @@
     <version.org.eclipse.jgit>2.1.0.201209190230-r</version.org.eclipse.jgit>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
-    <!--EAP 6.3 use hibernate 4.2.14.SP1-redhta-1, however no equiverlant in community release, so  the closest version wins-->
+    <!--EAP 6.3 use hibernate 4.2.14.SP1-redhat-1, however no equiverlant in community release, so  the closest version wins-->
     <version.org.hibernate>4.2.15.Final</version.org.hibernate>
     <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.1.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api>1.0.1.Final</version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api>
     <version.org.hibernate.commons.annotations>4.0.1.Final</version.org.hibernate.commons.annotations>
-    <!--EAP 6.3 use hornetq 2.3.20.Final-redhta-1, however no equiverlant in community release, so  the closest version wins-->
+    <!--EAP 6.3 use hornetq 2.3.20.Final-redhat-1, however no equiverlant in community release, so  the closest version wins-->
     <version.org.hornetq>2.3.19.Final</version.org.hornetq>
     <version.org.infinispan>5.2.10.Final</version.org.infinispan>
     <!--This needs to be in sync with JUnit-->
@@ -241,7 +241,7 @@
     <version.org.jboss.logging.jboss-logging>3.1.4.GA</version.org.jboss.logging.jboss-logging>
     <version.org.jboss.logging.jboss-logging-processor>1.1.0.Final</version.org.jboss.logging.jboss-logging-processor>
     <version.org.jboss.marshalling.jboss-marshalling>1.4.6.Final</version.org.jboss.marshalling.jboss-marshalling>
-    <!--EAP 6.3 use resteasy 2.3.8.Final-redhta-3, however no equiverlant in community release, so  the closest version wins-->
+    <!--EAP 6.3 use resteasy 2.3.8.Final-redhat-3, however no equiverlant in community release, so  the closest version wins-->
     <version.org.jboss.resteasy>2.3.7.Final</version.org.jboss.resteasy>
     <version.org.jboss.forge.roaster>2.7.1.Final</version.org.jboss.forge.roaster>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
