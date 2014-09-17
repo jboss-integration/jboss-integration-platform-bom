@@ -815,28 +815,7 @@
       </dependency>
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
-        <artifactId>chemistry-opencmis-commons-api</artifactId>
-        <version>${version.org.apache.chemistry.opencmis}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.chemistry.opencmis</groupId>
-        <artifactId>chemistry-opencmis-commons-impl</artifactId>
-        <version>${version.org.apache.chemistry.opencmis}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.chemistry.opencmis</groupId>
-        <artifactId>chemistry-opencmis-server-support</artifactId>
-        <version>${version.org.apache.chemistry.opencmis}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.chemistry.opencmis</groupId>
-        <artifactId>chemistry-opencmis-server-jcr</artifactId>
-        <version>${version.org.apache.chemistry.opencmis}</version>
-        <classifier>classes</classifier>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.chemistry.opencmis</groupId>
-        <artifactId>chemistry-opencmis-server-bindings</artifactId>
+        <artifactId>chemistry-opencmis-client-api</artifactId>
         <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
       <dependency>
@@ -847,6 +826,32 @@
       <dependency>
         <groupId>org.apache.chemistry.opencmis</groupId>
         <artifactId>chemistry-opencmis-client-impl</artifactId>
+        <version>${version.org.apache.chemistry.opencmis}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-commons-api</artifactId>
+        <version>${version.org.apache.chemistry.opencmis}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-commons-impl</artifactId>
+        <version>${version.org.apache.chemistry.opencmis}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-server-bindings</artifactId>
+        <version>${version.org.apache.chemistry.opencmis}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-server-jcr</artifactId>
+        <version>${version.org.apache.chemistry.opencmis}</version>
+        <classifier>classes</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.chemistry.opencmis</groupId>
+        <artifactId>chemistry-opencmis-server-support</artifactId>
         <version>${version.org.apache.chemistry.opencmis}</version>
       </dependency>
 
