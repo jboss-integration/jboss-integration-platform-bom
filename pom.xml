@@ -348,7 +348,7 @@
           <dependency>
             <groupId>de.is24.maven.enforcer.rules</groupId>
             <artifactId>illegal-transitive-dependency-check</artifactId>
-            <version>1.5</version>
+            <version>1.6</version>
           </dependency>
           <dependency>
             <groupId>com.redhat.victims</groupId>
@@ -392,7 +392,7 @@
 
           <execution>
             <id>enforce-direct-dependencies</id>
-            <phase>install</phase>
+            <phase>process-classes</phase>
             <goals>
               <goal>enforce</goal>
             </goals>
@@ -406,6 +406,7 @@
                       <regexIgnoredClass>org\.w3c\.dom\..+</regexIgnoredClass>
                       <regexIgnoredClass>org\.xml\.sax\..+</regexIgnoredClass>
                   </regexIgnoredClasses>
+                  <useClassesFromLastBuild>true</useClassesFromLastBuild>
                 </illegalTransitiveDependencyCheck>
               </rules>
             </configuration>
