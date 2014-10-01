@@ -1596,6 +1596,11 @@
         <version>${version.org.jaudiotagger}</version>
       </dependency>
       <dependency>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-remote-naming</artifactId>
+        <version>${version.org.jboss.remote-naming}</version>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.arquillian.container</groupId>
         <artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
         <version>${version.org.jboss.arquillian.container.weld}</version>
@@ -2247,6 +2252,11 @@
         <artifactId>weld-spi</artifactId>
         <version>${version.org.jboss.weld.weld-api}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.xnio</groupId>
+        <artifactId>xnio-nio</artifactId>
+        <version>${version.org.jboss.xnio}</version>
+      </dependency>
 
       <dependency><!-- Not part of the KIE release lifecycle, so it counts as an external dependency -->
         <groupId>org.jbpm.jbpm5</groupId>
@@ -2260,6 +2270,11 @@
         <version>${version.org.jdom}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.jfree</groupId>
+        <artifactId>jcommon</artifactId>
+        <version>${version.org.jfree.jcommon}</version>
+      </dependency>
       <dependency>
         <groupId>org.jfree</groupId>
         <artifactId>jfreechart</artifactId>
