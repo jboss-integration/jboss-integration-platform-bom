@@ -232,7 +232,8 @@
     <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.1.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api>1.0.1.Final</version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api>
-    <version.org.hibernate.commons.annotations>4.0.1.Final</version.org.hibernate.commons.annotations>
+    <!--EAP 6.3 uses hibernate 4.0.1.Final, however 4.0.2.Final was the first to support OSGi in its manifest -->
+    <version.org.hibernate.commons.annotations>4.0.2.Final</version.org.hibernate.commons.annotations>
     <!--EAP 6.3 use hornetq 2.3.20.Final-redhat-1, however no equiverlant in community release, so  the closest version wins-->
     <version.org.hornetq>2.3.19.Final</version.org.hornetq>
     <version.org.infinispan>5.2.10.Final</version.org.infinispan>
