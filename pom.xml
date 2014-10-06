@@ -414,6 +414,25 @@
               </rules>
             </configuration>
           </execution>
+          
+          <execution>
+            <id>ban-uberjars</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <phase>validate</phase>
+            <configuration>
+              <rules>
+                <bannedDependencies>
+                  <excludes>
+                    <exclude>org.apache.cxf:cxf-bundle-jaxrs</exclude>
+                    <exclude>org.jboss.weld.se:weld-se</exclude><!-- Use weld-se-core instead -->
+                    <exclude>org.jboss.weld.servlet:weld-servlet</exclude><!-- Use weld-servlet-core instead -->
+                  </excludes>
+                </bannedDependencies>
+              </rules>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
 
