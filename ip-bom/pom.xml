@@ -592,6 +592,11 @@
 
       <dependency>
         <groupId>org.apache.activemq</groupId>
+        <artifactId>activemq-all</artifactId>
+        <version>${version.org.apache.activemq}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.activemq</groupId>
         <artifactId>activemq-broker</artifactId>
         <version>${version.org.apache.activemq}</version>
       </dependency>
@@ -2292,6 +2297,12 @@
         <groupId>org.quartz-scheduler</groupId>
         <artifactId>quartz</artifactId>
         <version>${version.org.quartz-scheduler}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.ocpsoft.prettytime</groupId>
+        <artifactId>prettytime</artifactId>
+        <version>${version.org.ocpsoft.prettytime}</version>
       </dependency>
 
       <dependency>
