@@ -1591,6 +1591,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jasypt</groupId>
+        <artifactId>jasypt</artifactId>
+        <version>${version.org.jasypt.jasypt}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.javassist</groupId>
         <artifactId>javassist</artifactId>
         <version>${version.org.javassist}</version>
