@@ -2301,6 +2301,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.ocpsoft.prettytime</groupId>
+        <artifactId>prettytime</artifactId>
+        <version>${version.org.ocpsoft.prettytime}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.ops4j.pax.exam</groupId>
         <artifactId>pax-exam</artifactId>
         <version>${version.org.ops4j.pax.exam}</version>
