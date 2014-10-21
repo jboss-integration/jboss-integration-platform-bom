@@ -142,7 +142,7 @@
     <version.com.miglayout>3.7.4</version.com.miglayout>
     <version.com.oracle.ojdbc14>10.2.0.4.0</version.com.oracle.ojdbc14>
     <version.com.smartgwt.smartgwt-skins>2.4</version.com.smartgwt.smartgwt-skins>
-    <version.com.sun.xml.bind.jaxb>2.2.5</version.com.sun.xml.bind.jaxb>
+    <version.com.sun.xml.bind>2.2.5</version.com.sun.xml.bind>
     <version.com.thoughtworks.xstream>1.4.7</version.com.thoughtworks.xstream>
     <version.dom4j>1.6.1</version.dom4j>
     <version.io.netty>3.6.9.Final</version.io.netty>
@@ -275,6 +275,7 @@
     <version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec>
     <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_1.1_spec>
     <version.org.jboss.spec.javax.xml.ws.jboss-jaxws-api_2.2_spec>2.0.2.Final</version.org.jboss.spec.javax.xml.ws.jboss-jaxws-api_2.2_spec>
+    <version.org.jboss.spec.javax.xml.bind.jboss-jaxb-api_2.2_spec>1.0.4.Final</version.org.jboss.spec.javax.xml.bind.jboss-jaxb-api_2.2_spec>
     <version.org.jboss.solder>3.2.1.Final</version.org.jboss.solder>
     <version.org.jboss.staxmapper>1.1.0.Final</version.org.jboss.staxmapper>
     <version.org.jboss.weld.weld>1.1.23.Final</version.org.jboss.weld.weld>
