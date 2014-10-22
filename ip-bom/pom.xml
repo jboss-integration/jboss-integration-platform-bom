@@ -312,12 +312,12 @@
       <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-impl</artifactId>
-        <version>${version.com.sum.xml.bind}</version>
+        <version>${version.com.sun.xml.bind}</version>
       </dependency>
       <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-xjc</artifactId>
-        <version>${version.com.sum.xml.bind}</version>
+        <version>${version.com.sun.xml.bind}</version>
       </dependency>
 
       <dependency>
@@ -383,7 +383,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.xml.bind</groupId>
         <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
-        <version>${org.jboss.spec.javax.xml.bind.jboss-jaxb-api_2.2_spec}</version>
+        <version>${version.org.jboss.spec.javax.xml.bind.jboss-jaxb-api_2.2_spec}</version>
       </dependency>
 
       <dependency>
