@@ -309,15 +309,15 @@
         <version>${version.com.smartgwt.smartgwt-skins}</version>
       </dependency>
 
-      <dependency><!-- Keep in sync with groupId javax.xml.bind -->
+      <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-impl</artifactId>
-        <version>${version.com.sun.xml.bind.jaxb}</version>
+        <version>${version.com.sum.xml.bind}</version>
       </dependency>
       <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-xjc</artifactId>
-        <version>${version.com.sun.xml.bind.jaxb}</version>
+        <version>${version.com.sum.xml.bind}</version>
       </dependency>
 
       <dependency>
@@ -380,10 +380,10 @@
         <artifactId>validation-api</artifactId>
         <version>${version.javax.validation}</version>
       </dependency>
-      <dependency><!-- Keep in sync with groupId com.sun.xml.bind -->
-        <groupId>javax.xml.bind</groupId>
-        <artifactId>jaxb-api</artifactId>
-        <version>${version.com.sun.xml.bind.jaxb}</version>
+      <dependency>
+        <groupId>org.jboss.spec.javax.xml.bind</groupId>
+        <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
+        <version>${org.jboss.spec.javax.xml.bind.jboss-jaxb-api_2.2_spec}</version>
       </dependency>
 
       <dependency>
