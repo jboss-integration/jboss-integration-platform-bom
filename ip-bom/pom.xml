@@ -110,11 +110,6 @@
         <version>${version.commons-fileupload}</version>
       </dependency>
       <dependency>
-        <groupId>commons-httpclient</groupId>
-        <artifactId>commons-httpclient</artifactId>
-        <version>${version.commons-httpclient}</version>
-      </dependency>
-      <dependency>
         <groupId>commons-jxpath</groupId>
         <artifactId>commons-jxpath</artifactId>
         <version>${version.commons-jxpath}</version>
