@@ -2442,13 +2442,7 @@
         <artifactId>sisu-inject-plexus</artifactId>
         <version>${version.org.sonatype.sisu}</version>
       </dependency>
-
-
-      <dependency>
-          <groupId>org.springframework</groupId>
-          <artifactId>spring-asm</artifactId>
-          <version>${version.org.springframework}</version>
-      </dependency>
+      
 
       <dependency>
         <groupId>org.springframework</groupId>
