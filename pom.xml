@@ -103,6 +103,7 @@
     <version.aopalliance>1.0</version.aopalliance>
     <version.asm>3.3.1</version.asm>
     <version.ca.uhn.hapi>2.1</version.ca.uhn.hapi>
+    <version.ch.qos.cal10n.cal10n-api>0.7.7</version.ch.qos.cal10n.cal10n-api>
     <version.ch.qos.logback>1.0.9</version.ch.qos.logback>
     <version.commons-cli>1.2</version.commons-cli>
     <version.commons-codec>1.4</version.commons-codec>
@@ -223,6 +224,7 @@
     <version.org.eclipse.emf>2.6.0.v20100614-1136</version.org.eclipse.emf>
     <version.org.eclipse.emf.ecore.xmi>2.5.0.v20100521-1846</version.org.eclipse.emf.ecore.xmi>
     <version.org.eclipse.jdt.core.compiler>4.3.1</version.org.eclipse.jdt.core.compiler>
+    <version.org.eclipse.jetty.jetty-security>8.1.14.v20131031</version.org.eclipse.jetty.jetty-security>
     <version.org.eclipse.jgit>3.3.2.201404171909-r</version.org.eclipse.jgit>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
@@ -254,10 +256,13 @@
     <version.org.jboss.logging.jboss-logging>3.1.4.GA</version.org.jboss.logging.jboss-logging>
     <version.org.jboss.logging.jboss-logging-processor>1.1.0.Final</version.org.jboss.logging.jboss-logging-processor>
     <version.org.jboss.marshalling>1.4.6.Final</version.org.jboss.marshalling>
+    <version.org.jboss.osgi.metadata.jbosgi-metadata>2.2.0.Final</version.org.jboss.osgi.metadata.jbosgi-metadata>
+    <version.org.jboss.osgi.vfs>1.2.1.Final</version.org.jboss.osgi.vfs>
     <!--EAP 6.3 use resteasy 2.3.8.Final-redhat-3, however no equiverlant in community release, so  the closest version wins-->
     <version.org.jboss.resteasy>2.3.7.Final</version.org.jboss.resteasy>
     <version.org.jboss.forge.roaster>2.7.1.Final</version.org.jboss.forge.roaster>
     <version.org.jboss.remote-naming>1.0.8.Final</version.org.jboss.remote-naming>
+    <version.org.jboss.remoting3.jboss-remoting>3.2.8.GA</version.org.jboss.remoting3.jboss-remoting>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
     <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-3</version.org.jboss.shrinkwrap.descriptors>
@@ -265,6 +270,7 @@
     <version.org.jboss.spec.javax.annotation.jboss-annotations-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.annotation.jboss-annotations-api_1.1_spec>
     <version.org.jboss.spec.javax.ejb.jboss-ejb-api_3.1_spec>1.0.2.Final</version.org.jboss.spec.javax.ejb.jboss-ejb-api_3.1_spec>
     <version.org.jboss.spec.javax.el.jboss-el-api_2.2_spec>1.0.4.Final</version.org.jboss.spec.javax.el.jboss-el-api_2.2_spec>
+    <version.org.jboss.spec.javax.interceptor-jboss-interceptors-api>1.0.1.Final</version.org.jboss.spec.javax.interceptor-jboss-interceptors-api>
     <version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec>
     <version.org.jboss.spec.javax.resource.jboss-connector-api_1.6_spec>1.0.1.Final</version.org.jboss.spec.javax.resource.jboss-connector-api_1.6_spec>
     <version.org.jboss.spec.javax.security.jacc.jboss-jacc-api_1.4_spec>1.0.3.Final</version.org.jboss.spec.javax.security.jacc.jboss-jacc-api_1.4_spec>
@@ -297,6 +303,7 @@
     <version.org.mockito>1.9.5</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
     <version.org.mvel>2.2.2.Final</version.org.mvel>
+    <version.org.objenesis.objenesis>2.1</version.org.objenesis.objenesis>
     <version.org.ocpsoft.prettytime>3.0.2.Final</version.org.ocpsoft.prettytime>
     <version.org.osgi>4.3.1</version.org.osgi>
     <version.org.ops4j.pax.exam>3.5.0</version.org.ops4j.pax.exam>
@@ -332,6 +339,8 @@
     <version.xmlpull>1.1.3.1</version.xmlpull>
     <version.xmlunit>1.3</version.xmlunit>
     <version.xpp3>1.1.4c</version.xpp3>
+
+
   </properties>
 
   <build>
