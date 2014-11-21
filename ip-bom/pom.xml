@@ -49,6 +49,11 @@
 
       <!-- Keep in sync with groupId org.slf4j -->
       <dependency>
+        <groupId>ch.qos.cal10n</groupId>
+        <artifactId>cal10n-api</artifactId>
+        <version>${version.ch.qos.cal10n}</version>
+      </dependency>
+      <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-core</artifactId>
         <version>${version.ch.qos.logback}</version>
@@ -1455,6 +1460,7 @@
         <version>${version.org.eclipse.jgit}</version>
       </dependency>
 
+
       <dependency>
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
@@ -1724,6 +1730,16 @@
         <groupId>org.jboss.ironjacamar</groupId>
         <artifactId>ironjacamar-jdbc</artifactId>
         <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.osgi.metadata</groupId>
+        <artifactId>jbosgi-metadata</artifactId>
+        <version>${version.org.jboss.osgi.metadata}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.osgi.vfs</groupId>
+        <artifactId>jbosgi-vfs30</artifactId>
+        <version>${version.org.jboss.osgi.vfs}</version>
       </dependency>
 
       <dependency>
@@ -2022,6 +2038,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jboss.remoting3</groupId>
+        <artifactId>jboss-remoting</artifactId>
+        <version>${version.org.jboss.remoting3}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.jboss.forge.roaster</groupId>
         <artifactId>roaster-api</artifactId>
         <version>${version.org.jboss.forge.roaster}</version>
@@ -2104,9 +2126,14 @@
         <version>${version.org.jboss.spec.javax.el.jboss-el-api_2.2_spec}</version>
       </dependency>
       <dependency>
+        <groupId>org.jboss.spec.javax.interceptor</groupId>
+        <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.interceptor}</version>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.spec.javax.jms</groupId>
         <artifactId>jboss-jms-api_1.1_spec</artifactId>
-        <version>${version.org.jboss.spec.javax.jms.jboss-jms-api_1.1_spec}</version>
+        <version>${version.org.jboss.spec.javax.jms}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.resource</groupId>
@@ -2178,6 +2205,11 @@
         <groupId>org.jboss.weld</groupId>
         <artifactId>weld-spi</artifactId>
         <version>${version.org.jboss.weld.weld-api}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.xnio</groupId>
+        <artifactId>xnio-api</artifactId>
+        <version>${version.org.jboss.xnio}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.xnio</groupId>
@@ -2299,6 +2331,12 @@
         <groupId>org.quartz-scheduler</groupId>
         <artifactId>quartz</artifactId>
         <version>${version.org.quartz-scheduler}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.objenesis</groupId>
+        <artifactId>objenesis</artifactId>
+        <version>${version.org.objenesis}</version>
       </dependency>
 
       <dependency>
