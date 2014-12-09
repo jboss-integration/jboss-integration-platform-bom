@@ -35,6 +35,12 @@
 
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
+        <artifactId>hapi-base</artifactId>
+        <version>${version.ca.uhn.hapi}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-osgi-base</artifactId>
         <version>${version.ca.uhn.hapi}</version>
       </dependency>
@@ -246,9 +252,23 @@
       </dependency>
 
       <dependency>
+        <groupId>com.yammer.metrics</groupId>
+        <artifactId>metrics-core</artifactId>
+        <version>${version.com.yammer.metrics}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
         <groupId>javax.jcr</groupId>
         <artifactId>jcr</artifactId>
         <version>${version.javax.jcr}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>jline</groupId>
+        <artifactId>jline</artifactId>
+        <version>1.0</version>
+        <scope>test</scope>
       </dependency>
 
       <dependency>
@@ -318,6 +338,12 @@
         <groupId>ognl</groupId>
         <artifactId>ognl</artifactId>
         <version>${version.ognl}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
@@ -1064,6 +1090,13 @@
       </dependency>
 
       <dependency>
+        <groupId>org.apache.zookeeper</groupId>
+        <artifactId>zookeeper</artifactId>
+        <version>${version.org.apache.zookeeper}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
         <groupId>org.beanshell</groupId>
         <artifactId>bsh</artifactId>
         <version>${version.org.beanshell}</version>
@@ -1112,6 +1145,11 @@
 
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-classworlds</artifactId>
+        <version>${version.org.codehaus.plexus}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-component-annotations</artifactId>
         <version>${version.org.codehaus.plexus.eap.integration}</version>
       </dependency>
@@ -1154,6 +1192,30 @@
         <version>${version.org.eclipse.emf.ecore.xmi}</version>
       </dependency>
       <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-continuation</artifactId>
+        <version>${version.org.eclipse.jetty}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-http</artifactId>
+        <version>${version.org.eclipse.jetty}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-security</artifactId>
+        <version>${version.org.eclipse.jetty}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>${version.org.eclipse.jetty}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
         <groupId>org.eclipse.jgit</groupId>
         <artifactId>org.eclipse.jgit</artifactId>
         <version>${version.org.eclipse.jgit}</version>
@@ -1163,6 +1225,19 @@
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
         <version>${version.org.freemarker}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.fusesource.hawtbuf</groupId>
+        <artifactId>hawtbuf</artifactId>
+        <version>${version.org.fusesource.hawtbuf}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource.mqtt-client</groupId>
+        <artifactId>mqtt-client</artifactId>
+        <version>${version.org.fusesource.mqtt-client}</version>
+        <scope>test</scope>
       </dependency>
 
       <dependency>
@@ -1279,6 +1354,12 @@
         <groupId>org.jboss.ironjacamar</groupId>
         <artifactId>ironjacamar-common-impl-papaki</artifactId>
         <version>${version.org.jboss.ironjacamar}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
@@ -1439,15 +1520,24 @@
       </dependency>
 
       <dependency>
+        <groupId>org.jvnet.staxex</groupId>
+        <artifactId>stax-ex</artifactId>
+        <version>${version.org.jvnet.staxex}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
         <groupId>org.mongodb</groupId>
         <artifactId>mongo-java-driver</artifactId>
         <version>${version.org.mongodb.mongo-java-driver}</version>
+        <scope>test</scope>
       </dependency>
 
       <dependency>
         <groupId>xmlpull</groupId>
         <artifactId>xmlpull</artifactId>
         <version>${version.xmlpull}</version>
+        <scope>test</scope>
       </dependency>
 
       <dependency>
@@ -1465,6 +1555,12 @@
         <groupId>org.milyn</groupId>
         <artifactId>milyn-smooks-javabean</artifactId>
         <version>${version.org.milyn}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
@@ -1586,6 +1682,14 @@
         <version>${version.org.sonatype.maven}</version>
       </dependency>
 
+      <!-- org.sonatype.sisu:sisu-guice:3.1.0 -->
+      <dependency>
+        <groupId>org.sonatype.sisu</groupId>
+        <artifactId>sisu-guice</artifactId>
+        <version>${version.org.sonatype.sisu.guice}</version>
+        <classifier>no_aop</classifier>
+        <scope>test</scope>
+      </dependency>
       <dependency>
         <groupId>org.sonatype.sisu</groupId>
         <artifactId>sisu-inject-bean</artifactId>

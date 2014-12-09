@@ -12,9 +12,10 @@
   <artifactId>jboss-integration-platform-bom-test</artifactId>
   <packaging>pom</packaging>
 
-  <name>JBoss Integration Platform BOM</name>
+  <name>JBoss Integration Platform BOM Test</name>
   <description>
-    Bill Of Materials for SwitchYard, Drools, OptaPlanner, jBPM, Overlord, ...
+    Test the validity of the Bill Of Materials for SwitchYard, Drools, 
+    OptaPlanner, jBPM, Overlord, ...
   </description>
 
   <dependencyManagement>
