@@ -1347,6 +1347,13 @@
       </dependency>
 
       <dependency>
+        <!-- to guard the ironjacamar override we also need to sync
+             with an EAP artifact -->
+        <groupId>org.jboss.ironjacamar</groupId>
+        <artifactId>ironjacamar-common-api</artifactId>
+        <version>${version.org.jboss.ironjacamar}</version>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.ironjacamar</groupId>
         <artifactId>ironjacamar-embedded</artifactId>
         <version>${version.org.jboss.ironjacamar}</version>
@@ -1371,7 +1378,14 @@
       <dependency>
         <groupId>org.jboss.jbossts.jta</groupId>
         <artifactId>narayana-jta</artifactId>
-        <version>${version.org.jboss.jbossts.jta}</version>
+        <version>${version.org.jboss.jbossts}</version>
+      </dependency>
+      <!-- to guard syncing the above version we need to also sync
+           with an actual EAP artifact -->
+      <dependency>
+        <groupId>org.jboss.jbossts.xts</groupId>
+        <artifactId>jbossxts</artifactId>
+        <version>${version.org.jboss.jbossts}</version>
       </dependency>
 
       <dependency>
