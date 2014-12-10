@@ -1246,6 +1246,12 @@
         <version>${version.org.glassfish}</version>
       </dependency>
 
+      <!-- Pending resolution of https://bugzilla.redhat.com/show_bug.cgi?id=1172361, overrule infinispan-core itself -->
+      <dependency>
+        <groupId>org.infinispan</groupId>
+        <artifactId>infinispan-core</artifactId>
+        <version>${version.org.infinispan}</version>
+      </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
         <artifactId>infinispan-core</artifactId>
