@@ -448,4 +448,47 @@
 
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <!--
+           The only purpose for this profile is adding the jboss-product repository to counter a NPE in versions:compare-dependencies 
+           Now it is possible to do:
+           $ mvn -Pjboss-product versions:compare-dependencies -DremotePom=org.jboss.as:jboss-as-parent:7.4.2.Final-redhat-2
+        -->
+      <id>jboss-product</id>
+      <repositories>
+        <repository>
+          <id>jboss-product-repository</id>
+          <name>JBoss Internal Product Repository</name>
+          <url>http://download.lab.bos.redhat.com/brewroot/repos/jb-eap-6.4-rhel-6-build/latest/maven/</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>jboss-product-repository</id>
+          <name>JBoss Internal Product Repository</name>
+          <url>http://download.lab.bos.redhat.com/brewroot/repos/jb-eap-6.4-rhel-6-build/latest/maven/</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
 </project>
