@@ -298,7 +298,7 @@
     <version.org.littleshoot.littleproxy>0.5.3</version.org.littleshoot.littleproxy>
     <version.log4j>1.2.17</version.log4j>
     <version.ognl>3.0.6</version.ognl>
-    <version.org.milyn>1.5.1</version.org.milyn>
+    <version.org.milyn>1.5.2</version.org.milyn>
     <version.org.mockito>1.9.5</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
     <version.org.mvel>2.2.2.Final</version.org.mvel>
