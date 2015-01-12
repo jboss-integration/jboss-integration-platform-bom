@@ -315,7 +315,7 @@
     <version.org.sonatype.aether>1.13.1</version.org.sonatype.aether>
     <version.org.sonatype.maven>1.2.1</version.org.sonatype.maven>
     <version.org.sonatype.sisu>2.2.3</version.org.sonatype.sisu>
-    <version.org.springframework>3.2.11.RELEASE</version.org.springframework>
+    <version.org.springframework>3.2.12.RELEASE</version.org.springframework>
     <version.org.springframework.osgi>1.2.1</version.org.springframework.osgi>
     <version.org.subethamail>1.2</version.org.subethamail>
     <version.org.subethamail.subethasmtp>3.1.6</version.org.subethamail.subethasmtp>
