@@ -259,7 +259,7 @@
     <version.org.jboss.osgi.vfs>1.2.1.Final</version.org.jboss.osgi.vfs>
     <!--EAP 6.3 use resteasy 2.3.8.Final-redhat-3, however no equiverlant in community release, so  the closest version wins-->
     <version.org.jboss.resteasy>2.3.7.Final</version.org.jboss.resteasy>
-    <version.org.jboss.forge.roaster>2.7.1.Final</version.org.jboss.forge.roaster>
+    <version.org.jboss.forge.roaster>2.11.1.Final</version.org.jboss.forge.roaster>
     <version.org.jboss.remote-naming>1.0.8.Final</version.org.jboss.remote-naming>
     <version.org.jboss.remoting3>3.2.8.GA</version.org.jboss.remoting3>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
