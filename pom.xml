@@ -301,7 +301,7 @@
     <version.org.milyn>1.5.2</version.org.milyn>
     <version.org.mockito>1.9.5</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
-    <version.org.mvel>2.2.2.Final</version.org.mvel>
+    <version.org.mvel>2.2.4.Final</version.org.mvel>
     <version.org.objenesis>2.1</version.org.objenesis>
     <version.org.ocpsoft.prettytime>3.0.2.Final</version.org.ocpsoft.prettytime>
     <version.org.osgi>4.3.1</version.org.osgi>
