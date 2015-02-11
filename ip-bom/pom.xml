@@ -1712,36 +1712,6 @@
       </dependency>
 
       <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-core-api</artifactId>
-        <version>${version.org.jboss.ironjacamar}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-embedded</artifactId>
-        <version>${version.org.jboss.ironjacamar}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-deployers-fungal</artifactId>
-        <version>${version.org.jboss.ironjacamar}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-deployers-common</artifactId>
-        <version>${version.org.jboss.ironjacamar}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-common-impl-papaki</artifactId>
-        <version>${version.org.jboss.ironjacamar}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.ironjacamar</groupId>
-        <artifactId>ironjacamar-jdbc</artifactId>
-        <version>${version.org.jboss.ironjacamar}</version>
-      </dependency>
-      <dependency>
         <groupId>org.jboss.osgi.metadata</groupId>
         <artifactId>jbosgi-metadata</artifactId>
         <version>${version.org.jboss.osgi.metadata}</version>
