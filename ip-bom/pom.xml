@@ -1912,6 +1912,11 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.as</groupId>
+        <artifactId>jboss-as-security</artifactId>
+        <version>${version.org.jboss.as}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.as</groupId>
         <artifactId>jboss-as-weld</artifactId>
         <version>${version.org.jboss.as}</version>
       </dependency>
@@ -2515,6 +2520,17 @@
         <groupId>org.mvel</groupId>
         <artifactId>mvel2</artifactId>
         <version>${version.org.mvel}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.picketbox</groupId>
+        <artifactId>picketbox</artifactId>
+        <version>${version.org.picketbox}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.picketbox</groupId>
+        <artifactId>picketbox-bare</artifactId>
+        <version>${version.org.picketbox}</version>
       </dependency>
 
       <dependency>
