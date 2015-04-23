@@ -233,6 +233,9 @@
     <version.org.hibernate.validator>4.3.2.Final</version.org.hibernate.validator>
     <version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api>1.0.1.Final</version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api>
     <version.org.hibernate.commons.annotations>4.0.2.Final</version.org.hibernate.commons.annotations>
+    <!-- version.org.hibernate.jpamodelgen should be removed and version.org.hibernate used instead 
+         once we move to hibernaate 4.3+ -->
+    <version.org.hibernate.jpamodelgen>1.3.0.Final</version.org.hibernate.jpamodelgen>
     <version.org.hornetq>2.3.25.Final</version.org.hornetq>
     <version.org.infinispan>5.2.11.Final</version.org.infinispan>
     <!--This needs to be in sync with JUnit-->

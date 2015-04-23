@@ -1810,6 +1810,11 @@
         <artifactId>hibernate-jpa-2.0-api</artifactId>
         <version>${version.org.hibernate.javax.persistence.hibernate-jpa-2.0-api}</version>
       </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-jpamodelgen</artifactId>
+        <version>${version.org.hibernate.jpamodelgen}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.hsqldb</groupId>
