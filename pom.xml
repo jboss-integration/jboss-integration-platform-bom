@@ -119,7 +119,7 @@
     <version.commons-pool>1.6</version.commons-pool>
     <version.commons-io>2.1</version.commons-io>
     <version.commons-vfs>1.0</version.commons-vfs>
-    <version.com.allen-sauer.gwt.dnd>3.1.2</version.com.allen-sauer.gwt.dnd>
+    <version.com.allen-sauer.gwt.dnd>3.3.3</version.com.allen-sauer.gwt.dnd>
     <version.com.beust.jcommander>1.5</version.com.beust.jcommander>
     <version.com.datastax.cassandra.cassandra-driver-core>1.0.0</version.com.datastax.cassandra.cassandra-driver-core>
     <version.com.drewnoakes.metadata-extractor>2.6.2</version.com.drewnoakes.metadata-extractor>
