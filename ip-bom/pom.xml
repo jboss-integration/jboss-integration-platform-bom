@@ -1294,6 +1294,16 @@
 
       <dependency>
         <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-analyzers-common</artifactId>
+        <version>${version.org.apache.lucene}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-codecs</artifactId>
+        <version>${version.org.apache.lucene}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
         <artifactId>lucene-core</artifactId>
         <version>${version.org.apache.lucene}</version>
       </dependency>
@@ -1304,9 +1314,20 @@
       </dependency>
       <dependency>
         <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-queries</artifactId>
+        <version>${version.org.apache.lucene}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
         <artifactId>lucene-regex</artifactId>
         <version>${version.org.apache.lucene.regex}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-sandbox</artifactId>
+        <version>${version.org.apache.lucene}</version>
+      </dependency>
+
 
       <dependency>
         <groupId>org.apache.maven</groupId>
