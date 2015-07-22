@@ -1751,6 +1751,46 @@
         <version>${version.org.eclipse.jgit}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-api</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-spi</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-util</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-impl</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-transport-file</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-transport-http</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-transport-wagon</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.aether</groupId>
+        <artifactId>aether-connector-basic</artifactId>
+        <version>${version.org.eclipse.aether}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.freemarker</groupId>
