@@ -2764,6 +2764,26 @@
         <artifactId>pax-exam-junit4</artifactId>
         <version>${version.org.ops4j.pax.exam}</version>
       </dependency>
+      <dependency>
+        <groupId>org.ops4j.pax.exam</groupId>
+        <artifactId>pax-exam-extender-service</artifactId>
+        <version>${version.org.ops4j.pax.exam}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ops4j.pax.exam</groupId>
+        <artifactId>pax-exam-spi</artifactId>
+        <version>${version.org.ops4j.pax.exam}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ops4j.pax.exam</groupId>
+        <artifactId>pax-exam-inject</artifactId>
+        <version>${version.org.ops4j.pax.exam}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ops4j.pax.exam</groupId>
+        <artifactId>pax-exam-invoker-junit</artifactId>
+        <version>${version.org.ops4j.pax.exam}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.osgi</groupId>
