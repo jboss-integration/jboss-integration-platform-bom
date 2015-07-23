@@ -2792,6 +2792,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.reflections</groupId>
+        <artifactId>reflections</artifactId>
+        <version>${version.org.reflections}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.rhq</groupId>
         <artifactId>rhq-enterprise-comm</artifactId>
         <version>${version.org.rhq}</version>
@@ -2823,6 +2829,7 @@
       </dependency>
 
       <dependency>
+        <!-- Avoid using scannotation in favor of its successor org.reflections -->
         <groupId>org.scannotation</groupId>
         <artifactId>scannotation</artifactId>
         <version>${version.org.scannotation}</version>
