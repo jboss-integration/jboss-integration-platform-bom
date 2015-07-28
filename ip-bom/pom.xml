@@ -310,6 +310,12 @@
       </dependency>
 
       <dependency>
+        <groupId>com.sun.codemodel</groupId>
+        <artifactId>codemodel</artifactId>
+        <version>${version.com.sun.codemodel}</version>
+      </dependency>
+
+      <dependency>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-core</artifactId>
         <version>${version.com.sun.xml.bind}</version>
