@@ -250,7 +250,7 @@
     <version.org.jboss.arquillian.container.glassfish>1.0.0.CR3</version.org.jboss.arquillian.container.glassfish>
     <version.org.jboss.arquillian.container.weld>1.0.0.CR5</version.org.jboss.arquillian.container.weld>
     <version.org.jboss.as.arquillian>7.2.0.Final</version.org.jboss.as.arquillian>
-    <version.org.jboss.as>7.5.0.Final-redhat-15</version.org.jboss.as>
+    <version.org.jboss.as>7.5.2.Final-redhat-2</version.org.jboss.as>
     <version.org.jboss.jboss-common-core>2.2.17.GA</version.org.jboss.jboss-common-core>
     <version.org.jboss.jbossts.jta>4.17.29.Final</version.org.jboss.jbossts.jta>
     <version.org.jboss.jbossts.xts>4.17.29.Final</version.org.jboss.jbossts.xts>
