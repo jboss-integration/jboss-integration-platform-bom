@@ -142,6 +142,7 @@
     <version.com.miglayout>3.7.4</version.com.miglayout>
     <version.com.oracle.ojdbc14>10.2.0.4.0</version.com.oracle.ojdbc14>
     <version.com.smartgwt.smartgwt-skins>2.4</version.com.smartgwt.smartgwt-skins>
+    <version.com.sun.codemodel>2.6</version.com.sun.codemodel>
     <version.com.sun.xml.bind>2.2.11</version.com.sun.xml.bind>
     <version.com.thoughtworks.xstream>1.4.7</version.com.thoughtworks.xstream>
     <version.dom4j>1.6.1</version.dom4j>
