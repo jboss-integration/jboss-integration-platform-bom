@@ -2423,6 +2423,11 @@
         <artifactId>resteasy-test-tjws</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-client</artifactId>
+        <version>${version.org.jboss.resteasy}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.jboss.remoting3</groupId>
