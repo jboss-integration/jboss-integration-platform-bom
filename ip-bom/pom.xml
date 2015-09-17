@@ -501,6 +501,12 @@
       </dependency>
 
       <dependency>
+        <groupId>net.jcip</groupId>
+        <artifactId>jcip-annotations</artifactId>
+        <version>${version.net.jcip}</version>
+      </dependency>
+
+      <dependency>
         <groupId>net.sf.dozer</groupId>
         <artifactId>dozer</artifactId>
         <version>${version.net.sf.dozer}</version>
