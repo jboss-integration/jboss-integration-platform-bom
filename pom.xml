@@ -192,10 +192,10 @@
     <version.org.apache.karaf>2.4.0</version.org.apache.karaf>
     <version.org.apache.lucene>3.6.2</version.org.apache.lucene>
     <version.org.apache.lucene.regex>3.0.3</version.org.apache.lucene.regex>
-    <version.org.apache.maven>3.2.2</version.org.apache.maven>
+    <version.org.apache.maven>3.2.5</version.org.apache.maven>
     <version.org.apache.maven.plugin-testing>2.1</version.org.apache.maven.plugin-testing>
-    <version.org.apache.maven.wagon>1.0</version.org.apache.maven.wagon>
-    <version.org.apache.maven.wagon.http>2.0</version.org.apache.maven.wagon.http>
+    <version.org.apache.maven.wagon>2.6</version.org.apache.maven.wagon>
+    <version.org.apache.maven.wagon.http>2.6</version.org.apache.maven.wagon.http>
     <version.org.apache.mina>2.0.7</version.org.apache.mina>
     <version.org.apache.neethi>3.0.2</version.org.apache.neethi>
     <version.org.apache.poi>3.10.1</version.org.apache.poi>
@@ -217,7 +217,7 @@
     <version.org.codehaus.jackson>1.9.9</version.org.codehaus.jackson>
     <version.org.codehaus.janino>2.5.16</version.org.codehaus.janino>
     <version.org.codehaus.jettison>1.3.1</version.org.codehaus.jettison>
-    <version.org.codehaus.plexus>3.0.18</version.org.codehaus.plexus>
+    <version.org.codehaus.plexus>3.0.20</version.org.codehaus.plexus>
     <version.org.codehaus.plexus.eap.integration>1.5.5</version.org.codehaus.plexus.eap.integration>
     <version.org.codehaus.woodstox>4.2.0</version.org.codehaus.woodstox>
     <version.org.easytesting.fest>2.0M6</version.org.easytesting.fest>
@@ -247,7 +247,7 @@
     <version.org.jasypt.jasypt>1.9.0</version.org.jasypt.jasypt>
     <version.org.javassist>3.18.1-GA</version.org.javassist>
     <version.org.jaudiotagger>2.0.3</version.org.jaudiotagger>
-    <version.org.jboss.arquillian>1.0.3.Final</version.org.jboss.arquillian>
+    <version.org.jboss.arquillian>1.1.9.Final</version.org.jboss.arquillian>
     <version.org.jboss.arquillian.container.glassfish>1.0.0.CR3</version.org.jboss.arquillian.container.glassfish>
     <version.org.jboss.arquillian.container.weld>1.0.0.CR5</version.org.jboss.arquillian.container.weld>
     <version.org.jboss.as.arquillian>7.2.0.Final</version.org.jboss.as.arquillian>
@@ -255,6 +255,7 @@
     <version.org.jboss.jboss-common-core>2.2.17.GA</version.org.jboss.jboss-common-core>
     <version.org.jboss.jbossts.jta>4.17.29.Final</version.org.jboss.jbossts.jta>
     <version.org.jboss.jbossts.xts>4.17.29.Final</version.org.jboss.jbossts.xts>
+    <!-- jboss-logging 3.1.4.GA breaks Arquillian when deploying to WildFly, overwrite it locally to 3.2.1.Final -->
     <version.org.jboss.logging.jboss-logging>3.1.4.GA</version.org.jboss.logging.jboss-logging>
     <version.org.jboss.logging.jboss-logging-processor>1.1.0.Final</version.org.jboss.logging.jboss-logging-processor>
     <version.org.jboss.marshalling>1.4.10.Final</version.org.jboss.marshalling>
@@ -266,8 +267,8 @@
     <version.org.jboss.remoting3>3.3.5.Final</version.org.jboss.remoting3>
     <version.org.jboss.seam.security>3.2.0.Final</version.org.jboss.seam.security>
     <version.org.jboss.seam>3.1.0.Final</version.org.jboss.seam>
-    <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-3</version.org.jboss.shrinkwrap.descriptors>
-    <version.org.jboss.shrinkwrap.resolver>2.0.0</version.org.jboss.shrinkwrap.resolver>
+    <version.org.jboss.shrinkwrap.descriptors>2.0.0-alpha-7</version.org.jboss.shrinkwrap.descriptors>
+    <version.org.jboss.shrinkwrap.resolver>2.2.0</version.org.jboss.shrinkwrap.resolver>
     <version.org.jboss.spec.javax.annotation.jboss-annotations-api_1.1_spec>1.0.1.Final</version.org.jboss.spec.javax.annotation.jboss-annotations-api_1.1_spec>
     <version.org.jboss.spec.javax.ejb.jboss-ejb-api_3.1_spec>1.0.2.Final</version.org.jboss.spec.javax.ejb.jboss-ejb-api_3.1_spec>
     <version.org.jboss.spec.javax.el.jboss-el-api_2.2_spec>1.0.4.Final</version.org.jboss.spec.javax.el.jboss-el-api_2.2_spec>
