@@ -47,7 +47,7 @@ By inheriting the jboss-integration-platform-parent:
 
 * The properties used by the BOM are visible to the project.
 
-* It inherits from org.jboss:jboss-parent:10.
+* It inherits from org.jboss:jboss-parent:16.
 
 * Any further plugin alignments (e.g. GWT) may be done here.
 
@@ -168,3 +168,10 @@ This section records which project/product versions use which bom version.
 ** Products
 
 *** BRMS 6.0
+
+=== Testing
+Directory `ip-bom-deps-available-test` contains simple Bash script that can be used to verify that all the dependencies
+declared in `<dependencyManagement` are actually available (downloadable). The script copies the ip-bom, removes the
+`<dependencyManagement>` XML elements and runs Maven build to see if all the dependencies can be resolved. If there
+are dependencies not available in any of the following repositories the build will fail. Those repositories are
+Maven Central, JBoss.org Nexus or Red Hat Public Product Repo.
