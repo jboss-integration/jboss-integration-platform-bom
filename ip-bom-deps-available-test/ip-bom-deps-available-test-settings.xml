@@ -1,0 +1,43 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository/>
+  <interactiveMode/>
+  <usePluginRegistry/>
+  <offline/>
+  <pluginGroups/>
+  <servers/>
+  <mirrors/>
+  <proxies/>
+  <profiles>
+    <profile>
+      <id>jboss-repos</id>
+      <repositories>
+        <repository>
+          <id>jboss-public-repo</id>
+          <url>https://repository.jboss.org/nexus/content/groups/public</url>
+        </repository>
+        <repository>
+          <id>jboss-product-repo</id>
+          <url>https://maven.repository.redhat.com/ga</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>jboss-public-repo</id>
+          <url>https://repository.jboss.org/nexus/content/groups/public</url>
+        </pluginRepository>
+        <pluginRepository>
+          <id>jboss-product-repo</id>
+          <url>https://maven.repository.redhat.com/ga</url>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>jboss-repos</activeProfile>
+  </activeProfiles>
+
+</settings>
