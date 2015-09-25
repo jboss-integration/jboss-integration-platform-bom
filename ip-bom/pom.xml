@@ -298,12 +298,6 @@
       </dependency>
 
       <dependency>
-        <groupId>com.oracle</groupId>
-        <artifactId>ojdbc14</artifactId>
-        <version>${version.com.oracle.ojdbc14}</version>
-      </dependency>
-
-      <dependency>
         <groupId>com.smartgwt</groupId>
         <artifactId>smartgwt-skins</artifactId>
         <version>${version.com.smartgwt.smartgwt-skins}</version>
@@ -1111,42 +1105,6 @@
       </dependency>
       <dependency>
         <groupId>org.apache.cxf</groupId>
-        <!-- TODO JBRULES-3026 use cxf-rt-frontend-jaxrs and cxf-rt-transports-http-jetty instead -->
-        <artifactId>cxf-bundle-jaxrs</artifactId>
-        <version>${version.org.apache.cxf}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>xerces</groupId>
-            <artifactId>xercesImpl</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>xerces</groupId>
-            <artifactId>xmlParserAPIs</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>xml-apis</groupId>
-            <artifactId>xml-apis</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-servlet_2.5_spec</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>jaxen</groupId>
-            <artifactId>jaxen</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.xmlbeans</groupId>
-            <artifactId>xmlbeans</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-ws-policy</artifactId>
         <version>${version.org.apache.cxf}</version>
         <exclusions>
@@ -1265,13 +1223,6 @@
       <dependency>
         <groupId>org.apache.karaf</groupId>
         <artifactId>apache-karaf</artifactId>
-        <type>xml</type>
-        <classifier>features</classifier>
-        <version>${version.org.apache.karaf}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.karaf</groupId>
-        <artifactId>apache-karaf</artifactId>
         <type>tar.gz</type>
         <version>${version.org.apache.karaf}</version>
       </dependency>
@@ -1305,11 +1256,6 @@
       <dependency>
         <groupId>org.apache.karaf.shell</groupId>
         <artifactId>org.apache.karaf.shell.console</artifactId>
-        <version>${version.org.apache.karaf}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.karaf.tooling.exam</groupId>
-        <artifactId>org.apache.karaf.tooling.exam.container</artifactId>
         <version>${version.org.apache.karaf}</version>
       </dependency>
 
@@ -1939,7 +1885,7 @@
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-search-modules</artifactId>
         <version>${version.org.hibernate.search}</version>
-        <classifier>jbossas-72-dist</classifier>
+        <classifier>jbossas-74-dist</classifier>
         <type>zip</type>
       </dependency>
       <dependency><!-- JPA 2 implementation agnostic jar -->
@@ -2375,22 +2321,7 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
-        <artifactId>async-http-jbossweb</artifactId>
-        <version>${version.org.jboss.resteasy}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.resteasy</groupId>
         <artifactId>async-http-servlet-3.0</artifactId>
-        <version>${version.org.jboss.resteasy}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.resteasy</groupId>
-        <artifactId>async-http-tomcat6</artifactId>
-        <version>${version.org.jboss.resteasy}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.resteasy</groupId>
-        <artifactId>resteasy-cache-core</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
       <dependency>
@@ -2576,11 +2507,6 @@
       <dependency>
         <groupId>org.jboss.weld.se</groupId>
         <artifactId>weld-se-core</artifactId>
-        <version>${version.org.jboss.weld.weld}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.weld.servlet</groupId>
-        <artifactId>weld-servlet</artifactId>
         <version>${version.org.jboss.weld.weld}</version>
       </dependency>
       <dependency>
@@ -2972,18 +2898,6 @@
       </dependency>
 
       <dependency>
-        <groupId>org.xmappr</groupId>
-        <artifactId>xmappr</artifactId>
-        <version>${version.org.xmappr}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.codehaus.woodstox</groupId>
-            <artifactId>woodstox-core-asl</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-
-      <dependency>
         <groupId>org.yaml</groupId>
         <artifactId>snakeyaml</artifactId>
         <version>${version.org.yaml.snakeyaml}</version>
@@ -3011,11 +2925,6 @@
         <groupId>tranql</groupId>
         <artifactId>tranql-connector</artifactId>
         <version>${version.tranql.connector}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.tranql</groupId>
-        <artifactId>tranql-connector-sqlserver2005</artifactId>
-        <version>${version.transql.connector-sqlserver2005}</version>
       </dependency>
 
       <dependency>
