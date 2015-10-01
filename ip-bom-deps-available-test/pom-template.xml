@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <!-- Don't use jboss-integration-platform-parent as parent to make sure this POM is as isolated as possible -->
+  <groupId>org.jboss.integration-platform</groupId>
+  <artifactId>jboss-integration-platform-bom-deps-available-test</artifactId>
+  <version>6.0.0-SNAPSHOT</version>
+
+  <name>JBoss Integration Platform BOM - Dependencies Available Test</name>
+  <description>POM used to test that all the dependencies provided by IP BOM are actually available (downloadable)</description>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.jboss.integration-platform</groupId>
+        <artifactId>jboss-integration-platform-bom</artifactId>
+        <version>6.0.0-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <!-- Following marker string (together with the comment chars) will be replaced by the actual list of dependencies taken
+       directly from the current ip-bom. The marker is in comments by default to make sure the pom is valid, even
+       without the replacement. -->
+
+  <!--@DEPS@-->
+
+</project>

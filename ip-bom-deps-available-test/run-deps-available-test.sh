@@ -10,16 +10,14 @@
 SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 rm -f ${SCRIPT_DIR}/pom.xml
-cp  ${SCRIPT_DIR}/../ip-bom/pom.xml ${SCRIPT_DIR}/pom.xml
+cp ${SCRIPT_DIR}/pom-template.xml ${SCRIPT_DIR}/pom.xml
 
-sed -i 's/jboss-integration-platform-bom/jboss-integration-platform-bom-deps-available-test/g' ${SCRIPT_DIR}/pom.xml
-sed -i 's/Platform BOM/Platform BOM - Dependencies Available Test/g' ${SCRIPT_DIR}/pom.xml
-# Remove  dependencyManagement XML elements
-sed -i 's/<dependencyManagement>//g' ${SCRIPT_DIR}/pom.xml
-sed -i 's/<\/dependencyManagement>//g' ${SCRIPT_DIR}/pom.xml
-# Remove 'import' scope from the imported BOMs to avoid Maven warnings ('import' scope is only valid inside depMgmt section)
-sed -i 's/<scope>import<\/scope>//g' ${SCRIPT_DIR}/pom.xml
-
-# Run the build with disabled enforcer to avoid failures for 'no-managed-deps' rule (versions of dependencies in this test POM
-# are not managed)
-mvn -f ${SCRIPT_DIR}/pom.xml -B -e clean dependency:tree -Denforcer.skip=true -s ${SCRIPT_DIR}/ip-bom-deps-available-test-settings.xml $@
+# Extract dependencies from the ip-bom, remove <version> tags and <import> scope tags
+TMP_DEPS_FILE=${SCRIPT_DIR}/target/tmp-ip-bom-deps.txt
+mkdir -p ${SCRIPT_DIR}/target
+# Effective pom needs to be created to make sure all the dependencies from imported BOMs are properly extracted
+mvn help:effective-pom -f ${SCRIPT_DIR}/../ip-bom/pom.xml | sed -n '/<dependencyManagement>/,/<\/dependencyManagement>/p' | sed -n '/<dependencies>/,/<\/dependencies>/p' | grep -v "<version>" > ${TMP_DEPS_FILE}
+# Replace marker with the actual dependencies
+sed -i -e "/<!--@DEPS@-->/{r ${TMP_DEPS_FILE}" -e 'd}' ${SCRIPT_DIR}/pom.xml
+# Dependency:resolve will resolve and download all direct dependencies (and their transitive dependencies as well)
+mvn -U -f ${SCRIPT_DIR}/pom.xml -B -e clean dependency:resolve -s ${SCRIPT_DIR}/ip-bom-deps-available-test-settings.xml $@
