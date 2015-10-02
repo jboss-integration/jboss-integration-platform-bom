@@ -1572,6 +1572,12 @@
         <groupId>org.codehaus.btm</groupId>
         <artifactId>btm</artifactId>
         <version>${version.org.codehaus.btm}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.codehaus.btm</groupId>
