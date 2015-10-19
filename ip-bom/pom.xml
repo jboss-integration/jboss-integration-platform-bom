@@ -1952,6 +1952,15 @@
         <artifactId>arquillian-glassfish-managed-3.1</artifactId>
         <version>${version.org.jboss.arquillian.container.glassfish}</version>
       </dependency>
+      <!-- There is no official Selenium BOM, so we are using one maintained by Arquillian.
+           (contains only pure Selenium deps, no ARQ deps are leaking from this BOM) -->
+      <dependency>
+        <groupId>org.jboss.arquillian.selenium</groupId>
+        <artifactId>selenium-bom</artifactId>
+        <version>${version.org.jboss.arquillian.selenium}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <dependency>
         <!-- WARNING: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom must be defined BEFORE org.jboss.arquillian:arquillian-bom -->
         <groupId>org.jboss.shrinkwrap.resolver</groupId>
