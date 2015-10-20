@@ -308,7 +308,7 @@
     <version.org.milyn>1.5.2</version.org.milyn>
     <version.org.mockito>1.9.5</version.org.mockito>
     <version.org.mongodb.mongo-java-driver>2.7.3</version.org.mongodb.mongo-java-driver>
-    <version.org.mvel>2.2.6.Final</version.org.mvel>
+    <version.org.mvel>2.2.7.Final</version.org.mvel>
     <version.org.objenesis>2.1</version.org.objenesis>
     <version.org.ocpsoft.prettytime>3.0.2.Final</version.org.ocpsoft.prettytime>
     <!--EAP 6.4 use 4.2.0.redhat-8 which is not OSGi compatible, so stay on 4.3.1-->
