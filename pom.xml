@@ -300,7 +300,7 @@
     <version.org.jgroups>3.2.13.Final</version.org.jgroups>
     <version.org.jruby>1.7.2</version.org.jruby>
     <version.org.json>20090211</version.org.json>
-    <version.org.jsoup>1.7.1</version.org.jsoup>
+    <version.org.jsoup>1.8.3</version.org.jsoup>
     <version.org.jvnet.mock-javamail>1.9</version.org.jvnet.mock-javamail>
     <version.org.littleshoot.littleproxy>0.5.3</version.org.littleshoot.littleproxy>
     <version.log4j>1.2.17</version.log4j>
