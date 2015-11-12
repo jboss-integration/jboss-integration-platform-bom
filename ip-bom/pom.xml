@@ -344,6 +344,19 @@
       </dependency>
 
       <dependency>
+        <groupId>io.takari.maven.plugins</groupId>
+        <artifactId>takari-plugin-testing</artifactId>
+        <version>${version.io.takari.maven.plugins}</version>
+      </dependency>
+      <!-- This is a dep-chain with all deps needed for integration testing with Takari -->
+      <dependency>
+        <groupId>io.takari.maven.plugins</groupId>
+        <artifactId>takari-plugin-integration-testing</artifactId>
+        <version>${version.io.takari.maven.plugins}</version>
+        <type>pom</type>
+      </dependency>
+
+      <dependency>
         <groupId>javax.activation</groupId>
         <artifactId>activation</artifactId>
         <version>${version.javax.activation}</version>
@@ -1341,6 +1354,11 @@
         <artifactId>maven-plugin-testing-harness</artifactId>
         <version>${version.org.apache.maven.plugin-testing}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.maven.plugin-tools</groupId>
+        <artifactId>maven-plugin-annotations</artifactId>
+        <version>${version.org.apache.maven.plugin-tools}</version>
+      </dependency>
       <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version -->
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-provider-api</artifactId>
@@ -1629,6 +1647,12 @@
         <artifactId>plexus-component-annotations</artifactId>
         <version>${version.org.codehaus.plexus.eap.integration}</version>
       </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-container-default</artifactId>
+        <version>${version.org.codehaus.plexus.eap.integration}</version>
+      </dependency>
+
       <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version  -->
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
