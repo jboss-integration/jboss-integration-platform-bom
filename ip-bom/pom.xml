@@ -2655,11 +2655,7 @@
         <version>${version.org.milyn}</version>
       </dependency>
 
-      <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-all</artifactId>
-        <version>${version.org.mockito}</version>
-      </dependency>
+      <!-- Do not add mockito-all as it is uberjar! -->
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
