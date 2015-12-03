@@ -146,6 +146,7 @@
     <version.com.thoughtworks.xstream>1.4.7</version.com.thoughtworks.xstream>
     <version.dom4j>1.6.1</version.dom4j>
     <version.io.netty>3.6.10.Final</version.io.netty>
+    <version.io.takari.maven.plugins>2.8.0</version.io.takari.maven.plugins>
     <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.enterprise>1.0-SP4</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
@@ -194,6 +195,7 @@
     <version.org.apache.lucene.regex>3.0.3</version.org.apache.lucene.regex>
     <version.org.apache.maven>3.2.5</version.org.apache.maven>
     <version.org.apache.maven.plugin-testing>2.1</version.org.apache.maven.plugin-testing>
+    <version.org.apache.maven.plugin-tools>3.4</version.org.apache.maven.plugin-tools>
     <version.org.apache.maven.wagon>2.6</version.org.apache.maven.wagon>
     <version.org.apache.maven.wagon.http>2.6</version.org.apache.maven.wagon.http>
     <version.org.apache.mina>2.0.7</version.org.apache.mina>
