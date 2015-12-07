@@ -2816,6 +2816,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.owasp.encoder</groupId>
+        <artifactId>encoder</artifactId>
+        <version>${version.org.owasp.encoder}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.reflections</groupId>
         <artifactId>reflections</artifactId>
         <version>${version.org.reflections}</version>
