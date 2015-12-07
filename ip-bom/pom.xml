@@ -341,6 +341,12 @@
       </dependency>
 
       <dependency>
+        <groupId>de.benediktmeurer.gwt-slf4j</groupId>
+        <artifactId>gwt-slf4j</artifactId>
+        <version>${version.de.benediktmeurer.gwt-slf4j}</version>
+      </dependency>
+
+      <dependency>
         <groupId>dom4j</groupId>
         <artifactId>dom4j</artifactId>
         <version>${version.dom4j}</version>
