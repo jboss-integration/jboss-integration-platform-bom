@@ -1230,6 +1230,12 @@
         <groupId>org.apache.helix</groupId>
         <artifactId>helix-core</artifactId>
         <version>${version.org.apache.helix}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
