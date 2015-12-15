@@ -236,6 +236,7 @@
     <version.org.eclipse.jgit>3.7.1.201504261725-r</version.org.eclipse.jgit>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
+    <version.org.gwtbootstrap3>0.9.1</version.org.gwtbootstrap3>
     <version.org.hibernate>4.2.20.Final</version.org.hibernate>
     <version.org.hibernate.search>4.4.6.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>4.3.2.Final</version.org.hibernate.validator>

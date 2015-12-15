@@ -1828,6 +1828,18 @@
         <version>${version.org.glassfish}</version>
       </dependency>
 
+      <!-- NOTE: you can't use this and Bootstrap 2 at the same time! -->
+      <dependency>
+        <groupId>org.gwtbootstrap3</groupId>
+        <artifactId>gwtbootstrap3</artifactId>
+        <version>${version.org.gwtbootstrap3}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.gwtbootstrap3</groupId>
+        <artifactId>gwtbootstrap3-extras</artifactId>
+        <version>${version.org.gwtbootstrap3}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.hornetq</groupId>
         <artifactId>hornetq-server</artifactId>
