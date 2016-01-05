@@ -1671,19 +1671,28 @@
 
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-classworlds</artifactId>
+        <version>${version.org.codehaus.plexus.plexus-classworlds}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-component-annotations</artifactId>
-        <version>${version.org.codehaus.plexus.eap.integration}</version>
+        <version>${version.org.codehaus.plexus.plexus-containers}</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-container-default</artifactId>
-        <version>${version.org.codehaus.plexus.eap.integration}</version>
+        <version>${version.org.codehaus.plexus.plexus-containers}</version>
       </dependency>
-
-      <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version  -->
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-interpolation</artifactId>
+        <version>${version.org.codehaus.plexus.plexus-interpolation}</version>
+      </dependency>
+      <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>${version.org.codehaus.plexus}</version>
+        <version>${version.org.codehaus.plexus.plexus-utils}</version>
       </dependency>
 
       <dependency>
@@ -1820,6 +1829,18 @@
         <groupId>org.eclipse.aether</groupId>
         <artifactId>aether-connector-basic</artifactId>
         <version>${version.org.eclipse.aether}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.eclipse.sisu</groupId>
+        <artifactId>org.eclipse.sisu.plexus</artifactId>
+        <version>${version.org.eclipse.sisu}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.eclipse.sisu</groupId>
+        <artifactId>org.eclipse.sisu.inject</artifactId>
+        <version>${version.org.eclipse.sisu}</version>
       </dependency>
 
       <dependency>
@@ -2983,15 +3004,38 @@
       </dependency>
 
       <dependency>
+        <groupId>org.sonatype.plexus</groupId>
+        <artifactId>plexus-cipher</artifactId>
+        <version>${version.org.sonatype.plexus.plexus-cipher}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sonatype.plexus</groupId>
+        <artifactId>plexus-sec-dispatcher</artifactId>
+        <version>${version.org.sonatype.plexus.plexus-sec-dispatcher}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.sonatype.sisu</groupId>
+        <artifactId>sisu-guice</artifactId>
+        <version>${version.org.sonatype.sisu.sisu-guice}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sonatype.sisu</groupId>
+        <artifactId>sisu-guice</artifactId>
+        <version>${version.org.sonatype.sisu.sisu-guice}</version>
+        <classifier>no_aop</classifier>
+      </dependency>
+      <dependency>
         <groupId>org.sonatype.sisu</groupId>
         <artifactId>sisu-inject-bean</artifactId>
         <version>${version.org.sonatype.sisu}</version>
       </dependency>
-      <dependency><!-- Overwrites transitive dependencies of maven-plugin-api:3.0.3 with a lower version  -->
+      <dependency>
         <groupId>org.sonatype.sisu</groupId>
         <artifactId>sisu-inject-plexus</artifactId>
         <version>${version.org.sonatype.sisu}</version>
       </dependency>
+
       
 
       <dependency>
