@@ -5,7 +5,7 @@
   <!-- Don't use jboss-integration-platform-parent as parent to make sure this POM is as isolated as possible -->
   <groupId>org.jboss.integration-platform</groupId>
   <artifactId>jboss-integration-platform-bom-deps-available-test</artifactId>
-  <version>6.0.0-SNAPSHOT</version>
+  <version>@VERSION@</version>
 
   <name>JBoss Integration Platform BOM - Dependencies Available Test</name>
   <description>POM used to test that all the dependencies provided by IP BOM are actually available (downloadable)</description>
@@ -15,7 +15,7 @@
       <dependency>
         <groupId>org.jboss.integration-platform</groupId>
         <artifactId>jboss-integration-platform-bom</artifactId>
-        <version>6.0.0-SNAPSHOT</version>
+        <version>@VERSION@</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
