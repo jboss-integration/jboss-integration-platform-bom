@@ -748,12 +748,22 @@
       </dependency>
       <dependency>
           <groupId>org.apache.camel</groupId>
+          <artifactId>camel-dozer</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
           <artifactId>camel-ftp</artifactId>
           <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
           <groupId>org.apache.camel</groupId>
           <artifactId>camel-hl7</artifactId>
+          <version>${version.org.apache.camel}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.camel</groupId>
+          <artifactId>camel-jackson</artifactId>
           <version>${version.org.apache.camel}</version>
       </dependency>
       <dependency>
