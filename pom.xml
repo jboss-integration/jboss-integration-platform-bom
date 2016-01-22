@@ -17,7 +17,7 @@
   <!-- major.minor.micro.Beta[n] -->
   <!-- major.minor.micro.CR[n] -->
   <!-- major.minor.micro.Final -->
-  <version>6.0.1-SNAPSHOT</version>
+  <version>7.0.0-SNAPSHOT</version>
 
   <name>JBoss Integration Platform Parent</name>
   <description>
@@ -91,9 +91,9 @@
     <victims.updates>weekly</victims.updates>
     <illegaltransitivereportonly>false</illegaltransitivereportonly>
 
-    <!-- Override Java source/target to be 1.6 -->
-    <maven.compiler.target>1.6</maven.compiler.target>
-    <maven.compiler.source>1.6</maven.compiler.source>
+    <!-- Override Java source/target comming from jboss-parent -->
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
 
     <!--
       CONVENTIONS:
