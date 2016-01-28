@@ -15,7 +15,8 @@ $ mvn clean install
 
 == Usage
 
-The BOM may be imported into your dependency management, for example a https://repository.jboss.org/nexus/index.html#nexus-search;gav\~org.jboss.integration-platform[release version] or a https://jenkins.mw.lab.eng.bos.redhat.com/hudson/job/jboss-integration-platform-bom/[SNAPSHOT deployed by Jenkins].
+The BOM may be imported into your dependency management, for example a
+https://repository.jboss.org/nexus/index.html#nexus-search;quick~jboss-integration-platform[release version].
 
 ----
 <dependencyManagement>
@@ -31,7 +32,8 @@ The BOM may be imported into your dependency management, for example a https://r
 </dependencyManagement>
 ----
 
-Any dependencies should be placed in the dependency management in jboss-integration-platform-bom. Explicit versions should not be used; instead use a property which should be placed in jboss-integration-platform-parent.
+Any dependencies should be placed in the dependency management in `jboss-integration-platform-bom`.
+Explicit versions should not be used; instead use a property which should be placed in `jboss-integration-platform-parent`.
 
 Your project should inherit:
 
@@ -47,7 +49,7 @@ By inheriting the jboss-integration-platform-parent:
 
 * The properties used by the BOM are visible to the project.
 
-* It inherits from org.jboss:jboss-parent:16.
+* It inherits from org.jboss:jboss-parent:19.
 
 * Any further plugin alignments (e.g. GWT) may be done here.
 
@@ -71,10 +73,10 @@ which means they have the intention to accept the change.
     ** A project lead will normally not actually test the changes on his project (as that's not practical):
     So he reserves the right to submit a pull request to revert the changes later on.
 
-    ** Most projects do not depend on the bom's +SNAPSHOT+ directly, to avoid sudden surprises.
+    ** Most projects do not depend on the BOM's +SNAPSHOT+ directly, to avoid sudden surprises.
     Instead they depend on a released version or on a timestamped snapshot (from
     https://repository.jboss.org/nexus/content/groups/public/org/jboss/integration-platform/jboss-integration-platform-bom/7.0.0-SNAPSHOT/[this list]).
-    They then update their bom dependency's version frequently, after testing the impact locally.
+    They then update their BOM dependency's version frequently, after testing the impact locally.
 
     ** ACK's are done by commenting on the PR, not on the mailing list.
 
@@ -94,13 +96,13 @@ For jboss spec artifacts, please use version.$groupId.$artifactId because there 
 For example:
 <version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.0_spec>1.0.2.Final</version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.0_spec>
 
-NOTE: The most recent and released version of EAP is available at: http://download.devel.redhat.com/released/JBEAP-6/.
-During development it could be of interest to test against release candidates. These can be downloaded here: http://download.devel.redhat.com/devel/candidates/JBEAP (latest version)  
+NOTE: The most recent and released version of EAP is available at: http://download.devel.redhat.com/released/JBEAP-7/.
+During development it could be of interest to test against release candidates. These can be downloaded here: http://download.devel.redhat.com/devel/candidates/JBEAP (latest version)
 
 
 
-IMPORTANT: In the public bom, a dependency version must _never_ end with +-redhat-0+, +-redhat-1+, etc.
-The public bom cannot depend on productization builds,
+IMPORTANT: In the public BOM, a dependency version must _never_ end with +-redhat-0+, +-redhat-1+, etc.
+The public BOM cannot depend on productization builds,
 as anyone should be able to build all its dependencies from source.
 
 NOTE: When adding a dependency and version property, the preferred format for the version property is `version.groupId`
@@ -117,12 +119,12 @@ So as soon as 1 IP developer calls for the removal of an exclusion, he/she can i
 
 === Branching policy
 
-The +master+ branch is never released. Release are done from a release branch.
-The integration platform has multiple projects, but they use the same bom.
-So there are no parallel release branches. There is only 1 latest release branch.
+Releases are done both from master and older branches.
+The integration platform has multiple projects, but they use the same BOM.
+There is usually one release branch per major version of EAP.
 
-The release branch names simply increment the minor version number.
-The correlation between the bom version and project/product versions is below in the section "version mapping".
+The release branch names simply increment the minor/patch version number.
+The correlation between the BOM version and project/product versions is below in the section "version mapping".
 
 === Version numbering
 
@@ -153,21 +155,24 @@ Find your staging repository, close it and release it.
 
 === Version mapping
 
-This section records which project/product versions use which bom version.
+This section records which project/product versions use which BOM version.
 
-* bom 6.1
-
-** Not applicable yet
-
-* bom 6.0
+* BOM 7.0.x
 
 ** Projects
 
-*** KIE (Drools, jBPM, OptaPlanner) 6.0
+*** KIE (Drools, jBPM, OptaPlanner) 7.0
+
+
+* BOM 6.0.x
+
+** Projects
+
+*** KIE (Drools, jBPM, OptaPlanner) 6.0, 6.1, 6.2, 6.3, 6.4
 
 ** Products
 
-*** BRMS 6.0
+*** BxMS 6.0, 6.1, 6.2
 
 === Testing
 Directory `ip-bom-deps-available-test` contains simple Bash script that can be used to verify that all the dependencies
