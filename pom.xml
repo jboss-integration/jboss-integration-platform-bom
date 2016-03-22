@@ -107,7 +107,7 @@
     <version.ch.qos.logback>1.0.9</version.ch.qos.logback>
     <version.commons-cli>1.2</version.commons-cli>
     <version.commons-codec>1.4</version.commons-codec>
-    <version.commons-collections>3.2.1</version.commons-collections>
+    <version.commons-collections>3.2.2</version.commons-collections>
     <version.commons-configuration>1.6</version.commons-configuration>
     <version.commons-dbcp>1.4</version.commons-dbcp>
     <version.commons-digester>1.8</version.commons-digester>
