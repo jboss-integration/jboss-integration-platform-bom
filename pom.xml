@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
     <version>19</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.jboss.integration-platform</groupId>
@@ -84,7 +85,7 @@
 
 
   <modules>
-      <module>ip-bom</module>
+    <module>ip-bom</module>
   </modules>
 
   <properties>
@@ -403,7 +404,7 @@
             </goals>
             <configuration>
               <rules>
-                <requirePluginVersions />
+                <requirePluginVersions/>
               </rules>
             </configuration>
           </execution>
@@ -432,20 +433,21 @@
             </goals>
             <configuration>
               <rules>
-                <illegalTransitiveDependencyCheck implementation="de.is24.maven.enforcer.rules.IllegalTransitiveDependencyCheck">
+                <illegalTransitiveDependencyCheck
+                    implementation="de.is24.maven.enforcer.rules.IllegalTransitiveDependencyCheck">
                   <reportOnly>${illegaltransitivereportonly}</reportOnly>
                   <regexIgnoredClasses>
-                      <regexIgnoredClass>com\.sun\.net\.httpserver\..+</regexIgnoredClass>
-                      <regexIgnoredClass>javax\..+</regexIgnoredClass>
-                      <regexIgnoredClass>org\.w3c\.dom\..+</regexIgnoredClass>
-                      <regexIgnoredClass>org\.xml\.sax\..+</regexIgnoredClass>
+                    <regexIgnoredClass>com\.sun\.net\.httpserver\..+</regexIgnoredClass>
+                    <regexIgnoredClass>javax\..+</regexIgnoredClass>
+                    <regexIgnoredClass>org\.w3c\.dom\..+</regexIgnoredClass>
+                    <regexIgnoredClass>org\.xml\.sax\..+</regexIgnoredClass>
                   </regexIgnoredClasses>
                   <useClassesFromLastBuild>true</useClassesFromLastBuild>
                 </illegalTransitiveDependencyCheck>
               </rules>
             </configuration>
           </execution>
-          
+
           <execution>
             <id>ban-uberjars</id>
             <goals>
