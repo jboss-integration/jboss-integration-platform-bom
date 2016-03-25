@@ -348,6 +348,16 @@
         <groupId>com.thoughtworks.xstream</groupId>
         <artifactId>xstream</artifactId>
         <version>${version.com.thoughtworks.xstream}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>xpp3_min</groupId>
+            <artifactId>xpp3_min</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>xmlpull</groupId>
+            <artifactId>xmlpull</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
@@ -3217,12 +3227,6 @@
       </dependency>
 
       <dependency>
-        <groupId>xmlpull</groupId>
-        <artifactId>xmlpull</artifactId>
-        <version>${version.xmlpull}</version>
-      </dependency>
-
-      <dependency>
         <groupId>xmlunit</groupId>
         <artifactId>xmlunit</artifactId>
         <version>${version.xmlunit}</version>
@@ -3230,7 +3234,7 @@
 
       <dependency>
         <groupId>xpp3</groupId>
-        <artifactId>xpp3_min</artifactId>
+        <artifactId>xpp3</artifactId>
         <version>${version.xpp3}</version>
       </dependency>
 
