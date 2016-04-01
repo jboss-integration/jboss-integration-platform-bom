@@ -17,7 +17,7 @@
   <!-- major.minor.micro.Beta[n] -->
   <!-- major.minor.micro.CR[n] -->
   <!-- major.minor.micro.Final -->
-  <version>6.0.5.Final</version>
+  <version>6.0.6-SNAPSHOT</version>
 
   <name>JBoss Integration Platform Parent</name>
   <description>
@@ -71,7 +71,7 @@
     <connection>scm:git:git@github.com:jboss-integration/jboss-integration-platform-bom.git</connection>
     <developerConnection>scm:git:git@github.com:jboss-integration/jboss-integration-platform-bom.git</developerConnection>
     <url>https://github.com/jboss-integration/jboss-integration-platform-bom</url>
-    <tag>6.0.5.Final</tag>
+    <tag>HEAD</tag>
   </scm>
   <ciManagement>
     <system>hudson</system>
