@@ -774,7 +774,7 @@
 
       <dependency>
         <groupId>org.apache.cxf</groupId>
-        <artifactId>cxf-api</artifactId>
+        <artifactId>cxf-core</artifactId>
         <version>${version.org.apache.cxf}</version>
       </dependency>
       <dependency>
@@ -880,11 +880,6 @@
             <artifactId>spring-jms</artifactId>
           </exclusion>
         </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.cxf</groupId>
-        <artifactId>cxf-rt-core</artifactId>
-        <version>${version.org.apache.cxf}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.cxf</groupId>
