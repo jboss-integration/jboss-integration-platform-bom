@@ -131,7 +131,7 @@
     <version.com.google.guava>18.0</version.com.google.guava>
     <version.com.google.gwt>2.5.1</version.com.google.gwt>
     <version.org.google.gwt-charts>0.9.9</version.org.google.gwt-charts>
-    <version.com.google.gwt.gwtmockito>1.1.5</version.com.google.gwt.gwtmockito>
+    <version.com.google.gwt.gwtmockito>1.1.6</version.com.google.gwt.gwtmockito>
     <version.org.google.gwt.visualization>1.0.2</version.org.google.gwt.visualization>
     <version.com.google.javascript.closure-compiler>r1741</version.com.google.javascript.closure-compiler>
     <version.com.google.protobuf>2.6.0</version.com.google.protobuf>

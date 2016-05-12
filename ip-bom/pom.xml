@@ -252,15 +252,6 @@
         <groupId>com.google.gwt.gwtmockito</groupId>
         <artifactId>gwtmockito</artifactId>
         <version>${version.com.google.gwt.gwtmockito}</version>
-        <exclusions>
-          <!-- mockito-all is ugly uberjar. Users of gwtmockito need to depend on on mockito-core explicitly.
-               Once we upgrade gwtmockito to version that contains https://github.com/google/gwtmockito/pull/56, this
-               exclude can be removed, as wel as explit dependencies on mockito-core. -->
-          <exclusion>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>com.google.gwt.google-apis</groupId>
