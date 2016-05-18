@@ -2934,7 +2934,11 @@
         <artifactId>sisu-inject-plexus</artifactId>
         <version>${version.org.sonatype.sisu}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.sonatype.sisu.inject</groupId>
+        <artifactId>guice-servlet</artifactId>
+        <version>${version.org.sonatype.sisu.sisu-guice}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.springframework</groupId>
