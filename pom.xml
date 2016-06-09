@@ -235,7 +235,7 @@
     <version.org.eclipse.emf.ecore.xmi>2.5.0.v20100521-1846</version.org.eclipse.emf.ecore.xmi>
     <version.org.eclipse.jdt.core.compiler>4.4.2</version.org.eclipse.jdt.core.compiler>
     <version.org.eclipse.jetty>9.2.14.v20151106</version.org.eclipse.jetty>
-    <version.org.eclipse.jgit>3.7.1.201504261725-r</version.org.eclipse.jgit>
+    <version.org.eclipse.jgit>4.3.1.201605051710-r</version.org.eclipse.jgit>
     <version.org.eclipse.sisu>0.3.0.M1</version.org.eclipse.sisu>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
