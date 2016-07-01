@@ -448,7 +448,7 @@
           </execution>
 
           <execution>
-            <id>ban-uberjars</id>
+            <id>ban-blacklisted-dependencies</id>
             <goals>
               <goal>enforce</goal>
             </goals>
