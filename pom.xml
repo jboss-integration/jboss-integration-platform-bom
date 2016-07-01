@@ -263,8 +263,7 @@
     <version.org.jboss.jboss-common-core>2.5.0.Final</version.org.jboss.jboss-common-core>
     <version.org.jboss.jbossts.jta>4.17.29.Final</version.org.jboss.jbossts.jta>
     <version.org.jboss.jbossts.xts>4.17.29.Final</version.org.jboss.jbossts.xts>
-    <!-- jboss-logging 3.1.4.GA breaks Arquillian when deploying to WildFly, overwrite it locally to 3.2.1.Final -->
-    <version.org.jboss.logging.jboss-logging>3.2.1.Final</version.org.jboss.logging.jboss-logging>
+    <version.org.jboss.logging.jboss-logging>3.3.0.Final</version.org.jboss.logging.jboss-logging>
     <version.org.jboss.logging.jboss-logging-processor>2.0.1.Final</version.org.jboss.logging.jboss-logging-processor>
     <version.org.jboss.marshalling>1.4.10.Final</version.org.jboss.marshalling>
     <version.org.jboss.osgi.metadata>2.2.0.Final</version.org.jboss.osgi.metadata>
