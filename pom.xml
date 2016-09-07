@@ -238,7 +238,7 @@
     <version.org.eclipse.sisu>0.3.0.M1</version.org.eclipse.sisu>
     <version.org.freemarker>2.3.19</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
-    <version.org.gwtbootstrap3>0.9.1</version.org.gwtbootstrap3>
+    <version.org.gwtbootstrap3>0.9.3</version.org.gwtbootstrap3>
     <version.org.hibernate>5.0.9.Final</version.org.hibernate>
     <version.org.hibernate.search>5.5.2.Final</version.org.hibernate.search>
     <version.org.hibernate.validator>5.2.4.Final</version.org.hibernate.validator>
