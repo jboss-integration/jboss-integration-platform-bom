@@ -1908,57 +1908,7 @@
         <scope>import</scope>
       </dependency>
 
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-arquillian-container-managed</artifactId>
-        <version>${version.org.jboss.as.arquillian}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-arquillian-container-remote</artifactId>
-        <version>${version.org.jboss.as.arquillian}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-arquillian-common</artifactId>
-        <version>${version.org.jboss.as.arquillian}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-arquillian-testenricher-msc</artifactId>
-        <version>${version.org.jboss.as.arquillian}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-arquillian-protocol-jmx</artifactId>
-        <version>${version.org.jboss.as.arquillian}</version>
-      </dependency>
 
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-naming</artifactId>
-        <version>${version.org.jboss.as}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-server</artifactId>
-        <version>${version.org.jboss.as}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-controller</artifactId>
-        <version>${version.org.jboss.as}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-security</artifactId>
-        <version>${version.org.jboss.as}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jboss.as</groupId>
-        <artifactId>jboss-as-weld</artifactId>
-        <version>${version.org.jboss.as}</version>
-      </dependency>
 
       <dependency>
         <groupId>org.jboss.osgi.metadata</groupId>
@@ -2959,6 +2909,59 @@
         <groupId>org.tukaani</groupId>
         <artifactId>xz</artifactId>
         <version>${version.org.tukaani}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly</groupId>
+        <artifactId>wildfly-naming</artifactId>
+        <version>${version.org.wildfly}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly</groupId>
+        <artifactId>wildfly-security</artifactId>
+        <version>${version.org.wildfly}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly</groupId>
+        <artifactId>wildfly-weld</artifactId>
+        <version>${version.org.wildfly}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.arquillian</groupId>
+        <artifactId>wildfly-arquillian-common</artifactId>
+        <version>${version.org.wildfly.arquillian}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.arquillian</groupId>
+        <artifactId>wildfly-arquillian-container-managed</artifactId>
+        <version>${version.org.wildfly.arquillian}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.arquillian</groupId>
+        <artifactId>wildfly-arquillian-container-remote</artifactId>
+        <version>${version.org.wildfly.arquillian}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.arquillian</groupId>
+        <artifactId>wildfly-arquillian-protocol-jmx</artifactId>
+        <version>${version.org.wildfly.arquillian}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.arquillian</groupId>
+        <artifactId>wildfly-arquillian-testenricher-msc</artifactId>
+        <version>${version.org.wildfly.arquillian}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.wildfly.core</groupId>
+        <artifactId>wildfly-controller</artifactId>
+        <version>${version.org.wildfly.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.core</groupId>
+        <artifactId>wildfly-server</artifactId>
+        <version>${version.org.wildfly.core}</version>
       </dependency>
 
       <dependency>
