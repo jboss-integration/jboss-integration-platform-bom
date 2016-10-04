@@ -119,6 +119,10 @@
     <version.commons-pool>1.6</version.commons-pool>
     <version.commons-io>2.4</version.commons-io>
     <version.commons-vfs>1.0</version.commons-vfs>
+    <version.com.ahome-it.lienzo-core>2.0.277-RELEASE</version.com.ahome-it.lienzo-core>
+    <version.com.ahome-it.lienzo-tests>1.0.0-RC3</version.com.ahome-it.lienzo-tests>
+    <version.com.ahome-it.lienzo.tooling.nativetools>1.0.185-RELEASE</version.com.ahome-it.lienzo.tooling.nativetools>
+    <version.com.ahome-it.lienzo.tooling.common>1.0.185-RELEASE</version.com.ahome-it.lienzo.tooling.common>
     <version.com.allen-sauer.gwt.dnd>3.1.2</version.com.allen-sauer.gwt.dnd>
     <version.com.beust.jcommander>1.5</version.com.beust.jcommander>
     <version.com.datastax.cassandra.cassandra-driver-core>1.0.0</version.com.datastax.cassandra.cassandra-driver-core>
