@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>20</version>
+    <version>21</version>
     <relativePath />
   </parent>
 
@@ -90,10 +90,6 @@
   <properties>
     <victims.updates>weekly</victims.updates>
     <illegaltransitivereportonly>false</illegaltransitivereportonly>
-
-    <!-- Override Java source/target comming from jboss-parent -->
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
 
     <!--
       CONVENTIONS:
