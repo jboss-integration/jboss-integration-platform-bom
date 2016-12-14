@@ -580,10 +580,11 @@
       </dependency>
 
       <dependency>
-        <groupId>rhino</groupId>
-        <artifactId>js</artifactId>
-        <version>${version.rhino.js}</version>
+        <groupId>org.mozilla</groupId>
+        <artifactId>rhino</artifactId>
+        <version>${version.org.mozilla.rhino}</version>
       </dependency>
+      
       <!--Both antlr:antlr and org.antlr:antlr-runtime is needed. They are completely different.-->
       <dependency>
         <groupId>antlr</groupId>
