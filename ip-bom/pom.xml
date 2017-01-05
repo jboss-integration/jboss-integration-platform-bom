@@ -281,6 +281,12 @@
       </dependency>
 
       <dependency>
+        <groupId>com.google.jsinterop</groupId>
+        <artifactId>jsinterop-annotations</artifactId>
+        <version>${version.com.google.jsinterop}</version>
+      </dependency>
+
+      <dependency>
         <groupId>com.google.protobuf</groupId>
         <artifactId>protobuf-java</artifactId>
         <version>${version.com.google.protobuf}</version>
