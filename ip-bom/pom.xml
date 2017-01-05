@@ -751,6 +751,11 @@
       <!-- Keep in sync with groupId commons-* -->
       <dependency>
         <groupId>org.apache.commons</groupId>
+        <artifactId>commons-dbcp2</artifactId>
+        <version>${version.org.apache.commons.dbcp2}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
         <artifactId>commons-compress</artifactId>
         <version>${version.org.apache.commons.compress}</version>
       </dependency>
