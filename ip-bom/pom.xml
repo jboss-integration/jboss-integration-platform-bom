@@ -265,6 +265,11 @@
         <version>${version.com.google.inject.guice}</version>
         <classifier>no_aop</classifier>
       </dependency>
+      <dependency>
+        <groupId>com.google.inject.extensions</groupId>
+        <artifactId>guice-servlet</artifactId>
+        <version>${version.com.google.inject.guice}</version>
+      </dependency>
 
       <dependency>
         <groupId>com.googlecode.gwt-charts</groupId>
