@@ -49,7 +49,7 @@ By inheriting the jboss-integration-platform-parent:
 
 * The properties used by the BOM are visible to the project.
 
-* It inherits from org.jboss:jboss-parent:20.
+* It inherits from org.jboss:jboss-parent:22.
 
 * Any further plugin alignments (e.g. GWT) may be done here.
 
