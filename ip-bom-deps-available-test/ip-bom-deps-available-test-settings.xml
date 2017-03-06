@@ -21,6 +21,10 @@
         <repository>
           <id>jboss-product-repo</id>
           <url>https://maven.repository.redhat.com/ga</url>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -31,6 +35,35 @@
         <pluginRepository>
           <id>jboss-product-repo</id>
           <url>https://maven.repository.redhat.com/ga</url>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+    <profile>
+      <id>jfrog-repos</id>
+      <repositories>
+        <repository>
+          <!-- Needed to download gradle-tooling-api required by Shrinkwrap. See also https://github.com/shrinkwrap/resolver/pull/114-->
+          <!-- This is an ugly uber hack. The additional repository (especially some 'random' jfrog one) should not be required. -->
+          <id>jfrog-gradle-repo</id>
+          <url>https://repo.jfrog.org/artifactory/gradle</url>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>jfrog-gradle-repo</id>
+          <url>https://repo.jfrog.org/artifactory/gradle</url>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
         </pluginRepository>
       </pluginRepositories>
     </profile>
@@ -38,6 +71,7 @@
 
   <activeProfiles>
     <activeProfile>jboss-repos</activeProfile>
+    <activeProfile>jfrog-repos</activeProfile>
   </activeProfiles>
 
 </settings>
