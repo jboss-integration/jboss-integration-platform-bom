@@ -147,7 +147,7 @@ To actually release:
 
 ----
 $ mvn release:prepare
-$ mvn release:perform
+$ mvn release:perform -s <path-to-settings-xml-with-nexus-deploy-credentials> # unless you have those stored in ~/.m2/settings.xml
 ----
 
 Then go to https://repository.jboss.org/nexus/[Nexus] and log in.
