@@ -328,7 +328,7 @@
     <version.org.powermock>1.6.3</version.org.powermock>
     <version.org.python>2.5.3</version.org.python>
     <version.org.quartz-scheduler>1.8.5</version.org.quartz-scheduler>
-    <version.org.reflections>0.9.10</version.org.reflections>
+    <version.org.reflections>0.9.11</version.org.reflections>
     <version.org.rhq>4.8.0</version.org.rhq>
     <!-- Avoid using scannotation in favor of its successor org.reflections -->
     <version.org.scannotation>1.0.3</version.org.scannotation>
