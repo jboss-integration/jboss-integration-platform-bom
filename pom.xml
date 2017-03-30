@@ -189,7 +189,7 @@
     <version.org.apache.commons.math3>3.4.1</version.org.apache.commons.math3>
     <version.org.apache.commons.pool2>2.4.2</version.org.apache.commons.pool2>
     <version.org.apache.commons.ssl>0.3.9</version.org.apache.commons.ssl>
-    <version.org.apache.cxf>3.1.9</version.org.apache.cxf>
+    <version.org.apache.cxf>3.1.10</version.org.apache.cxf>
     <version.org.apache.ws.security.wss4j>1.6.19</version.org.apache.ws.security.wss4j>
     <version.org.apache.deltaspike.core>1.5.1</version.org.apache.deltaspike.core>
     <version.org.apache.ftpserver>1.0.6</version.org.apache.ftpserver>
@@ -270,7 +270,7 @@
     <version.org.jboss.marshalling>1.4.10.Final</version.org.jboss.marshalling>
     <version.org.jboss.osgi.metadata>2.2.0.Final</version.org.jboss.osgi.metadata>
     <version.org.jboss.osgi.vfs>1.2.1.Final</version.org.jboss.osgi.vfs>
-    <version.org.jboss.resteasy>3.0.16.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>3.0.19.Final</version.org.jboss.resteasy>
     <version.org.jboss.forge.roaster>2.19.4.Final</version.org.jboss.forge.roaster>
     <version.org.jboss.remote-naming>2.0.4.Final</version.org.jboss.remote-naming>
     <version.org.jboss.remoting3>3.3.7.Final</version.org.jboss.remoting3>
@@ -287,7 +287,7 @@
     <version.org.jboss.spec.javax.security.jacc.jboss-jacc-api_1.5_spec>1.0.0.Final</version.org.jboss.spec.javax.security.jacc.jboss-jacc-api_1.5_spec>
     <version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.1_spec>1.0.0.Final</version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.1_spec>
     <version.org.jboss.spec.javax.servlet.jsp.jboss-jsp-api_2.3_spec>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp.jboss-jsp-api_2.3_spec>
-    <version.org.jboss.spec.javax.servlet.jstl.jboss-jstl-api_1.2_spec>1.1.2.Final</version.org.jboss.spec.javax.servlet.jstl.jboss-jstl-api_1.2_spec>
+    <version.org.jboss.spec.javax.servlet.jstl.jboss-jstl-api_1.2_spec>1.1.3.Final</version.org.jboss.spec.javax.servlet.jstl.jboss-jstl-api_1.2_spec>
     <version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.2_spec>1.0.0.Final</version.org.jboss.spec.javax.transaction.jboss-transaction-api_1.2_spec>
     <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.0_spec>1.0.0.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.0_spec>
     <version.org.jboss.spec.javax.xml.ws.jboss-jaxws-api_2.2_spec>2.0.2.Final</version.org.jboss.spec.javax.xml.ws.jboss-jaxws-api_2.2_spec>
@@ -296,15 +296,15 @@
     <version.org.jboss.staxmapper>1.2.0.Final</version.org.jboss.staxmapper>
     <version.org.jboss.weld.weld>2.4.1.Final</version.org.jboss.weld.weld>
     <version.org.jboss.weld.weld-api>2.4.Final</version.org.jboss.weld.weld-api>
-    <version.org.jboss.xnio>3.3.6.Final</version.org.jboss.xnio>
+    <version.org.jboss.xnio>3.4.3.Final</version.org.jboss.xnio>
     <version.org.jboss.ws.api>1.0.3.Final</version.org.jboss.ws.api>
-    <version.org.jboss.ws.spi>3.1.0.Final</version.org.jboss.ws.spi>
-    <version.org.jboss.ws.cxf>5.1.3.SP1</version.org.jboss.ws.cxf>
+    <version.org.jboss.ws.spi>3.1.2.Final</version.org.jboss.ws.spi>
+    <version.org.jboss.ws.cxf>5.1.5.Final</version.org.jboss.ws.cxf>
     <version.org.jbpm.jbpm5.jbpmmigration>0.14</version.org.jbpm.jbpm5.jbpmmigration>
     <version.org.jdom>1.1.3</version.org.jdom>
     <version.org.jfree.jcommon>1.0.23</version.org.jfree.jcommon>
     <version.org.jfree.jfreechart>1.0.19</version.org.jfree.jfreechart>
-    <version.org.jgroups>3.6.8.Final</version.org.jgroups>
+    <version.org.jgroups>3.6.10.Final</version.org.jgroups>
     <version.org.jruby>1.7.2</version.org.jruby>
     <version.org.json>20090211</version.org.json>
     <version.org.jsoup>1.8.3</version.org.jsoup>
@@ -323,8 +323,8 @@
     <version.org.osgi>4.3.1</version.org.osgi>
     <version.org.ops4j.pax.exam>4.3.0</version.org.ops4j.pax.exam>
     <version.org.owasp.encoder>1.2</version.org.owasp.encoder>
-    <version.org.picketbox>4.9.5.Final</version.org.picketbox>
-    <version.org.picketlink>2.5.5.SP1</version.org.picketlink>
+    <version.org.picketbox>4.9.7.Final</version.org.picketbox>
+    <version.org.picketlink>2.5.5.SP6</version.org.picketlink>
     <version.org.powermock>1.6.3</version.org.powermock>
     <version.org.python>2.5.3</version.org.python>
     <version.org.quartz-scheduler>1.8.5</version.org.quartz-scheduler>
@@ -357,7 +357,7 @@
     <version.tranql.connector>1.2</version.tranql.connector>
     <version.wsdl4j>1.6.3</version.wsdl4j>
     <version.xalan>2.7.1</version.xalan>
-    <version.xerces>2.11.0.SP4</version.xerces>
+    <version.xerces>2.11.0.SP5</version.xerces>
     <version.xml-apis>1.4.01</version.xml-apis>
     <version.xml-apis-ext>1.3.04</version.xml-apis-ext>
     <version.xml-resolver>1.2</version.xml-resolver>
