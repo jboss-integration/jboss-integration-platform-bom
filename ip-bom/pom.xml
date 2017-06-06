@@ -1605,6 +1605,11 @@
         <artifactId>plexus-utils</artifactId>
         <version>${version.org.codehaus.plexus.plexus-utils}</version>
       </dependency>
+      <dependency>
+        <groupId>org.codehaus.plexus</groupId>
+        <artifactId>plexus-logging</artifactId>
+        <version>${version.org.codehaus.plexus.logging}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.codehaus.woodstox</groupId>
