@@ -1605,7 +1605,6 @@
         <artifactId>plexus-utils</artifactId>
         <version>${version.org.codehaus.plexus.plexus-utils}</version>
       </dependency>
-
       <dependency>
         <groupId>org.codehaus.woodstox</groupId>
         <artifactId>woodstox-core-asl</artifactId>
