@@ -12,8 +12,22 @@
   <proxies/>
   <profiles>
     <profile>
-      <id>jboss-repos</id>
+      <id>additional-repos</id>
       <repositories>
+        <repository>
+        <!-- Duplicating the Maven Central repository here (as it is already coming from Super POM) makes the build much faster,
+             as the Maven Central is now treated as the first (default) repository (because it is before the JBoss.org one).
+             Artifacts with release (fixed) versions are being downloaded primarily from there. Without the central being the
+             first repository the JBoss.org Nexus would be contacted first and since it is quite slow it slows down the build.
+             We use JBoss.org repo only for specific artifacts. -->
+        <id>central</id>
+        <name>Central Repository</name>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <layout>default</layout>
+        <snapshots>
+          <enabled>false</enabled>
+          </snapshots>
+        </repository>
         <repository>
           <id>jboss-public-repo</id>
           <url>https://repository.jboss.org/nexus/content/groups/public</url>
@@ -26,25 +40,6 @@
             <updatePolicy>never</updatePolicy>
           </snapshots>
         </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <id>jboss-public-repo</id>
-          <url>https://repository.jboss.org/nexus/content/groups/public</url>
-        </pluginRepository>
-        <pluginRepository>
-          <id>jboss-product-repo</id>
-          <url>https://maven.repository.redhat.com/ga</url>
-          <snapshots>
-            <enabled>false</enabled>
-            <updatePolicy>never</updatePolicy>
-          </snapshots>
-        </pluginRepository>
-      </pluginRepositories>
-    </profile>
-    <profile>
-      <id>jfrog-repos</id>
-      <repositories>
         <repository>
           <!-- Needed to download gradle-tooling-api required by Shrinkwrap. See also https://github.com/shrinkwrap/resolver/pull/114-->
           <!-- This is an ugly uber hack. The additional repository (especially some 'random' jfrog one) should not be required. -->
@@ -58,6 +53,32 @@
       </repositories>
       <pluginRepositories>
         <pluginRepository>
+        <!-- Duplicating the Maven Central repository here (as it is already coming from Super POM) makes the build much faster,
+             as the Maven Central is now treated as the first (default) repository (because it is before the JBoss.org one).
+             Artifacts with release (fixed) versions are being downloaded primarily from there. Without the central being the
+             first repository the JBoss.org Nexus would be contacted first and since it is quite slow it slows down the build.
+             We use JBoss.org repo only for specific artifacts. -->
+        <id>central</id>
+        <name>Central Repository</name>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <layout>default</layout>
+        <snapshots>
+          <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+          <id>jboss-public-repo</id>
+          <url>https://repository.jboss.org/nexus/content/groups/public</url>
+        </pluginRepository>
+        <pluginRepository>
+          <id>jboss-product-repo</id>
+          <url>https://maven.repository.redhat.com/ga</url>
+          <snapshots>
+            <enabled>false</enabled>
+            <updatePolicy>never</updatePolicy>
+          </snapshots>
+        </pluginRepository>
+        <pluginRepository>
           <id>jfrog-gradle-repo</id>
           <url>https://repo.jfrog.org/artifactory/gradle</url>
           <snapshots>
@@ -70,8 +91,7 @@
   </profiles>
 
   <activeProfiles>
-    <activeProfile>jboss-repos</activeProfile>
-    <activeProfile>jfrog-repos</activeProfile>
+    <activeProfile>additional-repos</activeProfile>
   </activeProfiles>
 
 </settings>
