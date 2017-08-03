@@ -115,8 +115,8 @@
     <version.commons-pool>1.6</version.commons-pool>
     <version.commons-io>2.5</version.commons-io>
     <version.commons-vfs>1.0</version.commons-vfs>
-    <version.com.ahome-it.lienzo-core>2.0.287-RELEASE</version.com.ahome-it.lienzo-core>
-    <version.com.ahome-it.lienzo-tests>2.0.287-RELEASE</version.com.ahome-it.lienzo-tests>
+    <version.com.ahome-it.lienzo-core>2.0.291-RELEASE</version.com.ahome-it.lienzo-core>
+    <version.com.ahome-it.lienzo-tests>2.0.291-RELEASE</version.com.ahome-it.lienzo-tests>
     <version.com.ahome-it.lienzo.tooling.nativetools>1.0.195-RELEASE</version.com.ahome-it.lienzo.tooling.nativetools>
     <version.com.ahome-it.lienzo.tooling.common>1.0.190-RELEASE</version.com.ahome-it.lienzo.tooling.common>
     <version.com.allen-sauer.gwt.dnd>3.1.2</version.com.allen-sauer.gwt.dnd>
