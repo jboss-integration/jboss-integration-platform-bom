@@ -24,7 +24,7 @@ https://repository.jboss.org/nexus/index.html#nexus-search;quick~jboss-integrati
         <dependency>
             <groupId>org.jboss.integration-platform</groupId>
             <artifactId>jboss-integration-platform-bom</artifactId>
-            <version>7.0.0-SNAPSHOT</version>
+            <version>7.0.1-SNAPSHOT</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -41,7 +41,7 @@ Your project should inherit:
 <parent>
     <groupId>org.jboss.integration-platform</groupId>
     <artifactId>jboss-integration-platform-parent</artifactId>
-    <version>7.0.0-SNAPSHOT</version>
+    <version>7.0.1-SNAPSHOT</version>
 </parent>
 ----
 
@@ -75,7 +75,7 @@ which means they have the intention to accept the change.
 
     ** Most projects do not depend on the BOM's +SNAPSHOT+ directly, to avoid sudden surprises.
     Instead they depend on a released version or on a timestamped snapshot (from
-    https://repository.jboss.org/nexus/content/groups/public/org/jboss/integration-platform/jboss-integration-platform-bom/7.0.0-SNAPSHOT/[this list]).
+    https://repository.jboss.org/nexus/content/groups/public/org/jboss/integration-platform/jboss-integration-platform-bom/7.0.1-SNAPSHOT/[this list]).
     They then update their BOM dependency's version frequently, after testing the impact locally.
 
     ** ACK's are done by commenting on the PR, not on the mailing list.
