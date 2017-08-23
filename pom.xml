@@ -202,7 +202,7 @@
     <version.org.apache.maven>3.3.9</version.org.apache.maven>
     <version.org.apache.maven.plugin-testing>2.1</version.org.apache.maven.plugin-testing>
     <version.org.apache.maven.plugin-tools>3.4</version.org.apache.maven.plugin-tools>
-    <version.org.apache.maven.wagon>2.10</version.org.apache.maven.wagon>
+    <version.org.apache.maven.wagon>3.0.0</version.org.apache.maven.wagon>
     <version.org.apache.mina>2.0.9</version.org.apache.mina>
     <version.org.apache.neethi>3.0.3</version.org.apache.neethi>
     <version.org.apache.poi>3.15</version.org.apache.poi>
@@ -233,7 +233,7 @@
     <version.org.easytesting.fest>2.0M6</version.org.easytesting.fest>
     <version.org.easymock>3.0</version.org.easymock>
     <version.org.eclipse.bpmn2>0.7.6-jboss</version.org.eclipse.bpmn2>
-    <version.org.eclipse.aether>1.0.2.v20150114</version.org.eclipse.aether>
+    <version.org.eclipse.aether>1.1.0</version.org.eclipse.aether>
     <version.org.eclipse.emf>2.6.0.v20100614-1136</version.org.eclipse.emf>
     <version.org.eclipse.emf.ecore.xmi>2.5.0.v20100521-1846</version.org.eclipse.emf.ecore.xmi>
     <version.org.eclipse.jdt.core.compiler>4.4.2</version.org.eclipse.jdt.core.compiler>
