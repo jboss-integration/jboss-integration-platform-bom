@@ -212,7 +212,7 @@
     <version.org.apache.velocity.velocity-tools>2.0</version.org.apache.velocity.velocity-tools>
     <version.org.apache.xmlbeans>2.6.0</version.org.apache.xmlbeans>
     <version.org.apache.ws.xmlschema>2.0.2</version.org.apache.ws.xmlschema>
-    <version.org.apache.xmlgraphics.batik>1.7</version.org.apache.xmlgraphics.batik>
+    <version.org.apache.xmlgraphics.batik>1.9.1</version.org.apache.xmlgraphics.batik>
     <!-- Only AssertJ 1.x is Java 6 compatible; 2.x and higher requires Java 7 -->
     <version.org.assertj>1.7.1</version.org.assertj>
     <version.org.apache-extras.beanshell>2.0b6</version.org.apache-extras.beanshell>
