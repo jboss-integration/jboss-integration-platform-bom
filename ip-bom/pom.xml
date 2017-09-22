@@ -1144,6 +1144,11 @@
         <artifactId>httpcore</artifactId>
         <version>${version.org.apache.httpcomponents.httpcore}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpmime</artifactId>
+        <version>${version.org.apache.httpcomponents.httpcore}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.karaf</groupId>
