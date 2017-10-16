@@ -2556,12 +2556,6 @@
         <version>${version.org.jboss.xnio}</version>
       </dependency>
 
-      <dependency><!-- Not part of the KIE release lifecycle, so it counts as an external dependency -->
-        <groupId>org.jbpm.jbpm5</groupId>
-        <artifactId>jbpmmigration</artifactId>
-        <version>${version.org.jbpm.jbpm5.jbpmmigration}</version>
-      </dependency>
-
       <dependency>
         <groupId>org.jdom</groupId>
         <artifactId>jdom</artifactId>
