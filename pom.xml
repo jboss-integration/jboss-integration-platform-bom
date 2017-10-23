@@ -150,6 +150,7 @@
     <version.dom4j>1.6.1</version.dom4j>
     <version.io.netty>3.6.10.Final</version.io.netty>
     <version.io.takari.maven.plugins>2.8.0</version.io.takari.maven.plugins>
+    <version.io.undertow>1.3.31.Final</version.io.undertow>
     <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.enterprise>1.2</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
