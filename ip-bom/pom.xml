@@ -3132,6 +3132,11 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.core</groupId>
+        <artifactId>wildfly-controller-client</artifactId>
+        <version>${version.org.wildfly.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.core</groupId>
         <artifactId>wildfly-server</artifactId>
         <version>${version.org.wildfly.core}</version>
       </dependency>
