@@ -406,7 +406,9 @@
             </goals>
             <configuration>
               <rules>
-                <requirePluginVersions />
+                <requirePluginVersions>
+                  <message>One or more plugins do not have valid version! The version needs to be explicitly specified, can not be a -SNAPSHOT version and can not be one of the special (and buggy) Maven versions (LATEST, RELEASE).</message>
+                </requirePluginVersions>
               </rules>
             </configuration>
           </execution>
