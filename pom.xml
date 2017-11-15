@@ -305,7 +305,7 @@
     <version.org.jdom>1.1.3</version.org.jdom>
     <version.org.jfree.jcommon>1.0.23</version.org.jfree.jcommon>
     <version.org.jfree.jfreechart>1.0.19</version.org.jfree.jfreechart>
-    <version.org.jgroups>3.6.10.Final</version.org.jgroups>
+    <version.org.jgroups>3.6.13.Final</version.org.jgroups>
     <version.org.jruby>1.7.2</version.org.jruby>
     <version.org.json>20090211</version.org.json>
     <version.org.jsoup>1.8.3</version.org.jsoup>
