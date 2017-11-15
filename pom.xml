@@ -272,7 +272,7 @@
     <version.org.jboss.marshalling>2.0.2.Final</version.org.jboss.marshalling>
     <version.org.jboss.osgi.metadata>2.2.0.Final</version.org.jboss.osgi.metadata>
     <version.org.jboss.osgi.vfs>1.2.1.Final</version.org.jboss.osgi.vfs>
-    <version.org.jboss.resteasy>3.0.19.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>3.0.24.Final</version.org.jboss.resteasy>
     <version.org.jboss.forge.roaster>2.19.4.Final</version.org.jboss.forge.roaster>
     <version.org.jboss.remote-naming>2.0.5.Final</version.org.jboss.remote-naming>
     <version.org.jboss.remoting3>3.3.7.Final</version.org.jboss.remoting3>
