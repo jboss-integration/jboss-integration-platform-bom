@@ -263,7 +263,7 @@
     <version.org.jboss.arquillian.container.weld>1.0.0.CR5</version.org.jboss.arquillian.container.weld>
     <!-- Important: Selenium version 2.46.0 is the last one supported on Java 6! -->
     <version.org.jboss.arquillian.selenium>2.46.0</version.org.jboss.arquillian.selenium>
-    <version.org.jboss.classfilewriter>1.1.2.Final</version.org.jboss.classfilewriter>
+    <version.org.jboss.classfilewriter>1.2.1.Final</version.org.jboss.classfilewriter>
     <version.org.jboss.jboss-common-core>2.5.0.Final</version.org.jboss.jboss-common-core>
     <version.org.jboss.jbossts.jta>4.17.29.Final</version.org.jboss.jbossts.jta>
     <version.org.jboss.jbossts.xts>4.17.29.Final</version.org.jboss.jbossts.xts>
