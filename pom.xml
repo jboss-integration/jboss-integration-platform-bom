@@ -349,7 +349,7 @@
     <version.org.tukaani>1.0</version.org.tukaani>
     <version.org.wildfly>10.1.0.Final</version.org.wildfly>
     <version.org.wildfly.arquillian>2.0.0.Final</version.org.wildfly.arquillian>
-    <version.org.wildfly.core>3.0.6.Final</version.org.wildfly.core>
+    <version.org.wildfly.core>3.0.10.Final</version.org.wildfly.core>
     <version.org.yaml.snakeyaml>1.15</version.org.yaml.snakeyaml>
     <version.postgresql>8.4-702.jdbc4</version.postgresql>
     <version.org.mozilla.rhino>1.7R4</version.org.mozilla.rhino>
