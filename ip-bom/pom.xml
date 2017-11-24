@@ -1442,6 +1442,12 @@
 
       <dependency>
         <groupId>org.apache.xmlgraphics</groupId>
+        <artifactId>xmlgraphics-commons</artifactId>
+        <version>${version.org.apache.xmlgraphics.commons}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.xmlgraphics</groupId>
         <artifactId>batik-dom</artifactId>
         <version>${version.org.apache.xmlgraphics.batik}</version>
       </dependency>
