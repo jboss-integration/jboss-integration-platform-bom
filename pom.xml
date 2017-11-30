@@ -144,7 +144,7 @@
     <version.com.miglayout>3.7.4</version.com.miglayout>
     <version.com.smartgwt.smartgwt-skins>2.4</version.com.smartgwt.smartgwt-skins>
     <version.com.sun.codemodel>2.6</version.com.sun.codemodel>
-    <version.com.sun.xml.bind>2.2.11</version.com.sun.xml.bind>
+    <version.com.sun.xml.bind>2.3.0</version.com.sun.xml.bind>
     <version.com.thoughtworks.xstream>1.4.10</version.com.thoughtworks.xstream>
     <version.de.benediktmeurer.gwt-slf4j>0.0.2</version.de.benediktmeurer.gwt-slf4j>
     <version.dom4j>1.6.1</version.dom4j>
@@ -238,7 +238,7 @@
     <version.org.eclipse.aether>1.1.0</version.org.eclipse.aether>
     <version.org.eclipse.emf>2.6.0.v20100614-1136</version.org.eclipse.emf>
     <version.org.eclipse.emf.ecore.xmi>2.5.0.v20100521-1846</version.org.eclipse.emf.ecore.xmi>
-    <version.org.eclipse.jdt.core.compiler>4.6.1</version.org.eclipse.jdt.core.compiler>
+    <version.org.eclipse.jdt.core.compiler>4.4.2</version.org.eclipse.jdt.core.compiler>
     <version.org.eclipse.jetty>9.2.14.v20151106</version.org.eclipse.jetty>
     <version.org.eclipse.jgit>4.4.1.201607150455-r</version.org.eclipse.jgit>
     <version.org.eclipse.sisu>0.3.2</version.org.eclipse.sisu>
