@@ -1481,6 +1481,12 @@
         <groupId>org.apache.xmlgraphics</groupId>
         <artifactId>batik-ext</artifactId>
         <version>${version.org.apache.xmlgraphics.batik}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>xml-apis</groupId>
+            <artifactId>xmlParserAPIs</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.apache.xmlgraphics</groupId>
