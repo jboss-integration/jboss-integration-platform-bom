@@ -123,7 +123,7 @@
     <version.com.beust.jcommander>1.5</version.com.beust.jcommander>
     <version.com.datastax.cassandra.cassandra-driver-core>1.0.0</version.com.datastax.cassandra.cassandra-driver-core>
     <version.com.drewnoakes.metadata-extractor>2.6.2</version.com.drewnoakes.metadata-extractor>
-    <version.com.fasterxml.jackson>2.5.4</version.com.fasterxml.jackson>
+    <version.com.fasterxml.jackson>2.8.9</version.com.fasterxml.jackson>
     <version.com.github.gwtbootstrap>2.2.1.0</version.com.github.gwtbootstrap>
     <version.com.google.code.gin>1.0</version.com.google.code.gin>
     <version.com.google.code.gson>2.6.2</version.com.google.code.gson>
@@ -347,7 +347,7 @@
     <version.org.timepedia.chronoscope>2.0_jboss</version.org.timepedia.chronoscope>
     <version.org.timepedia.exporter>2.0.10</version.org.timepedia.exporter>
     <version.org.tukaani>1.0</version.org.tukaani>
-    <version.org.wildfly>10.1.0.Final</version.org.wildfly>
+    <version.org.wildfly>11.0.0.Final</version.org.wildfly>
     <version.org.wildfly.arquillian>2.0.0.Final</version.org.wildfly.arquillian>
     <version.org.wildfly.core>3.0.10.Final</version.org.wildfly.core>
     <version.org.yaml.snakeyaml>1.17</version.org.yaml.snakeyaml>
