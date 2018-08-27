@@ -1160,6 +1160,11 @@
         <artifactId>httpcore</artifactId>
         <version>${version.org.apache.httpcomponents.httpcore}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpmime</artifactId>
+        <version>${version.org.apache.httpcomponents.httpclient}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.karaf</groupId>
@@ -2371,9 +2376,9 @@
       </dependency>
 
       <dependency>
-        <groupId>org.jboss.remoting3</groupId>
+        <groupId>org.jboss.remoting</groupId>
         <artifactId>jboss-remoting</artifactId>
-        <version>${version.org.jboss.remoting3}</version>
+        <version>${version.org.jboss.remoting}</version>
       </dependency>
 
       <dependency>
