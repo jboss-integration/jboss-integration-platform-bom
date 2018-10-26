@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>25</version>
+    <version>29</version>
     <relativePath />
   </parent>
 
@@ -148,6 +148,9 @@
     <version.com.thoughtworks.xstream>1.4.10</version.com.thoughtworks.xstream>
     <version.de.benediktmeurer.gwt-slf4j>0.0.2</version.de.benediktmeurer.gwt-slf4j>
     <version.dom4j>1.6.1</version.dom4j>
+    <!-- override is needed since 3.0.0-M2, coming from jboss-parent, has a bug. This can be removed once this bug was fixed. -->
+    <!-- see https://issues.apache.org/jira/browse/MENFORCER-306 -->
+    <version.enforcer.plugin>3.0.0-M1</version.enforcer.plugin>
     <version.io.netty>3.6.10.Final</version.io.netty>
     <version.io.takari.maven.plugins>2.8.0</version.io.takari.maven.plugins>
     <version.io.undertow>1.4.18.Final</version.io.undertow>
