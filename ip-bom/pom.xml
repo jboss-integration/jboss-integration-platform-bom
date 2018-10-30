@@ -1281,6 +1281,11 @@
         <artifactId>lucene-regex</artifactId>
         <version>${version.org.apache.lucene.regex}</version>
       </dependency>
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-misc</artifactId>
+        <version>${version.org.apache.lucene}</version>
+      </dependency>
 
       <dependency>
         <groupId>org.apache.maven</groupId>
@@ -2503,6 +2508,11 @@
         <groupId>org.jboss.spec.javax.ejb</groupId>
         <artifactId>jboss-ejb-api_3.2_spec</artifactId>
         <version>${version.org.jboss.spec.javax.ejb.jboss-ejb-api_3.2_spec}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.enterprise.concurrent</groupId>
+        <artifactId>jboss-concurrency-api_1.0_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.enterprise.concurrent}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.el</groupId>
