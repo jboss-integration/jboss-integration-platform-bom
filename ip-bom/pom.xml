@@ -507,6 +507,11 @@
         <artifactId>mail</artifactId>
         <version>${version.javax.mail}</version>
       </dependency>
+      <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>${version.javax.persistence-api}</version>
+      </dependency>
       <!-- javax.servlet is specified by org.jboss.spec.javax.servlet-->
       <!-- javax.servlet.jsp is specified by org.jboss.spec.javax.servlet.jsp-->
       <!-- javax.security.jacc is specified by org.jboss.spec.javax.security.jacc-->
@@ -1159,6 +1164,11 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-ws-addr</artifactId>
+        <version>${version.org.apache.cxf}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-rt-rs-client</artifactId>
         <version>${version.org.apache.cxf}</version>
       </dependency>
 
@@ -1998,11 +2008,6 @@
         <version>${version.org.hibernate.search}</version>
         <classifier>wildfly-10-dist</classifier>
         <type>zip</type>
-      </dependency>
-      <dependency><!-- JPA 2 implementation agnostic jar -->
-        <groupId>org.hibernate.javax.persistence</groupId>
-        <artifactId>hibernate-jpa-2.1-api</artifactId>
-        <version>${version.org.hibernate.javax.persistence.hibernate-jpa-2.1-api}</version>
       </dependency>
       <dependency>
         <groupId>org.hibernate</groupId>

@@ -161,6 +161,7 @@
     <version.javax.jcr>2.0</version.javax.jcr>
     <version.javax.mail>1.4.5</version.javax.mail>
     <version.javax.validation>1.1.0.Final</version.javax.validation>
+    <version.javax.persistence-api>2.2</version.javax.persistence-api>
     <version.jaxen>1.1.6</version.jaxen>
     <version.jivesoftware.smack>3.1.0</version.jivesoftware.smack>
     <version.joda-time>2.9.7</version.joda-time>
@@ -195,7 +196,7 @@
     <version.org.apache.commons.math3>3.4.1</version.org.apache.commons.math3>
     <version.org.apache.commons.pool2>2.4.2</version.org.apache.commons.pool2>
     <version.org.apache.commons.ssl>0.3.9</version.org.apache.commons.ssl>
-    <version.org.apache.cxf>3.2.5</version.org.apache.cxf>
+    <version.org.apache.cxf>3.1.16</version.org.apache.cxf>
     <version.org.apache.ws.security.wss4j>1.6.19</version.org.apache.ws.security.wss4j>
     <version.org.apache.deltaspike.core>1.5.1</version.org.apache.deltaspike.core>
     <version.org.apache.ftpserver>1.0.6</version.org.apache.ftpserver>
@@ -203,7 +204,7 @@
     <version.org.apache.httpcomponents.httpclient>4.5.3</version.org.apache.httpcomponents.httpclient>
     <version.org.apache.httpcomponents.httpcore>4.4.6</version.org.apache.httpcomponents.httpcore>
     <version.org.apache.karaf>2.4.0</version.org.apache.karaf>
-    <version.org.apache.lucene>7.1.0</version.org.apache.lucene>
+    <version.org.apache.lucene>6.6.1</version.org.apache.lucene>
     <version.org.apache.lucene.regex>3.0.3</version.org.apache.lucene.regex>
     <version.org.apache.maven>3.3.9</version.org.apache.maven>
     <version.org.apache.maven.plugin-testing>2.1</version.org.apache.maven.plugin-testing>
@@ -250,10 +251,9 @@
     <version.org.freemarker>2.3.27-incubating</version.org.freemarker>
     <version.org.glassfish>3.1.2</version.org.glassfish>
     <version.org.gwtbootstrap3>0.9.3</version.org.gwtbootstrap3>
-    <version.org.hibernate>5.1.15.Final</version.org.hibernate>
+    <version.org.hibernate>5.3.6.Final</version.org.hibernate>
     <version.org.hibernate.search>5.5.8.Final</version.org.hibernate.search>
-    <version.org.hibernate.validator>5.3.5.Final</version.org.hibernate.validator>
-    <version.org.hibernate.javax.persistence.hibernate-jpa-2.1-api>1.0.0.Final</version.org.hibernate.javax.persistence.hibernate-jpa-2.1-api>
+    <version.org.hibernate.validator>6.0.13.Final</version.org.hibernate.validator>
     <version.org.hibernate.commons.annotations>5.0.4.Final</version.org.hibernate.commons.annotations>
     <version.org.hornetq>2.4.7.Final</version.org.hornetq>
     <version.org.infinispan>8.1.8.Final</version.org.infinispan>
