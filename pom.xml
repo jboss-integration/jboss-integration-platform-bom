@@ -129,7 +129,7 @@
     <version.com.google.code.gin>1.0</version.com.google.code.gin>
     <version.com.google.code.gson>2.8.2</version.com.google.code.gson>
     <version.com.googlecode.gwt-crypto>2.3.0</version.com.googlecode.gwt-crypto>
-    <version.com.google.guava>20.0</version.com.google.guava>
+    <version.com.google.guava>25.0-jre</version.com.google.guava>
     <version.com.google.inject.guice>4.0</version.com.google.inject.guice>
     <version.com.google.gwt>2.8.2</version.com.google.gwt>
     <version.org.google.gwt-charts>0.9.9</version.org.google.gwt-charts>
