@@ -154,7 +154,7 @@
     <version.enforcer.plugin>3.0.0-M1</version.enforcer.plugin>
     <version.io.netty>3.6.10.Final</version.io.netty>
     <version.io.takari.maven.plugins>2.8.0</version.io.takari.maven.plugins>
-    <version.io.undertow>1.4.18.Final</version.io.undertow>
+    <version.io.undertow>2.0.15.Final</version.io.undertow>
     <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.enterprise>1.2</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
