@@ -17,7 +17,7 @@
   <!-- major.minor.micro.Beta[n] -->
   <!-- major.minor.micro.CR[n] -->
   <!-- major.minor.micro.Final -->
-  <version>8.3.2.Final</version>
+  <version>8.3.3-SNAPSHOT</version>
 
   <name>JBoss Integration Platform Parent</name>
   <description>
