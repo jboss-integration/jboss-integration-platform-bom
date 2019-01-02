@@ -288,6 +288,11 @@
         <artifactId>guava</artifactId>
         <version>${version.com.google.guava}</version>
       </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava-gwt</artifactId>
+        <version>${version.com.google.guava}</version>
+      </dependency>
 
       <dependency>
         <groupId>com.google.inject</groupId>
