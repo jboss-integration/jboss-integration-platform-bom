@@ -1956,11 +1956,6 @@
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId>
-        <artifactId>infinispan-commons</artifactId>
-        <version>${version.org.infinispan}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.infinispan</groupId>
         <artifactId>infinispan-query</artifactId>
         <version>${version.org.infinispan}</version>
       </dependency>
