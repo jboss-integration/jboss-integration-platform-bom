@@ -2014,13 +2014,6 @@
       </dependency>
       <dependency>
         <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-search-modules</artifactId>
-        <version>${version.org.hibernate.search}</version>
-        <classifier>wildfly-10-dist</classifier>
-        <type>zip</type>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate</groupId>
         <artifactId>hibernate-jpamodelgen</artifactId>
         <version>${version.org.hibernate}</version>
       </dependency>
